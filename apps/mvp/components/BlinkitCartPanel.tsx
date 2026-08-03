@@ -19,6 +19,7 @@ export const BlinkitCartList = forwardRef<
     onChangeQty: (productId: string, delta: number) => void;
     onRemoveItem: (productId: string) => void;
     onClearCart: () => void;
+    onMinimize?: () => void;
     className?: string;
   }
 >(function BlinkitCartList(
@@ -30,6 +31,7 @@ export const BlinkitCartList = forwardRef<
     onChangeQty,
     onRemoveItem,
     onClearCart,
+    onMinimize,
     className = "",
   },
   ref
@@ -44,14 +46,26 @@ export const BlinkitCartList = forwardRef<
     >
       <div className="blinkit-cart-panel-head">
         <h3 className="blinkit-cart-panel-title">Your cart · {cartCount} items</h3>
-        <button
-          type="button"
-          className="blinkit-cart-clear-btn"
-          onClick={onClearCart}
-          disabled={loading || disabled}
-        >
-          Clear cart
-        </button>
+        <div className="blinkit-cart-panel-actions">
+          {onMinimize && (
+            <button
+              type="button"
+              className="blinkit-cart-minimize-btn"
+              onClick={onMinimize}
+              aria-label="Minimize cart"
+            >
+              Minimize ▾
+            </button>
+          )}
+          <button
+            type="button"
+            className="blinkit-cart-clear-btn"
+            onClick={onClearCart}
+            disabled={loading || disabled}
+          >
+            Clear cart
+          </button>
+        </div>
       </div>
 
       <ul className="blinkit-cart-panel-list">
@@ -151,6 +165,87 @@ export function BlinkitCartBar({
           {loading ? "Placing…" : "Place order"}
         </button>
       </div>
+    </div>
+  );
+}
+
+export function BlinkitCartDock({
+  cartRows,
+  cartTotal,
+  cartCount,
+  deliveryProgress,
+  freeDeliveryThreshold,
+  loading,
+  disabled,
+  onChangeQty,
+  onRemoveItem,
+  onClearCart,
+  onPlaceOrder,
+  expanded,
+  onExpandedChange,
+}: {
+  cartRows: CartLineRow[];
+  cartTotal: number;
+  cartCount: number;
+  deliveryProgress: number;
+  freeDeliveryThreshold: number;
+  loading?: boolean;
+  disabled?: boolean;
+  onChangeQty: (productId: string, delta: number) => void;
+  onRemoveItem: (productId: string) => void;
+  onClearCart: () => void;
+  onPlaceOrder: () => void;
+  expanded: boolean;
+  onExpandedChange: (expanded: boolean) => void;
+}) {
+  if (cartCount === 0) return null;
+
+  return (
+    <div
+      className={`blinkit-cart-dock ${expanded ? "blinkit-cart-dock-expanded" : "blinkit-cart-dock-minimized"}`}
+      aria-label="Shopping cart"
+    >
+      {expanded ? (
+        <div className="blinkit-cart-dock-sheet">
+          <BlinkitCartList
+            cartRows={cartRows}
+            cartCount={cartCount}
+            loading={loading}
+            disabled={disabled}
+            onChangeQty={onChangeQty}
+            onRemoveItem={onRemoveItem}
+            onClearCart={onClearCart}
+            onMinimize={() => onExpandedChange(false)}
+            className="blinkit-cart-panel-dock"
+          />
+          <BlinkitCartBar
+            cartTotal={cartTotal}
+            cartCount={cartCount}
+            deliveryProgress={deliveryProgress}
+            freeDeliveryThreshold={freeDeliveryThreshold}
+            loading={loading}
+            disabled={disabled}
+            onPlaceOrder={onPlaceOrder}
+          />
+        </div>
+      ) : (
+        <button
+          type="button"
+          className="blinkit-cart-minimized-bar"
+          onClick={() => onExpandedChange(true)}
+          aria-expanded={false}
+          aria-label={`Review cart, ${cartCount} items, ${formatCurrency(cartTotal)}`}
+        >
+          <span className="blinkit-cart-minimized-icon" aria-hidden>🛒</span>
+          <span className="blinkit-cart-minimized-text">
+            <span className="blinkit-cart-minimized-label">Review cart before ordering</span>
+            <span className="blinkit-cart-minimized-meta">
+              {cartCount} items · {formatCurrency(cartTotal)}
+            </span>
+          </span>
+          <span className="blinkit-cart-minimized-chevron" aria-hidden>▲</span>
+        </button>
+      )}
     </div>
   );
 }

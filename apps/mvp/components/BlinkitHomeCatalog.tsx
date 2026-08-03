@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { BlinkitBankOffers } from "@/components/BlinkitBankOffers";
 import { BlinkitBrandMarquee } from "@/components/BlinkitBrandMarquee";
-import { BlinkitCartBar, BlinkitCartList } from "@/components/BlinkitCartPanel";
+import { BlinkitCartDock } from "@/components/BlinkitCartPanel";
 import { BlinkitCategoryTiles } from "@/components/BlinkitCategoryTiles";
 import { BlinkitPromoCarousel } from "@/components/BlinkitPromoCarousel";
 import {
@@ -42,7 +42,7 @@ export function BlinkitHomeCatalog({
 }) {
   const firstName = userName.split(" ")[0];
   const [category, setCategory] = useState<string>("all");
-  const cartSectionRef = useRef<HTMLElement>(null);
+  const [cartExpanded, setCartExpanded] = useState(false);
 
   const [cart, setCart] = useState<Record<string, number>>({});
 
@@ -80,6 +80,10 @@ export function BlinkitHomeCatalog({
     onPendingCartConsumed?.();
   }, [pendingCartProductId, disabled, onPendingCartConsumed]);
 
+  useEffect(() => {
+    if (cartCount === 0) setCartExpanded(false);
+  }, [cartCount]);
+
   function changeQty(productId: string, delta: number) {
     setCart((prev) => {
       const next = (prev[productId] ?? 0) + delta;
@@ -97,6 +101,7 @@ export function BlinkitHomeCatalog({
 
   function clearCart() {
     setCart({});
+    setCartExpanded(false);
   }
 
   function removeFromCart(productId: string) {
@@ -130,10 +135,6 @@ export function BlinkitHomeCatalog({
     setCategory(categoryId);
   }
 
-  function scrollToCart() {
-    cartSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-
   return (
     <div className="blinkit-home">
       {!isSearching && <BlinkitBrandMarquee />}
@@ -143,37 +144,6 @@ export function BlinkitHomeCatalog({
           <p className="user-greeting">Hi, {firstName} 👋</p>
           <p className="blinkit-home-sub">What would you like to order today?</p>
         </div>
-      )}
-
-      {cartCount > 0 && (
-        <button
-          type="button"
-          className="blinkit-cart-home-chip"
-          onClick={scrollToCart}
-          aria-label={`View cart, ${cartCount} items, ${formatCurrency(cartTotal)}`}
-        >
-          <span className="blinkit-cart-home-chip-icon" aria-hidden>🛒</span>
-          <span className="blinkit-cart-home-chip-text">
-            <span className="blinkit-cart-home-chip-label">View cart</span>
-            <span className="blinkit-cart-home-chip-meta">
-              {cartCount} items · {formatCurrency(cartTotal)}
-            </span>
-          </span>
-          <span className="blinkit-cart-home-chip-arrow" aria-hidden>→</span>
-        </button>
-      )}
-
-      {cartCount > 0 && (
-        <BlinkitCartList
-          ref={cartSectionRef}
-          cartRows={cartRows}
-          cartCount={cartCount}
-          loading={loading}
-          disabled={disabled}
-          onChangeQty={changeQty}
-          onRemoveItem={removeFromCart}
-          onClearCart={clearCart}
-        />
       )}
 
       {isSearching && (
@@ -262,17 +232,21 @@ export function BlinkitHomeCatalog({
       )}
 
       {cartCount > 0 && (
-        <div className="blinkit-cart-dock">
-          <BlinkitCartBar
-            cartTotal={cartTotal}
-            cartCount={cartCount}
-            deliveryProgress={deliveryProgress}
-            freeDeliveryThreshold={freeDeliveryThreshold}
-            loading={loading}
-            disabled={disabled}
-            onPlaceOrder={handlePlaceOrder}
-          />
-        </div>
+        <BlinkitCartDock
+          cartRows={cartRows}
+          cartTotal={cartTotal}
+          cartCount={cartCount}
+          deliveryProgress={deliveryProgress}
+          freeDeliveryThreshold={freeDeliveryThreshold}
+          loading={loading}
+          disabled={disabled}
+          onChangeQty={changeQty}
+          onRemoveItem={removeFromCart}
+          onClearCart={clearCart}
+          onPlaceOrder={handlePlaceOrder}
+          expanded={cartExpanded}
+          onExpandedChange={setCartExpanded}
+        />
       )}
 
       <div className="blinkit-trust-strip">
