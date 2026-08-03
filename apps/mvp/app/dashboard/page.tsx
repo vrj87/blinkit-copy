@@ -23,7 +23,6 @@ export default async function DashboardPage() {
         nudges={nudges}
         orderCount={orderCount}
         linkMode="demo"
-        showWorkflowActions
       />
     </main>
   );

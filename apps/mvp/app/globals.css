@@ -1012,15 +1012,6 @@ nav.links a:hover {
   font-size: 0.875rem;
 }
 
-.ops-workflow-card {
-  margin-top: 2rem;
-}
-
-.ops-workflow-hint {
-  color: var(--muted);
-  margin-bottom: 1rem;
-}
-
 .ops-page-title {
   margin: 1rem 0 0.35rem;
   font-size: 1.75rem;

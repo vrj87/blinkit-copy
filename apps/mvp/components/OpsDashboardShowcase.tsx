@@ -21,13 +21,11 @@ export function OpsDashboardShowcase({
   nudges,
   orderCount,
   linkMode = "demo",
-  showWorkflowActions = false,
 }: {
   users: OpsUserRow[];
   nudges: OpsNudgeRow[];
   orderCount: number;
   linkMode?: "demo" | "mvp";
-  showWorkflowActions?: boolean;
 }) {
   const accepted = nudges.filter((n) => n.status === "accepted").length;
   const pending = nudges.filter((n) => n.status === "pending").length;
@@ -94,16 +92,6 @@ export function OpsDashboardShowcase({
           <p className="ops-nudge-copy">{nudge.copy}</p>
         </div>
       ))}
-
-      {showWorkflowActions && (
-        <div className="card ops-workflow-card">
-          <h3>Workflow actions</h3>
-          <p className="ops-workflow-hint">
-            Trigger batch scan via API (used by n8n daily cron):
-          </p>
-          <code>POST /api/workflows/scan-users</code>
-        </div>
-      )}
     </>
   );
 }
