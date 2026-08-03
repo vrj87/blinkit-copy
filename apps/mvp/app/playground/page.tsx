@@ -5,6 +5,7 @@ import { prisma } from "@/lib/db";
 import { collectAppUrl, collectIframeSrc, isLocalCollectHost, shouldEmbedCollectFrame } from "@/lib/collect-url";
 import { ResearchQAShowcase } from "@/components/ResearchQAShowcase";
 import { CollectPipelineShowcase } from "@/components/CollectPipelineShowcase";
+import { CollectReviewPanel } from "@/components/CollectReviewPanel";
 import { loadSurveyEvidence } from "@/lib/survey-evidence";
 import { PlaygroundNav } from "@/components/PlaygroundNav";
 import { ProblemDefinitionShowcase } from "@/components/ProblemDefinitionShowcase";
@@ -31,7 +32,11 @@ export default async function PlaygroundPage() {
   const collectUrl = collectAppUrl();
   const localCollect = isLocalCollectHost(collectUrl);
   const embedCollect = shouldEmbedCollectFrame(collectUrl);
-  const collectLink = collectUrl.includes("/dashboard/discovery") ? "/dashboard/discovery" : collectUrl;
+  const collectLink = collectUrl.includes("/dashboard/discovery")
+    ? "/dashboard/discovery"
+    : collectUrl.includes("/collect")
+      ? "/collect"
+      : collectUrl;
 
   const [users, nudges, orderCount] = await Promise.all([
     prisma.user.findMany({ orderBy: { orderCount: "desc" } }),
@@ -134,19 +139,19 @@ export default async function PlaygroundPage() {
               {localCollect ? "Open collect UI in new tab →" : "Open discovery workflow →"}
             </a>
           </p>
+          <CollectPipelineShowcase />
           {embedCollect ? (
-            <>
-              {!localCollect && <CollectPipelineShowcase />}
-              <iframe
-                title={localCollect ? "Collect UI" : "Discovery workflow"}
-                src={collectIframeSrc(collectUrl)}
-                className="playground-iframe"
-                loading="lazy"
-                style={localCollect ? undefined : { marginTop: "1rem" }}
-              />
-            </>
+            <iframe
+              title={localCollect ? "Collect UI" : "Discovery workflow"}
+              src={collectIframeSrc(collectUrl)}
+              className="playground-iframe"
+              loading="lazy"
+              style={{ marginTop: "1rem" }}
+            />
           ) : (
-            <CollectPipelineShowcase />
+            <div style={{ marginTop: "1rem" }}>
+              <CollectReviewPanel embedded />
+            </div>
           )}
         </section>
 

@@ -121,9 +121,9 @@ GrauationProject2/
 ├── apps/
 │   ├── mvp/                     # Main app — playground, MVP phone, APIs (:3000)
 │   │   ├── app/                 # Pages + API routes
-│   │   ├── components/          # Blinkit UI, showcases, nudge cards
-│   │   ├── lib/                 # Business logic (llm, segment, catalog, orders)
-│   │   └── prisma/              # Schema, migrations, seed
+│   │   ├── components/          # Blinkit phone UI, promos, showcases, nudge cards
+│   │   ├── lib/                 # Business logic, storefront, order sync, catalog
+│   │   └── prisma/              # Schema, migrations/, seed, scripts/sync-order-counts.ts
 │   └── collect/                 # Phase 1a: manual review ingest UI (:3001)
 ├── packages/
 │   └── discovery-core/          # Shared types, normalize, path helpers
@@ -132,7 +132,7 @@ GrauationProject2/
 ├── data/
 │   └── discovery/               # Generated artefacts (raw, themes, validation)
 ├── tests/
-│   ├── mvp/unit/                # MVP unit tests (segment, catalog, schemas)
+│   ├── mvp/unit/                # MVP unit tests (segment, catalog, storefront, orders)
 │   └── discovery/unit/          # discovery-core normalize tests
 ├── workflows/                   # n8n export JSON + webhook contracts
 ├── scripts/                     # setup, deploy, scheduled scrape helpers
@@ -146,13 +146,15 @@ GrauationProject2/
 | Script | Purpose |
 |--------|---------|
 | `npm run dev` | Start MVP app (`apps/mvp`, port 3000) |
-| `npm run dev:collect` | Start collect UI (`apps/collect`, port 3001) |
-| `npm run db:seed` | Seed demo users, orders, themes |
+| `npm run dev:collect` | Optional legacy collect app (`:3001`) |
+| `npm run db:seed` | Seed demo users, orders, themes (idempotent) |
 | `npm run backend:setup` | `prisma migrate deploy` + seed (PowerShell) |
 | `npm run discovery:refresh` | Scrape → normalize → analyze → validate |
-| `npm run discovery:scrape` | Scrape only |
-| `npm test` | All unit tests (29) |
-| `npm run test:mvp` | MVP tests only (25) |
+| `npm run discovery:refresh -- --notify` | Full refresh + POST `/api/workflows/discovery-refresh` |
+| `npm run discovery:scrape` | Scrape + normalize only |
+| `npm run discovery:all` | Alias for `discovery:refresh` |
+| `npm test` | All unit tests (38) |
+| `npm run test:mvp` | MVP tests only (34) |
 | `npm run test:watch` | Vitest watch mode |
 
 ---
@@ -170,7 +172,7 @@ flowchart TB
     AppStore[AppStore RSS]
     PlayStore[Play Store scraper]
     Reddit[Reddit PullPush API]
-    WebUI[apps/collect web UI]
+    WebUI[MVP /collect UI]
     Social[Social mentions]
   end
 
@@ -276,9 +278,11 @@ Synthesize Phase 1 + 2 into a crisp problem frame that drives MVP scope.
 ```mermaid
 flowchart TB
   subgraph client [BlinkitPhoneUI]
+    Header[Address bar + 10 min delivery]
+    Promos[Promo carousel + bank offers]
     ForYou[For you tab — AI nudge]
     Home[Home tab — catalog + search + cart]
-    Orders[Orders tab — history]
+    Orders[Orders tab — 10-day history]
   end
 
   subgraph api [NextJS API]
@@ -315,13 +319,13 @@ flowchart TB
 
 ### Core workflow (happy path)
 
-1. **User shops** on Home tab — browse 19-product catalog, search, add to cart (`BlinkitHomeCatalog.tsx`, `lib/product-catalog.ts`).
-2. **Place order** — `POST /api/orders` with `lineItems` → persisted to `Order` (including `lineItems` JSON) → user stats updated.
+1. **User shops** on Home tab — promo banners, category tiles, 19-product catalog, search, cart (`BlinkitHomeCatalog.tsx`, promo/category components, `lib/product-catalog.ts`).
+2. **Place order** — `POST /api/orders` with `lineItems` → persisted to `Order` → `syncUserOrderCount()` reconciles `User.orderCount` with DB rows.
 3. **Segment check** — `matchesTargetSegment()` (opt-out only).
 4. **LLM nudge** — Groq generates adjacent category + rationale + risk reducers using discovery themes as RAG (`lib/llm.ts`).
 5. **Immediate delivery** — nudge shown on For you tab right after order (`SmartCategoryNudge.tsx`, `ForYouHighlight.tsx` on Home).
 6. **Feedback** — accept creates starter-pack order via `placeStarterPackOrder()`; dismiss/snooze updates nudge status (`POST /api/nudges/:id/feedback`).
-7. **Ops tracking** — funnel metrics on `/dashboard` via `GET /api/dashboard`.
+7. **Ops tracking** — funnel metrics on `/dashboard` via Prisma queries (`OpsDashboardShowcase.tsx`; workflow API docs only — no workflow action buttons in UI).
 
 **Alternate triggers:** n8n post-order webhook (`POST /api/events/order`), daily batch scan (`POST /api/workflows/scan-users`), manual generate (`POST /api/nudges/generate`, `POST /api/ai/recommend`).
 
@@ -333,7 +337,7 @@ flowchart TB
 | `/mvp` | Primary demo — Blinkit phone shell (`Part4MvpShowcase.tsx`) |
 | `/playground` | Deck hub — discovery, problem, ops, MVP launch card |
 | `/demo/user/[id]` | Per-user demo with switcher (Atharv, Amit, Raju, Sandy) |
-| `/dashboard` | Ops funnel — eligible → nudged → accepted |
+| `/dashboard` | Ops funnel — users, orders, nudge outcomes (no workflow triggers in UI) |
 | `/dashboard/discovery` | Discovery pipeline status |
 | `/discovery/part1` | Part 1 discovery showcase |
 | `/discovery/part3` | Part 3 problem showcase |
@@ -342,13 +346,16 @@ flowchart TB
 
 | Component | Role |
 |-----------|------|
-| `BlinkitPhoneShell.tsx` | Phone frame, nav (For you \| Home \| Orders), search bar |
-| `BlinkitHomeCatalog.tsx` | Product grid, category filters, cart |
-| `DemoUserClient.tsx` | User state, order placement, nudge lifecycle |
+| `BlinkitPhoneShell.tsx` | Phone frame, yellow address header, nav (For you \| Home \| Orders), search |
+| `BlinkitPromoCarousel.tsx` | Scrollable promo / ad banners (links to categories or For you) |
+| `BlinkitCategoryTiles.tsx` | Shop-by-category icon grid |
+| `BlinkitBankOffers.tsx` | Payment offer strip (HDFC, SBI, Paytm) |
+| `BlinkitHomeCatalog.tsx` | Product grid, discounts, free-delivery cart bar, category filters |
+| `DemoUserClient.tsx` | User state, order placement, nudge lifecycle, DB refresh |
 | `SmartCategoryNudge.tsx` | AI recommendation card with accept/dismiss |
 | `ForYouHighlight.tsx` | Home-tab teaser for AI picks |
-| `OrderHistory.tsx` | Orders tab with line items |
-| `OpsDashboardShowcase.tsx` | Playground ops section |
+| `OrderHistory.tsx` | Orders tab — dates (Today / last 10 days), line items |
+| `OpsDashboardShowcase.tsx` | Playground + `/dashboard` stats (users, orders, nudges) |
 | `MvpLaunchHighlight.tsx` | Opens MVP in new tab from playground |
 | `BackToTop.tsx` | Global scroll-to-top control |
 
@@ -375,7 +382,7 @@ Full machine-readable index: `GET /api` (generated from `lib/api/catalog.ts`).
 |--------|------|------|-------------|
 | GET | `/api/products` | public | Catalog (`?q=` search, `?category=`) |
 | GET | `/api/users` | public | Demo users + eligibility |
-| GET | `/api/users/:id` | public | User profile, orders, nudges |
+| GET | `/api/users/:id` | public | User profile, orders, nudges (syncs `orderCount` from DB) |
 | GET | `/api/orders` | public | Order list (`?userId=`) |
 | POST | `/api/orders` | public | Place order → LLM nudge |
 | GET | `/api/nudges` | public | Nudge list (`?userId=`, `?status=`) |
@@ -423,7 +430,11 @@ Theme
   id, label, summary, quotes (JSON), confidence
 ```
 
-**Seed data:** Four demo users (Atharv, Amit, Raju, Sandy) with distinct purchase patterns; themes synced from `data/discovery/themes.json` (`prisma/seed.ts`).
+**Migrations:** `apps/mvp/prisma/migrations/` — applied via `prisma migrate deploy` (Netlify/Vercel build + local `backend:setup`).
+
+**Order count sync:** `lib/user-order-sync.ts` — `User.orderCount` reconciled from `Order` count on place order, `GET /api/users/:id`, and SSR `/mvp` load. Script: `npm run db:sync-order-counts` (`apps/mvp/scripts/sync-order-counts.ts`).
+
+**Seed data:** Five demo users (Atharv, Raju, Sandy, Amit, Neha); ~29 orders with `daysAgo()` dates spanning the last 10 days; themes from `data/discovery/themes.json`. Seed is **idempotent** (skips if users exist); `FORCE_DB_SEED=true` wipes and re-seeds.
 
 **Setup:** `npm run backend:setup` or `cd apps/mvp && npx prisma migrate deploy && npm run db:seed`.
 
@@ -435,10 +446,14 @@ Theme
 | `llm.ts` | Groq/OpenAI client, structured nudge output, RAG context |
 | `themes.ts` | Load discovery themes, social proof, adjacent category hints |
 | `product-catalog.ts` | 19 products, search, cart resolution |
-| `order-service.ts` | `placeOrderWithLlm()`, `placeStarterPackOrder()` |
+| `order-service.ts` | `placeOrderWithLlm()`, `placeStarterPackOrder()` + order count sync |
+| `user-order-sync.ts` | Reconcile `User.orderCount` with `Order` rows |
+| `blinkit-storefront.ts` | Promo banners, category tiles, bank offers, discount helpers |
 | `starter-packs.ts` | Category trial packs (₹99) for accept flow |
 | `discovery-service.ts` | Read/write discovery JSON, ingest helpers |
-| `demo-users.ts` | Demo personas and basket patterns |
+| `demo-order-cache.ts` | Client-side order merge (offline fallback; DB is source of truth) |
+| `demo-users.ts` | Demo personas, `daysAgo()` order seeds |
+| `demo-orders.ts` | Basket helpers, `formatOrderDate()` for order history UI |
 | `api/schemas.ts` | Zod API contracts |
 | `api/auth.ts` | Webhook secret verification |
 | `generation-meta.ts` | LLM provenance parsing |
@@ -487,10 +502,10 @@ See [workflows/README.md](../workflows/README.md) for webhook contracts and loca
 
 | Folder | Scope | Tests |
 |--------|-------|-------|
-| `tests/mvp/unit/` | segment, product-catalog, schemas, starter-packs | 25 |
+| `tests/mvp/unit/` | segment, catalog, schemas, starter-packs, demo-order-cache, demo-orders, order-row, collect-url, blinkit-storefront | 36 |
 | `tests/discovery/unit/` | discovery-core normalize pipeline | 4 |
 
-Run: `npm test` (all) · `npm run test:mvp` (MVP only) · `npm run test:watch`.
+Run: `npm test` (40) · `npm run test:mvp` (36) · `npm run test:watch`.
 
 ### Environment variables (`apps/mvp/.env.example`)
 
@@ -503,6 +518,8 @@ Run: `npm test` (all) · `npm run test:mvp` (MVP only) · `npm run test:watch`.
 | `N8N_WEBHOOK_SECRET` | Webhook authentication |
 | `NEXT_PUBLIC_APP_URL` | API base URL for catalog/docs |
 | `NEXT_PUBLIC_COLLECT_URL` | Collect UI URL (local :3001) |
+| `FORCE_DB_SEED` | Optional — wipe and re-seed (`true`) |
+| `SKIP_LLM_SEED` | Optional — skip Groq during seed |
 
 ### Deployment topology
 
@@ -580,8 +597,10 @@ flowchart LR
 | Phase 4a — Next.js + Prisma + demo users | **Done** |
 | Phase 4b — LLM nudges with discovery RAG | **Done** (Groq) |
 | Phase 4c — Blinkit phone UI + catalog + cart + orders | **Done** |
-| Phase 4d — n8n workflows + ops dashboard | **Done** |
-| Unit tests (`tests/mvp/`, `tests/discovery/`) | **Done** |
+| Phase 4c2 — Blinkit storefront (promos, tiles, bank offers) | **Done** |
+| Phase 4c3 — PostgreSQL + Prisma Migrate + order count sync | **Done** (Neon/Supabase) |
+| Phase 4d — n8n workflows + ops dashboard | **Done** (workflow APIs; no workflow UI on ops) |
+| Unit tests (`tests/mvp/`, `tests/discovery/`) | **Done** (40 tests) |
 | Vercel production deploy | **Done** — see PRODUCTION.md |
 
 ---
@@ -604,12 +623,14 @@ flowchart LR
 ```bash
 # From repo root
 npm install
-npm run backend:setup    # prisma push + seed
+# Set DATABASE_URL + DIRECT_URL in apps/mvp/.env (Neon/Supabase)
+npm run backend:setup    # prisma migrate deploy + seed
 npm run dev              # http://localhost:3000/mvp
 
 # Optional
 npm run dev:collect      # http://localhost:3001
 npm run discovery:refresh
+cd apps/mvp && npm run db:sync-order-counts   # repair order counts
 npm test
 ```
 

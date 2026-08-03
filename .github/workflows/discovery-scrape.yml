@@ -25,10 +25,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run discovery refresh
-        run: npm run discovery:refresh -w discovery-pipeline
+      - name: Run discovery refresh (scrape → analyze → validate → notify)
+        run: npm run discovery:refresh -w discovery-pipeline -- --notify
         env:
           MVP_APP_URL: ${{ vars.MVP_APP_URL }}
+          NEXT_PUBLIC_APP_URL: ${{ vars.MVP_APP_URL }}
           N8N_WEBHOOK_SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
 
       - name: Commit updated discovery data
@@ -42,12 +43,3 @@ jobs:
             git commit -m "chore(discovery): automated 12h scrape refresh"
             git push
           fi
-
-      - name: Notify MVP (optional)
-        if: vars.MVP_APP_URL != '' && secrets.N8N_WEBHOOK_SECRET != ''
-        run: |
-          REPORT=$(cat data/discovery/last-refresh.json)
-          curl -sf -X POST "${{ vars.MVP_APP_URL }}/api/workflows/discovery-refresh" \
-            -H "Content-Type: application/json" \
-            -H "x-webhook-secret: ${{ secrets.N8N_WEBHOOK_SECRET }}" \
-            -d "$REPORT"

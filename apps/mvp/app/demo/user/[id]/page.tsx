@@ -20,7 +20,7 @@ export default async function DemoUserPage({
   const syncedUser = await prisma.user.findUnique({
     where: { id },
     include: {
-      orders: { orderBy: { createdAt: "desc" }, take: 12 },
+      orders: { orderBy: { createdAt: "desc" }, take: 20 },
       nudges: { orderBy: { createdAt: "desc" }, take: 10 },
     },
   });
@@ -36,6 +36,7 @@ export default async function DemoUserPage({
         personaLabel: profile?.personaLabel,
         addressTitle: profile?.addressTitle,
         addressSub: profile?.addressSub,
+        deliveryMins: profile?.deliveryMins,
         orders: syncedUser.orders.map((o) => ({
           ...o,
           createdAt: o.createdAt.toISOString(),

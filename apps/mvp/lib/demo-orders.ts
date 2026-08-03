@@ -35,11 +35,17 @@ export function nextBasket(orderIndex: number): DemoBasket {
 export function formatOrderDate(iso: string): string {
   const d = new Date(iso);
   const now = new Date();
-  const diffDays = Math.floor((now.getTime() - d.getTime()) / (1000 * 60 * 60 * 24));
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const startOfOrderDay = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  const diffDays = Math.round(
+    (startOfToday.getTime() - startOfOrderDay.getTime()) / (1000 * 60 * 60 * 24)
+  );
 
   if (diffDays === 0) return "Today";
   if (diffDays === 1) return "Yesterday";
-  if (diffDays < 7) return `${diffDays} days ago`;
+  if (diffDays > 1 && diffDays <= 10) {
+    return d.toLocaleDateString("en-IN", { day: "numeric", month: "short" });
+  }
 
   return d.toLocaleDateString("en-IN", {
     day: "numeric",

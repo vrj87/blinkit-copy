@@ -20,6 +20,8 @@ const pipelineRoot = join(__dirname, "..");
 export interface DiscoveryRefreshReport {
   completedAt: string;
   schedule: "12h";
+  runner: "discovery-pipeline";
+  steps: string[];
   scrape: Awaited<ReturnType<typeof runScrape>>;
   themes: number;
   validationPassed: number;
@@ -71,6 +73,13 @@ export async function runDiscoveryRefresh(options: {
   const report: DiscoveryRefreshReport = {
     completedAt: new Date().toISOString(),
     schedule: "12h",
+    runner: "discovery-pipeline",
+    steps: [
+      "scrape (7 sources + merge)",
+      "normalize",
+      "pipeline:analyze",
+      "pipeline:validate",
+    ],
     scrape,
     themes: themesFile.themes.length,
     validationPassed: validationFile.passed,

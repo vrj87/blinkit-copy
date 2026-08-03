@@ -12,8 +12,12 @@ export function BlinkitPhoneShell({
   searchQuery = "",
   onSearchChange,
   onSearchFocus,
-  onRefresh,
-  refreshing = false,
+  addressTitle = "HOME",
+  addressSub = "Bengaluru",
+  deliveryMins = 10,
+  overviewHref,
+  topBanner,
+  cartToast,
 }: {
   children: ReactNode;
   activeTab: BlinkitTab;
@@ -22,20 +26,52 @@ export function BlinkitPhoneShell({
   searchQuery?: string;
   onSearchChange?: (query: string) => void;
   onSearchFocus?: () => void;
-  onRefresh?: () => void;
-  refreshing?: boolean;
+  addressTitle?: string;
+  addressSub?: string;
+  deliveryMins?: number;
+  overviewHref?: string;
+  topBanner?: ReactNode;
+  cartToast?: ReactNode;
 }) {
   return (
     <div className="blinkit-phone">
-      <div className="blinkit-phone-status">
-        <span>9:41</span>
-        <span className="blinkit-phone-signal">●●● ▮▮▮</span>
-      </div>
+      <header className="blinkit-phone-header">
+        <div className="blinkit-phone-status">
+          <span>9:41</span>
+          <span className="blinkit-phone-signal">●●● ▮▮▮</span>
+        </div>
+
+        <div className="blinkit-header-brand-row">
+          <span className="blinkit-phone-logo">
+            blink<span>it</span>
+          </span>
+          {overviewHref && (
+            <a href={overviewHref} className="blinkit-phone-overview-link">
+              ← Overview
+            </a>
+          )}
+        </div>
+
+        <div className="blinkit-address-row-wrap">
+          <div className="blinkit-address-block">
+            <span className="blinkit-address-pin" aria-hidden>📍</span>
+            <div className="blinkit-address-text">
+              <div className="blinkit-address-main">
+                <span className="blinkit-address-label">{addressTitle}</span>
+                <span className="blinkit-address-chevron" aria-hidden>▾</span>
+              </div>
+              <p className="blinkit-address-sub">{addressSub}</p>
+            </div>
+          </div>
+          <div className="blinkit-delivery-badge" aria-label={`Delivery in ${deliveryMins} minutes`}>
+            <span className="blinkit-delivery-badge-time">{deliveryMins}</span>
+            <span className="blinkit-delivery-badge-label">minutes</span>
+          </div>
+        </div>
+      </header>
 
       <div className="blinkit-phone-search blinkit-phone-search-input-wrap">
-        <span className="blinkit-phone-search-icon" aria-hidden>
-          🔍
-        </span>
+        <span className="blinkit-phone-search-icon" aria-hidden>🔍</span>
         <input
           type="search"
           className="blinkit-phone-search-input"
@@ -55,23 +91,23 @@ export function BlinkitPhoneShell({
             ×
           </button>
         )}
-        {onRefresh && (
-          <button
-            type="button"
-            className="blinkit-phone-refresh"
-            onClick={onRefresh}
-            disabled={refreshing}
-            aria-label="Refresh orders and recommendations"
-            title="Refresh"
-          >
-            {refreshing ? "…" : "↻"}
-          </button>
-        )}
       </div>
+
+      {topBanner && <div className="blinkit-phone-top-banner">{topBanner}</div>}
 
       <div className="blinkit-phone-content">{children}</div>
 
+      {cartToast && <div className="blinkit-phone-toast-layer">{cartToast}</div>}
+
       <nav className="blinkit-bottom-nav" aria-label="App navigation">
+        <button
+          type="button"
+          className={`blinkit-nav-item ${activeTab === "home" ? "blinkit-nav-active" : ""}`}
+          onClick={() => onTabChange("home")}
+        >
+          <span className="blinkit-nav-icon">🏠</span>
+          <span>Home</span>
+        </button>
         <button
           type="button"
           className={`blinkit-nav-item blinkit-nav-featured ${activeTab === "foryou" ? "blinkit-nav-active" : ""}`}
@@ -82,14 +118,6 @@ export function BlinkitPhoneShell({
             {forYouDot && <span className="blinkit-nav-dot" />}
           </span>
           <span>For you</span>
-        </button>
-        <button
-          type="button"
-          className={`blinkit-nav-item ${activeTab === "home" ? "blinkit-nav-active" : ""}`}
-          onClick={() => onTabChange("home")}
-        >
-          <span className="blinkit-nav-icon">🏠</span>
-          <span>Home</span>
         </button>
         <button
           type="button"

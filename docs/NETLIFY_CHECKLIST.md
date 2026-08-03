@@ -14,7 +14,7 @@ Use this before and after connecting [github.com/vrj87/blinkit](https://github.c
 | Prisma migrations | Ready | `apps/mvp/prisma/migrations/` |
 | PostgreSQL (Neon/Supabase) | Required | `DATABASE_URL` + `DIRECT_URL` in Netlify UI |
 | DB + discovery traced in bundle | Ready | `apps/mvp/next.config.js` |
-| Unit tests | Ready | `npm test` (29 passing) |
+| Unit tests | Ready | `npm test` (40 passing) |
 | Publish audit script | Ready | `scripts/audit-publish.ps1` |
 
 ## Netlify UI — one-time setup

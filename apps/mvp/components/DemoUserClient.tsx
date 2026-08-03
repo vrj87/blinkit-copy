@@ -1,9 +1,9 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
-import Link from "next/link";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { type DemoBasket } from "@/lib/demo-orders";
+import type { CatalogProduct } from "@/lib/product-catalog";
 import { OrderHistory } from "@/components/OrderHistory";
 import type { OrderRow } from "@/lib/order-row";
 import { normalizeOrderRow } from "@/lib/order-row";
@@ -15,6 +15,8 @@ import {
   type UserDemoState,
 } from "@/lib/demo-order-cache";
 import { BlinkitPhoneShell, type BlinkitTab } from "@/components/BlinkitPhoneShell";
+import { BlinkitProductOffersBanner } from "@/components/BlinkitProductOffersBanner";
+import { CartAddedToast } from "@/components/CartAddedToast";
 import { DeliveryTracker } from "@/components/DeliveryTracker";
 import { SmartCategoryNudge } from "@/components/SmartCategoryNudge";
 import { BlinkitHomeCatalog } from "@/components/BlinkitHomeCatalog";
@@ -68,6 +70,7 @@ interface DemoUserPageProps {
     personaLabel?: string;
     addressTitle?: string;
     addressSub?: string;
+    deliveryMins?: number;
     orders: OrderRow[];
     nudges: NudgeRow[];
   };
@@ -109,6 +112,21 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
   const [pushBanner, setPushBanner] = useState<string | null>(null);
   const [acceptToast, setAcceptToast] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [pendingCartProductId, setPendingCartProductId] = useState<string | null>(null);
+  const [cartAddedToast, setCartAddedToast] = useState<string | null>(null);
+  const cartToastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const showCartAddedToast = useCallback((product: CatalogProduct) => {
+    setCartAddedToast(`${product.emoji} ${product.name} added to cart`);
+    if (cartToastTimerRef.current) clearTimeout(cartToastTimerRef.current);
+    cartToastTimerRef.current = setTimeout(() => setCartAddedToast(null), 2400);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (cartToastTimerRef.current) clearTimeout(cartToastTimerRef.current);
+    };
+  }, []);
 
   const pendingNudge = nudges.find((n) => n.status === "pending");
   const activeNudge = pendingNudge ?? queuedNudge;
@@ -370,19 +388,19 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
       const itemCount = lineItems.reduce((sum, row) => sum + row.quantity, 0);
       const meta = { itemCount, totalAmount: data.order?.totalAmount ?? 0 };
       if (!res.ok || data.error) {
-        const items = lineItems.map((row) => row.productId);
         saveOrderLocally(
           createLocalDemoOrder({
-            items,
+            items: lineItems.map((row) => row.productId),
             categories: ["Groceries"],
             totalAmount: meta.totalAmount || itemCount * 50,
           }),
           meta,
           "Order saved on this device — tap ↻ to retry server sync"
         );
-        return;
+        return true;
       }
       handleOrderPlaced(data, meta);
+      return true;
     } catch {
       const itemCount = lineItems.reduce((sum, row) => sum + row.quantity, 0);
       saveOrderLocally(
@@ -394,6 +412,7 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
         { itemCount, totalAmount: itemCount * 50 },
         "Order saved on this device (offline)"
       );
+      return true;
     } finally {
       setLoading(false);
     }
@@ -489,8 +508,7 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
     }
   }
 
-  const addressTitle = user.addressTitle ?? "Home · Koramangala, Bengaluru";
-  const addressSub = user.addressSub ?? "Delivery in 10 minutes";
+  const clearPendingCart = useCallback(() => setPendingCartProductId(null), []);
 
   const phone = (
     <BlinkitPhoneShell
@@ -500,8 +518,19 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
       searchQuery={searchQuery}
       onSearchChange={handleSearchChange}
       onSearchFocus={handleSearchFocus}
-      onRefresh={refreshMvpData}
-      refreshing={refreshing}
+      addressTitle={user.addressTitle ?? "HOME"}
+      addressSub={user.addressSub ?? "Bengaluru"}
+      deliveryMins={user.deliveryMins ?? 10}
+      overviewHref={embedded ? "/playground" : "/mvp"}
+      topBanner={
+        appTab === "home" && !searchQuery.trim() ? (
+          <BlinkitProductOffersBanner
+            onSelect={setPendingCartProductId}
+            disabled={Boolean(activeDelivery)}
+          />
+        ) : null
+      }
+      cartToast={<CartAddedToast message={cartAddedToast} />}
     >
       {pushBanner && (
         <button
@@ -518,28 +547,22 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
         </button>
       )}
 
-      <div className="delivery-bar">
-        <span className="delivery-bar-icon">📍</span>
-        <div>
-          <p className="delivery-bar-title">{addressTitle}</p>
-          <p className="delivery-bar-sub">{addressSub}</p>
-        </div>
-      </div>
-
       {appTab === "home" && (
         <>
           <ForYouHighlight
             nudge={activeNudge}
             onView={() => setAppTab("foryou")}
-            onGenerate={generateRecommendation}
-            generating={generating}
           />
           <BlinkitHomeCatalog
             userName={user.name}
             searchQuery={searchQuery}
             onPlaceOrder={placeOrderFromCart}
+            onOpenForYou={() => setAppTab("foryou")}
             loading={loading}
             disabled={Boolean(activeDelivery)}
+            pendingCartProductId={pendingCartProductId}
+            onPendingCartConsumed={clearPendingCart}
+            onProductAdded={showCartAddedToast}
           />
         </>
       )}
@@ -559,7 +582,7 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
               onClick={refreshMvpData}
               disabled={refreshing}
             >
-              {refreshing ? "Syncing…" : "↻ Refresh"}
+              {refreshing ? "Syncing…" : "↻ Sync"}
             </button>
           </div>
           {activeDelivery && (
@@ -586,12 +609,10 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
       {appTab === "foryou" && (
         <>
           <div className="explore-header">
-            <div>
-              <p className="explore-eyebrow">Smart Category Explorer</p>
-              <p className="explore-lead">
-                AI picks an adjacent category based on your orders & user research
-              </p>
-            </div>
+            <p className="explore-eyebrow">✨ For you · Groq AI</p>
+            <p className="explore-lead">
+              Adjacent category pick based on your orders &amp; research themes
+            </p>
           </div>
 
           {generating && aiStep ? (
@@ -600,10 +621,9 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
             <SmartCategoryNudge nudge={activeNudge} onFeedback={handleFeedback} featured />
           ) : (
             <div className="card empty-state">
-              <p>No active recommendation.</p>
+              <p>No active recommendation yet.</p>
               <p style={{ fontSize: "0.85rem", marginTop: "0.35rem" }}>
-                {message ||
-                  "Place a grocery order or run the daily AI scan"}
+                {message || "Place a grocery order or generate a new AI pick"}
               </p>
               <button
                 type="button"
@@ -612,7 +632,7 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
                 onClick={generateRecommendation}
                 disabled={generating}
               >
-                {generating ? "Groq AI thinking…" : "Generate with Groq AI"}
+                {generating ? "Groq AI thinking…" : "Generate AI pick"}
               </button>
             </div>
           )}
@@ -625,16 +645,6 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
               ))}
             </>
           )}
-
-          <button
-            type="button"
-            className="btn btn-secondary btn-sm btn-block"
-            style={{ marginTop: "1rem" }}
-            onClick={generateRecommendation}
-            disabled={generating}
-          >
-            {generating ? "Generating…" : "↻ Refresh with Groq AI"}
-          </button>
         </>
       )}
 
@@ -650,9 +660,6 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
 
   return (
     <main className="container demo-user-page">
-      <p className="back-link">
-        <Link href="/mvp">← Smart Category Explorer</Link>
-      </p>
       {phone}
     </main>
   );

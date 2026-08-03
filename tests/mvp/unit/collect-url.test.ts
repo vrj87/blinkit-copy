@@ -14,7 +14,18 @@ describe("collect-url", () => {
     vi.unstubAllEnvs();
   });
 
-  it("uses local collect app in development", () => {
+  it("uses embedded MVP collect page in development by default", () => {
+    vi.stubEnv("NODE_ENV", "development");
+    delete process.env.NEXT_PUBLIC_COLLECT_URL;
+    process.env.NEXT_PUBLIC_APP_URL = "http://localhost:3000";
+    const url = collectAppUrl();
+    expect(url).toBe("http://localhost:3000/collect");
+    expect(isLocalCollectHost(url)).toBe(true);
+    expect(shouldEmbedCollectFrame(url)).toBe(true);
+    expect(collectIframeSrc(url)).toBe("/collect");
+  });
+
+  it("honors explicit :3001 collect app when configured", () => {
     vi.stubEnv("NODE_ENV", "development");
     process.env.NEXT_PUBLIC_COLLECT_URL = "http://localhost:3001";
     process.env.NEXT_PUBLIC_APP_URL = "http://localhost:3000";

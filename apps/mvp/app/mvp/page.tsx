@@ -14,7 +14,7 @@ export default async function MvpPage() {
       prisma.user.findUnique({
         where: { id },
         include: {
-          orders: { orderBy: { createdAt: "desc" }, take: 12 },
+          orders: { orderBy: { createdAt: "desc" }, take: 20 },
           nudges: { orderBy: { createdAt: "desc" }, take: 10 },
         },
       })
@@ -35,8 +35,9 @@ export default async function MvpPage() {
             orderCount: user.orderCount,
             categoriesPurchased: user.categoriesPurchased,
             personaLabel: profile?.personaLabel ?? "P1 Restocker",
-            addressTitle: profile?.addressTitle ?? "Home · Bengaluru",
-            addressSub: profile?.addressSub ?? "Delivery in 10 minutes",
+            addressTitle: profile?.addressTitle ?? "HOME",
+            addressSub: profile?.addressSub ?? "Bengaluru",
+            deliveryMins: profile?.deliveryMins ?? 10,
             orders: user.orders.map((o) => ({
               ...o,
               createdAt: o.createdAt.toISOString(),

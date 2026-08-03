@@ -15,7 +15,7 @@
     },
     {
       "parameters": {
-        "command": "=cd {{ $env.REPO_PATH }} && npm run discovery:refresh -- --notify"
+        "command": "=cd {{ $env.REPO_PATH }} && npm run discovery:refresh -w discovery-pipeline -- --notify"
       },
       "id": "run-refresh",
       "name": "Run Discovery Refresh",
@@ -23,60 +23,30 @@
       "typeVersion": 1,
       "position": [500, 300],
       "notesInFlow": true,
-      "notes": "Requires self-hosted n8n with REPO_PATH set to monorepo root. Alternative: use GitHub Actions workflow (see .github/workflows/discovery-scrape.yml)."
+      "notes": "Scrape → normalize → analyze → validate → last-refresh.json → POST MVP with --notify. Requires self-hosted n8n + REPO_PATH. Alternative: GitHub Actions (.github/workflows/discovery-scrape.yml)."
     },
     {
       "parameters": {
-        "method": "POST",
-        "url": "={{$env.MVP_APP_URL}}/api/workflows/discovery-refresh",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            { "name": "Content-Type", "value": "application/json" },
-            {
-              "name": "x-webhook-secret",
-              "value": "={{$env.N8N_WEBHOOK_SECRET}}"
-            }
-          ]
-        },
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify({ completedAt: new Date().toISOString(), schedule: '12h', source: 'n8n', scrape: $json }) }}"
-      },
-      "id": "notify-mvp",
-      "name": "Notify MVP (optional)",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [750, 300],
-      "disabled": true,
-      "notesInFlow": true,
-      "notes": "Enable if not using --notify flag on the refresh script. Usually --notify handles this."
-    },
-    {
-      "parameters": {
-        "content": "=12h discovery refresh\n\n1. Scrapes App Store, Play Store, Reddit, forums, social\n2. Merges into raw-reviews.json\n3. Normalizes → analyzes themes → validates\n4. Writes data/discovery/last-refresh.json\n\nEnv: REPO_PATH, MVP_APP_URL, N8N_WEBHOOK_SECRET",
-        "height": 220,
-        "width": 340
+        "content": "=12h discovery scrape workflow\n\n1. Scrape 7 sources (App/Play Store, Reddit, forums, social, product, QC)\n2. Merge → raw-reviews.json (dedupe by text hash)\n3. Normalize → pipeline-stats.json\n4. pipeline:analyze → themes.json\n5. pipeline:validate → validation-results.json\n6. Write last-refresh.json + POST /api/workflows/discovery-refresh\n\nManual collect: MVP /collect or POST /api/collect/reviews\n\nEnv: REPO_PATH, MVP_APP_URL, N8N_WEBHOOK_SECRET",
+        "height": 240,
+        "width": 380
       },
       "id": "note-docs",
       "name": "Workflow docs",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
-      "position": [240, 80]
+      "position": [220, 40]
     }
   ],
   "connections": {
     "Every 12 Hours": {
       "main": [[{ "node": "Run Discovery Refresh", "type": "main", "index": 0 }]]
-    },
-    "Run Discovery Refresh": {
-      "main": [[{ "node": "Notify MVP (optional)", "type": "main", "index": 0 }]]
     }
   },
   "settings": {
     "executionOrder": "v1"
   },
   "meta": {
-    "description": "Fetches latest scrape data every 12 hours: multi-source reviews → merge → normalize → theme analysis → validation."
+    "description": "Every 12h: multi-source scrape → merge → normalize → theme analysis → validation → notify MVP API."
   }
 }

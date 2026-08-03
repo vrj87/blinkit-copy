@@ -343,3 +343,15 @@ export function resolveCartLineItems(
     totalAmount,
   };
 }
+
+/** Top discounted products for the moving offers banner */
+export function getFeaturedProductOffers(limit = 14): CatalogProduct[] {
+  return [...CATALOG_PRODUCTS]
+    .filter((p) => p.mrp > p.price)
+    .sort((a, b) => {
+      const offA = (a.mrp - a.price) / a.mrp;
+      const offB = (b.mrp - b.price) / b.mrp;
+      return offB - offA;
+    })
+    .slice(0, limit);
+}

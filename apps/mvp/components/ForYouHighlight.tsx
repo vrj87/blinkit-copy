@@ -6,17 +6,15 @@ import { LlmBadge } from "@/components/LlmBadge";
 export function ForYouHighlight({
   nudge,
   onView,
-  onGenerate,
-  generating,
 }: {
   nudge: NudgeRow | null | undefined;
   onView: () => void;
-  onGenerate: () => void;
+  onGenerate?: () => void;
   generating?: boolean;
 }) {
   return (
-    <div className="foryou-home-highlight">
-      <button type="button" className="foryou-home-highlight-body" onClick={onView}>
+    <button type="button" className="foryou-home-highlight" onClick={onView}>
+      <div className="foryou-home-highlight-body">
         <div className="foryou-home-highlight-top">
           <span className="foryou-home-highlight-eyebrow">✨ For you · AI powered</span>
           {nudge ? (
@@ -35,22 +33,12 @@ export function ForYouHighlight({
           <>
             <p className="foryou-home-highlight-title">Discover your next category</p>
             <p className="foryou-home-highlight-copy">
-              Groq AI picks an adjacent category based on your orders &amp; user research
+              Tap to open your personalised AI category pick
             </p>
-            <span className="foryou-home-highlight-cta">Open For you tab →</span>
+            <span className="foryou-home-highlight-cta">Open For you →</span>
           </>
         )}
-      </button>
-      {!nudge && (
-        <button
-          type="button"
-          className="btn btn-primary btn-sm btn-block foryou-home-highlight-gen"
-          onClick={onGenerate}
-          disabled={generating}
-        >
-          {generating ? "Groq AI thinking…" : "Generate AI pick"}
-        </button>
-      )}
-    </div>
+      </div>
+    </button>
   );
 }

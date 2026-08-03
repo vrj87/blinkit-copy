@@ -118,8 +118,36 @@ a:hover {
   text-decoration: none;
 }
 
+/* Hide site chrome on MVP — phone shell has Blinkit branding + overview link */
+body:has(.mvp-page) .blinkit-chrome,
+body:has(.demo-user-page) .blinkit-chrome {
+  display: none;
+}
+
+.part4-desktop-hint {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.part4-desktop-hint a {
+  font-weight: 700;
+}
+
 .blinkit-brandbar-overview {
   display: none;
+}
+
+@media (min-width: 769px) {
+  .blinkit-brandbar-overview {
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .part4-desktop-hint {
+    display: none;
+  }
 }
 
 .back-to-top {
@@ -1073,6 +1101,135 @@ nav.links a:hover {
   border-radius: var(--radius-lg);
   background: var(--surface);
   box-shadow: var(--shadow-md);
+}
+
+/* ——— Collect review panel (embedded in playground) ——— */
+.collect-page-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2rem;
+}
+
+.collect-ui .blinkit-collect-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: white;
+  border-bottom: 1px solid var(--border);
+  margin: -1.5rem -1.25rem 1.5rem;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.collect-ui .blinkit-collect-header .logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--blinkit-green);
+}
+
+.collect-ui .blinkit-collect-header .logo span {
+  color: var(--text);
+}
+
+.collect-ui h1 {
+  font-size: 1.65rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.collect-ui .keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.collect-ui .keyword {
+  border: 1.5px solid var(--border);
+  background: white;
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.collect-ui .keyword.active {
+  background: var(--blinkit-green-light);
+  border-color: var(--blinkit-green);
+  color: var(--blinkit-green);
+  font-weight: 700;
+}
+
+.collect-ui .stat {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--blinkit-green);
+  letter-spacing: -0.02em;
+}
+
+.collect-ui .progress {
+  height: 10px;
+  background: #eee;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.collect-ui .progress > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--blinkit-green), #1a9f4a);
+  border-radius: 999px;
+}
+
+.collect-ui .message {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  background: var(--blinkit-green-light);
+  color: var(--blinkit-green-dark);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.collect-ui .message.error {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.collect-ui .recent li {
+  list-style: none;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.collect-ui label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.collect-ui select,
+.collect-ui textarea {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font: inherit;
+  margin-bottom: 0.85rem;
+}
+
+.collect-ui textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.collect-ui-embedded .card:last-child {
+  margin-bottom: 0;
 }
 
 .collect-source-grid {
@@ -2152,6 +2309,71 @@ nav.links a:hover {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.blinkit-phone-toast-layer {
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 4.25rem;
+  z-index: 45;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-added-toast {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0.9rem;
+  background: #1a1a1a;
+  color: white;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  font-size: 0.78rem;
+  font-weight: 700;
+  max-width: 100%;
+  animation: cart-added-toast-in 0.28s ease-out;
+}
+
+.cart-added-toast-icon {
+  flex-shrink: 0;
+  width: 1.35rem;
+  height: 1.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--blinkit-green);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.cart-added-toast-text {
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@keyframes cart-added-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.65rem) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cart-added-toast {
+    animation: none;
+  }
 }
 
 .blinkit-phone-status {
@@ -2278,11 +2500,24 @@ nav.links a:hover {
   flex: 1 1 auto;
   min-height: 0;
   padding: 0 1rem 0.5rem;
-  overflow-x: hidden;
+  overflow-x: clip;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   touch-action: pan-y;
   overscroll-behavior-y: contain;
+}
+
+.blinkit-phone-top-banner {
+  flex-shrink: 0;
+  padding: 0.35rem 1rem 0.5rem;
+  background: #f8f9f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  min-height: 4.25rem;
+  z-index: 2;
+}
+
+.blinkit-phone-top-banner .blinkit-offers-banner {
+  margin-bottom: 0;
 }
 
 .blinkit-bottom-nav {
@@ -2344,27 +2579,20 @@ nav.links a:hover {
   border-radius: var(--radius-lg);
   background: linear-gradient(145deg, #fffbeb 0%, var(--blinkit-green-light) 120%);
   overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  padding: 0;
 }
 
 .foryou-home-highlight-body {
   display: block;
   width: 100%;
   padding: 0.85rem 0.9rem;
-  border: none;
-  background: transparent;
-  text-align: left;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s;
 }
 
-.foryou-home-highlight-body:hover {
-  background: rgba(255, 255, 255, 0.35);
-}
-
-.foryou-home-highlight-gen {
-  margin: 0 0.9rem 0.85rem;
-  width: calc(100% - 1.8rem);
+.foryou-home-highlight:hover {
+  filter: brightness(1.02);
 }
 
 .foryou-home-highlight-top {
@@ -3041,47 +3269,19 @@ nav.links a:hover {
     height: 100svh;
   }
 
-  /* Compact Blinkit header on MVP — logo links to /playground overview */
-  body:has(.mvp-page) .blinkit-chrome {
-    display: block;
-    flex-shrink: 0;
-    position: relative;
-    z-index: 110;
+  /* MVP uses phone shell chrome only — site header hidden globally above */
+  body:has(.mvp-page) {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100dvh;
+    height: 100svh;
   }
 
-  body:has(.mvp-page) .blinkit-topstrip {
-    display: none;
-  }
-
-  body:has(.mvp-page) .blinkit-brandbar {
-    padding: 0.55rem 0.85rem;
-    padding-top: max(0.55rem, env(safe-area-inset-top, 0px));
-    padding-left: max(0.85rem, env(safe-area-inset-left, 0px));
-    padding-right: max(0.85rem, env(safe-area-inset-right, 0px));
-    gap: 0.5rem;
-  }
-
-  body:has(.mvp-page) .blinkit-logo {
-    font-size: 1.4rem;
-  }
-
-  body:has(.mvp-page) .blinkit-brandbar-tag {
-    font-size: 0.65rem;
-    padding: 0.28rem 0.55rem;
-    white-space: nowrap;
-  }
-
-  body:has(.mvp-page) .blinkit-brandbar-mvp {
-    display: none;
-  }
-
-  body:has(.mvp-page) .blinkit-brandbar-overview {
-    display: inline-flex;
-    align-items: center;
-  }
-
-  body:has(.demo-user-page) .blinkit-chrome {
-    display: none;
+  body:has(.demo-user-page) {
+    overflow: hidden;
+    height: 100dvh;
+    height: 100svh;
   }
 
   body:has(.mvp-page) .back-to-top,
@@ -3114,16 +3314,6 @@ nav.links a:hover {
     overflow: hidden;
   }
 
-  .demo-user-page .back-link {
-    flex-shrink: 0;
-    padding: 0.5rem 0.75rem;
-    padding-top: max(0.5rem, env(safe-area-inset-top, 0px));
-    margin: 0;
-    font-size: 0.8rem;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-  }
-
   .demo-user-page .blinkit-phone {
     flex: 1;
     min-height: 0;
@@ -3136,7 +3326,8 @@ nav.links a:hover {
   }
 
   .mvp-page .part4-demo-section h2,
-  .mvp-page .part4-demo-section .part1-section-lead {
+  .mvp-page .part4-demo-section .part1-section-lead,
+  .mvp-page .part4-demo-lead {
     display: none;
   }
 
@@ -3216,6 +3407,12 @@ nav.links a:hover {
   .mvp-page .blinkit-phone-status,
   .demo-user-page .blinkit-phone-status {
     display: none;
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  .mvp-page .blinkit-header-brand-row,
+  .demo-user-page .blinkit-header-brand-row {
+    padding-top: max(0.35rem, env(safe-area-inset-top, 0px));
   }
 
   .mvp-page .blinkit-phone-search,
@@ -3307,3 +3504,1097 @@ nav.links a:hover {
   }
 }
 
+/* —— Blinkit storefront (promos, tiles, product cards) —— */
+
+.blinkit-phone-header {
+  background: var(--blinkit-yellow);
+  border-bottom: none;
+  flex-shrink: 0;
+}
+
+.blinkit-phone-header .blinkit-phone-status {
+  background: transparent;
+  padding: 0.4rem 1rem 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.blinkit-header-brand-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0.35rem;
+}
+
+.blinkit-phone-logo {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--blinkit-green);
+}
+
+.blinkit-phone-logo span {
+  color: #1a1a1a;
+}
+
+.blinkit-phone-overview-link {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.blinkit-phone-overview-link:hover {
+  color: var(--blinkit-green-dark);
+}
+
+.blinkit-address-row-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0 0.85rem 0.75rem;
+}
+
+.blinkit-address-block {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
+.blinkit-address-pin {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  margin-top: 0.1rem;
+}
+
+.blinkit-address-text {
+  min-width: 0;
+}
+
+.blinkit-address-main {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.blinkit-address-label {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  letter-spacing: 0.02em;
+}
+
+.blinkit-address-chevron {
+  font-size: 0.65rem;
+  color: #333;
+}
+
+.blinkit-address-sub {
+  font-size: 0.72rem;
+  color: #444;
+  margin: 0.05rem 0 0;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blinkit-delivery-badge {
+  flex-shrink: 0;
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--blinkit-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  box-shadow: 0 2px 8px rgba(12, 131, 31, 0.15);
+}
+
+.blinkit-delivery-badge-time {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--blinkit-green);
+}
+
+.blinkit-delivery-badge-label {
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: var(--blinkit-green-dark);
+  text-transform: uppercase;
+}
+
+.blinkit-phone-search {
+  background: var(--blinkit-yellow);
+  padding: 0 0.85rem 0.65rem;
+}
+
+/* ——— Blinkit moving brand marquee ——— */
+.blinkit-brand-marquee {
+  margin: 0 -1rem 0.75rem;
+  background: var(--blinkit-yellow);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  position: relative;
+}
+
+.blinkit-brand-marquee::before,
+.blinkit-brand-marquee::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1.25rem;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.blinkit-brand-marquee::before {
+  left: 0;
+  background: linear-gradient(90deg, var(--blinkit-yellow), transparent);
+}
+
+.blinkit-brand-marquee::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--blinkit-yellow), transparent);
+}
+
+.blinkit-brand-marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: max-content;
+  padding: 0.45rem 0;
+  animation: blinkit-brand-marquee 28s linear infinite;
+}
+
+.blinkit-brand-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0 1.1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+.blinkit-brand-marquee-logo {
+  font-weight: 800;
+  color: var(--blinkit-green);
+  letter-spacing: -0.02em;
+}
+
+.blinkit-brand-marquee-logo span {
+  color: #1a1a1a;
+}
+
+.blinkit-brand-marquee-dot {
+  opacity: 0.45;
+  font-weight: 800;
+}
+
+@keyframes blinkit-brand-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blinkit-brand-marquee-track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 0.35rem 0.75rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .blinkit-brand-marquee::before,
+  .blinkit-brand-marquee::after {
+    display: none;
+  }
+}
+
+/* ——— Moving product offers banner ——— */
+.blinkit-offers-banner {
+  margin-bottom: 0.85rem;
+  width: 100%;
+  min-height: 3.5rem;
+}
+
+.blinkit-offers-banner-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+  padding: 0 0.15rem;
+}
+
+.blinkit-offers-banner-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.blinkit-offers-banner-sub {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.blinkit-offers-marquee-viewport {
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  min-height: 2.75rem;
+  position: relative;
+  isolation: isolate;
+}
+
+.blinkit-offers-marquee-viewport::before,
+.blinkit-offers-marquee-viewport::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1.25rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.blinkit-offers-marquee-viewport::before {
+  left: 0;
+  background: linear-gradient(90deg, #f8f9f8 30%, transparent);
+}
+
+.blinkit-offers-marquee-viewport::after {
+  right: 0;
+  background: linear-gradient(270deg, #f8f9f8 30%, transparent);
+}
+
+.blinkit-offers-marquee-track {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  width: max-content;
+  padding: 0.1rem 0.25rem 0.25rem;
+  will-change: transform;
+  animation: blinkit-offers-marquee 28s linear infinite;
+}
+
+.blinkit-offer-card {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.55rem;
+  min-width: 8.5rem;
+  max-width: 10.5rem;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: transform 0.12s, border-color 0.12s;
+}
+
+.blinkit-offer-card:hover:not(:disabled) {
+  border-color: var(--blinkit-green);
+  transform: translateY(-1px);
+}
+
+.blinkit-offer-card:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.blinkit-offer-card-emoji {
+  font-size: 1.35rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.blinkit-offer-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.blinkit-offer-card-name {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blinkit-offer-card-brand {
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.blinkit-offer-card-price {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--blinkit-green);
+  flex-shrink: 0;
+}
+
+.blinkit-offer-card-off {
+  font-size: 0.58rem;
+  font-weight: 800;
+  color: white;
+  background: #e23744;
+  padding: 0.12rem 0.35rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+@keyframes blinkit-offers-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blinkit-offers-marquee-track {
+    animation: none;
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .blinkit-offers-marquee-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blinkit-offers-marquee-viewport::before,
+  .blinkit-offers-marquee-viewport::after {
+    display: none;
+  }
+}
+
+/* Desktop phone mockup + mobile full-bleed — keep offers strip visible */
+.mvp-page .blinkit-phone-top-banner,
+.demo-user-page .blinkit-phone-top-banner {
+  display: block;
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .mvp-page .blinkit-phone-top-banner,
+  .demo-user-page .blinkit-phone-top-banner {
+    padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+    padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
+  }
+
+  .blinkit-offer-card {
+    min-width: 7.75rem;
+    max-width: 9.5rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .mvp-page .blinkit-offers-marquee-track {
+    animation-duration: 32s;
+  }
+}
+
+.blinkit-promo-scroll {
+  display: flex;
+  gap: 0.55rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.15rem;
+}
+
+.blinkit-promo-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.blinkit-promo-card {
+  flex: 0 0 78%;
+  min-width: 240px;
+  scroll-snap-align: start;
+  border: none;
+  border-radius: 14px;
+  padding: 0.75rem 0.85rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  color: #1a1a1a;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.blinkit-promo-card:nth-child(2) {
+  color: white;
+}
+
+.blinkit-promo-tag {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.5rem;
+  font-size: 0.55rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0.12rem 0.4rem;
+  border-radius: var(--radius-pill);
+}
+
+.blinkit-promo-card:nth-child(2) .blinkit-promo-tag {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.blinkit-promo-emoji {
+  font-size: 1.75rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.blinkit-promo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.blinkit-promo-text strong {
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
+.blinkit-promo-text span {
+  font-size: 0.68rem;
+  opacity: 0.9;
+  line-height: 1.3;
+}
+
+.blinkit-promo-cta {
+  font-weight: 800;
+  font-size: 0.68rem;
+  margin-top: 0.15rem;
+}
+
+.blinkit-section-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+  color: var(--text);
+}
+
+.blinkit-products-heading {
+  margin-top: 0.5rem;
+}
+
+.blinkit-tiles-section {
+  margin-bottom: 0.85rem;
+}
+
+.blinkit-tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.4rem;
+}
+
+.blinkit-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.15rem;
+}
+
+.blinkit-tile-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  border: 2px solid transparent;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.blinkit-tile-active .blinkit-tile-icon {
+  border-color: var(--blinkit-green);
+  transform: scale(1.05);
+}
+
+.blinkit-tile-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--text);
+  text-align: center;
+  line-height: 1.2;
+}
+
+.blinkit-bank-offers {
+  margin-bottom: 0.75rem;
+}
+
+.blinkit-bank-scroll {
+  display: flex;
+  gap: 0.45rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.blinkit-bank-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.blinkit-bank-card {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.65rem;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.65rem;
+  min-width: 140px;
+}
+
+.blinkit-bank-card strong {
+  display: block;
+  font-size: 0.7rem;
+}
+
+.blinkit-bank-card span {
+  color: var(--muted);
+}
+
+.blinkit-bank-emoji {
+  font-size: 1.1rem;
+}
+
+.blinkit-home-greeting {
+  margin-bottom: 0.5rem;
+}
+
+.product-card-blinkit {
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  min-height: auto;
+  padding: 0.45rem;
+}
+
+.product-image-well {
+  position: relative;
+  border-radius: 10px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.product-image-well .product-emoji {
+  font-size: 2.25rem;
+}
+
+.product-discount-tag {
+  position: absolute;
+  top: 0.35rem;
+  left: 0.35rem;
+  font-size: 0.55rem;
+  font-weight: 800;
+  background: var(--blinkit-green);
+  color: white;
+  padding: 0.12rem 0.35rem;
+  border-radius: var(--radius-pill);
+}
+
+.product-image-well .product-badge {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+}
+
+.product-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.2rem;
+}
+
+.product-delivery-mins {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--blinkit-green);
+  background: var(--blinkit-green-light);
+  padding: 0.1rem 0.35rem;
+  border-radius: var(--radius-pill);
+}
+
+.blinkit-cart-bar {
+  flex-direction: column;
+  align-items: stretch;
+  border-top: 3px solid var(--blinkit-yellow);
+  padding-top: 0.45rem;
+  background: #1a1a1a;
+}
+
+.blinkit-cart-progress {
+  position: relative;
+  height: 1.25rem;
+  background: #eee;
+  border-radius: var(--radius-pill);
+  margin-bottom: 0.45rem;
+  overflow: hidden;
+}
+
+.blinkit-cart-progress-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, var(--blinkit-yellow), var(--blinkit-green-light));
+  border-radius: var(--radius-pill);
+  transition: width 0.25s ease;
+}
+
+.blinkit-cart-progress-label {
+  position: relative;
+  z-index: 1;
+  display: block;
+  text-align: center;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  color: #333;
+}
+
+.cart-bar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.blinkit-cart-btn {
+  font-weight: 800;
+  min-width: 7rem;
+}
+
+/* ——— Cart panel (add / remove / clear) ——— */
+.blinkit-cart-panel-top {
+  margin-top: 0.5rem;
+  margin-bottom: 0.65rem;
+}
+
+.blinkit-cart-home-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  width: 100%;
+  margin: 0.35rem 0 0.5rem;
+  padding: 0.6rem 0.75rem;
+  border: 1.5px solid var(--blinkit-green);
+  border-radius: var(--radius-lg);
+  background: var(--blinkit-green-light);
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.blinkit-cart-home-chip:hover {
+  background: #d4f5dc;
+}
+
+.blinkit-cart-home-chip:active {
+  transform: scale(0.98);
+}
+
+.blinkit-cart-home-chip-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.blinkit-cart-home-chip-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.blinkit-cart-home-chip-label {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.blinkit-cart-home-chip-meta {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+.blinkit-cart-home-chip-arrow {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #2e7d32;
+}
+
+.blinkit-cart-dock {
+  position: sticky;
+  bottom: 0;
+  z-index: 35;
+  margin: 0.75rem -1rem 0;
+  padding: 0.5rem 1rem 0.35rem;
+  background: linear-gradient(180deg, transparent 0%, rgba(248, 249, 248, 0.92) 35%, #f8f9f8 100%);
+}
+
+.blinkit-cart-dock .blinkit-cart-bar {
+  margin-top: 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.blinkit-cart-panel {
+  margin-top: 0.85rem;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  background: white;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.blinkit-cart-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.65rem;
+}
+
+.blinkit-cart-panel-title {
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.blinkit-cart-clear-btn {
+  border: none;
+  background: transparent;
+  color: #c62828;
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0.25rem 0.45rem;
+  border-radius: var(--radius-pill);
+  font-family: inherit;
+}
+
+.blinkit-cart-clear-btn:hover:not(:disabled) {
+  background: #ffebee;
+}
+
+.blinkit-cart-clear-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.blinkit-cart-panel-list {
+  list-style: none;
+  margin: 0 0 0.65rem;
+  padding: 0;
+  max-height: 9.5rem;
+  overflow-y: auto;
+}
+
+.blinkit-cart-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.blinkit-cart-line:last-child {
+  border-bottom: none;
+}
+
+.blinkit-cart-line-emoji {
+  font-size: 1.35rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.blinkit-cart-line-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.blinkit-cart-line-name {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.blinkit-cart-line-meta {
+  font-size: 0.65rem;
+  color: var(--muted);
+}
+
+.blinkit-cart-line-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.blinkit-cart-line-qty {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--blinkit-green-light);
+  border-radius: var(--radius-pill);
+  padding: 0.1rem 0.25rem;
+}
+
+.blinkit-cart-line-qty button {
+  width: 1.45rem;
+  height: 1.45rem;
+  border: none;
+  background: white;
+  color: var(--blinkit-green);
+  border-radius: 50%;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.blinkit-cart-line-qty span {
+  font-size: 0.8rem;
+  font-weight: 800;
+  min-width: 1rem;
+  text-align: center;
+}
+
+.blinkit-cart-line-total {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--blinkit-green-dark);
+}
+
+.blinkit-cart-line-remove {
+  border: none;
+  background: none;
+  color: #c62828;
+  font-size: 0.65rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.blinkit-cart-panel .blinkit-cart-bar {
+  margin-top: 0.65rem;
+}
+
+.blinkit-trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  font-size: 0.62rem;
+  color: var(--muted);
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: white;
+  border-radius: var(--radius);
+  border: 1px dashed var(--border);
+}
+
+@media (max-width: 360px) {
+  .blinkit-tiles-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.25rem;
+  }
+
+  .blinkit-tile-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* ——— Discovery scrape workflow dashboard ——— */
+.discovery-workflow-showcase {
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--blinkit-yellow);
+}
+
+.discovery-workflow-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.discovery-workflow-showcase h2 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.discovery-workflow-lead {
+  font-size: 0.9rem;
+  color: var(--muted);
+  max-width: 42rem;
+}
+
+.discovery-workflow-schedule {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.discovery-workflow-schedule-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-pill);
+  background: var(--blinkit-green-light);
+  color: var(--blinkit-green-dark);
+}
+
+.discovery-workflow-stats {
+  margin-bottom: 1rem;
+}
+
+.grid-4 {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.discovery-workflow-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.discovery-workflow-step {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  font-size: 0.875rem;
+}
+
+.discovery-workflow-step p {
+  color: var(--muted);
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+}
+
+.discovery-workflow-num {
+  flex-shrink: 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--blinkit-green);
+  color: white;
+  font-weight: 800;
+  font-size: 0.75rem;
+  border-radius: 50%;
+}
+
+.discovery-workflow-output {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--blinkit-green-dark);
+  background: var(--blinkit-green-light);
+  padding: 0.1rem 0.45rem;
+  border-radius: var(--radius-pill);
+}
+
+.discovery-workflow-pre {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background: var(--bg);
+  border-radius: var(--radius);
+  font-size: 0.75rem;
+  overflow-x: auto;
+  max-height: 240px;
+}
+
+.discovery-workflow-actions h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.discovery-workflow-cmd {
+  display: block;
+  margin-bottom: 0.35rem;
+  padding: 0.45rem 0.65rem;
+  background: var(--bg);
+  border-radius: var(--radius);
+  font-size: 0.8rem;
+}
+
+.discovery-workflow-hint {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}

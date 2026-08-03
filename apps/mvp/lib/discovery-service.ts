@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import {
   discoveryDataDir,
+  findRepoRoot,
   rawReviewsPath,
   runNormalizePipeline,
   themesPath,
@@ -101,12 +102,59 @@ export function loadLastRefresh(): Record<string, unknown> | null {
   }
 }
 
+export function saveLastRefresh(report: Record<string, unknown>) {
+  ensureDataDir();
+  writeFileSync(
+    join(discoveryDataDir(), "last-refresh.json"),
+    JSON.stringify(report, null, 2),
+    "utf-8"
+  );
+}
+
 export function loadDiscoveryBundle() {
   const dataDir = discoveryDataDir();
   const stats = JSON.parse(readFileSync(join(dataDir, "pipeline-stats.json"), "utf-8"));
   const themes = JSON.parse(readFileSync(themesPath(), "utf-8"));
   const validation = JSON.parse(readFileSync(validationResultsPath(), "utf-8"));
   return { stats, themes, validation };
+}
+
+export function loadCollectConfig() {
+  const path = join(findRepoRoot(), "apps/collect/config/keywords.json");
+  return JSON.parse(readFileSync(path, "utf-8")) as {
+    keywords: string[];
+    segmentHints: string[];
+    targetSegment: { label: string; criteria: string[] };
+    targetVolume: { min: number; ideal: number };
+  };
+}
+
+export function getCollectStatus() {
+  const config = loadCollectConfig();
+  const raw = loadRawReviews();
+  const statsPath = join(discoveryDataDir(), "pipeline-stats.json");
+  let stats: PipelineStats | null = null;
+  if (existsSync(statsPath)) {
+    stats = JSON.parse(readFileSync(statsPath, "utf-8")) as PipelineStats;
+  }
+  const targetMin = config.targetVolume?.min ?? 200;
+  const targetIdeal = config.targetVolume?.ideal ?? 500;
+
+  return {
+    config,
+    rawCount: raw.length,
+    targetMin,
+    targetIdeal,
+    progressPct: Math.min(100, Math.round((raw.length / targetMin) * 100)),
+    stats: stats
+      ? { afterFilter: stats.afterFilter, chunkCount: stats.chunkCount }
+      : null,
+    recent: raw.slice(-5).reverse().map((r) => ({
+      id: r.id,
+      source: r.source,
+      text: r.text,
+    })),
+  };
 }
 
 export function prepareIngestReviews(

@@ -89,7 +89,7 @@ npm run discovery:scrape    # scrape only
 ### 5. Tests
 
 ```bash
-npm test              # all unit tests
+npm test              # 40 unit tests (MVP + discovery)
 npm run test:mvp      # MVP tests only
 ```
 

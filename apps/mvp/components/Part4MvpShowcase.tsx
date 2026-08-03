@@ -39,10 +39,10 @@ export function Part4MvpShowcase({
 }) {
   const demoSection = (
     <section className="part4-demo-section">
-      <h2>{embedded ? "Try the live prototype" : "Live Blinkit prototype"}</h2>
-      <p className="part1-section-lead">
-        Switch users, place an order, watch delivery tracking, then open <strong>For you</strong>{" "}
-        for the AI category pick with starter pack.
+      <h2>Live Blinkit prototype</h2>
+      <p className="part1-section-lead part4-demo-lead">
+        Switch users, shop on Home, track delivery on Orders, then open{" "}
+        <strong>For you</strong> for the Groq AI category pick.
       </p>
       <DemoUserSwitcher users={users} />
     </section>
@@ -52,15 +52,18 @@ export function Part4MvpShowcase({
     <section className="part1-hero card part4-hero">
       <h1>Smart Category Explorer</h1>
       <p className="part1-lead">
-        A Blinkit feature prototype — post-delivery AI recommendations that help weekly restockers
-        try a new category without slowing their refill habit.
+        Blinkit-style MVP with post-delivery AI — weekly restockers discover a new category
+        without breaking their refill habit.
       </p>
       <div className="part4-pill-row">
-        <span className="part4-pill">AI agent + workflow</span>
-        <span className="part4-pill">n8n orchestration</span>
-        <span className="part4-pill">Groq LLM</span>
+        <span className="part4-pill">For you · Groq AI</span>
+        <span className="part4-pill">Post-delivery trigger</span>
         <span className="part4-pill">Discovery RAG</span>
+        <span className="part4-pill">n8n workflow</span>
       </div>
+      <p className="part4-desktop-hint">
+        <a href="/playground">← Back to project overview</a>
+      </p>
     </section>
   );
 
@@ -78,12 +81,6 @@ export function Part4MvpShowcase({
           </div>
         ))}
       </div>
-      {!embedded && (
-        <p className="part4-api-hint">
-          APIs: <code>POST /api/ai/recommend</code> · <code>GET /api/ai/status</code> ·{" "}
-          <code>POST /api/events/order</code>
-        </p>
-      )}
     </section>
   );
 

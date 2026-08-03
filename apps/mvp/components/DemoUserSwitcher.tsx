@@ -18,6 +18,7 @@ export interface DemoUserData {
   personaLabel: string;
   addressTitle: string;
   addressSub: string;
+  deliveryMins?: number;
   orders: OrderRow[];
   nudges: NudgeRow[];
 }

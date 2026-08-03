@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import { readFileSync } from "fs";
 import { themesPath } from "@blinkit/discovery-core";
 import { DEMO_NUDGE_SEEDERS, type DemoNudgeSeed } from "../lib/demo-nudges";
-import { DEMO_USER_PROFILES } from "../lib/demo-users";
+import { DEMO_USER_PROFILES, daysAgo } from "../lib/demo-users";
 import { generateNudge } from "../lib/llm";
 import { parseJsonArray } from "../lib/segment";
 import { syncAllUserOrderCounts } from "../lib/user-order-sync";
@@ -92,8 +92,8 @@ async function main() {
       email: "amit@example.com",
       segmentTags: JSON.stringify(["weekly_essentials_buyer"]),
       categoriesPurchased: JSON.stringify(["Household Essentials"]),
-      orderCount: 5,
-      lastOrderAt: new Date("2025-12-05"),
+      orderCount: 3,
+      lastOrderAt: daysAgo(4, 16, 0),
     },
   });
 
@@ -102,13 +102,19 @@ async function main() {
       items: ["Surf Excel 2kg", "Vim Dishwash", "Tissue Box"],
       categories: ["Household Essentials"],
       totalAmount: 420,
-      createdAt: new Date("2025-11-20"),
+      createdAt: daysAgo(4, 16, 0),
     },
     {
       items: ["Harpic", "Floor Cleaner", "Garbage Bags"],
       categories: ["Household Essentials"],
       totalAmount: 356,
-      createdAt: new Date("2025-12-05"),
+      createdAt: daysAgo(7, 15, 30),
+    },
+    {
+      items: ["Detergent Powder 1kg", "Scrubber", "Hand Wash"],
+      categories: ["Household Essentials"],
+      totalAmount: 289,
+      createdAt: daysAgo(10, 17, 0),
     },
   ]) {
     await prisma.order.create({

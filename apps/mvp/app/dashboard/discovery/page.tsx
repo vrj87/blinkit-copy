@@ -2,6 +2,7 @@ import Link from "next/link";
 import { readFileSync } from "fs";
 import { join } from "path";
 import { discoveryDataDir, themesPath, validationResultsPath } from "@blinkit/discovery-core";
+import { DiscoveryWorkflowShowcase } from "@/components/DiscoveryWorkflowShowcase";
 import { ResearchQAShowcase } from "@/components/ResearchQAShowcase";
 import { loadSurveyEvidence } from "@/lib/survey-evidence";
 
@@ -30,13 +31,16 @@ export default function DiscoveryDashboardPage() {
       </p>
       <h1 style={{ margin: "1rem 0" }}>Discovery Engine</h1>
       <p style={{ color: "var(--muted)", marginBottom: "1.5rem" }}>
-        Scrape + primary survey (n=40) · Compare research questions against dual-source evidence ·{" "}
-        <Link href="/discovery/part1">Full research insights →</Link>
+        Scrape workflow + primary survey (n=40) ·{" "}
+        <Link href="/discovery/part1">Full research insights →</Link> ·{" "}
+        <Link href="/collect">Collect UI →</Link>
       </p>
+
+      <DiscoveryWorkflowShowcase />
 
       {!data ? (
         <div className="card">
-          <p>Discovery data not found. Run: <code>npm run discovery:all</code></p>
+          <p>Discovery data not found. Run: <code>npm run discovery:refresh</code></p>
         </div>
       ) : (
         <>

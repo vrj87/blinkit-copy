@@ -1,207 +1,97 @@
 # n8n Workflow Integration
 
-
-
-Import these workflows into n8n Cloud or Railway-hosted n8n.
-
-
+Import these workflows into n8n Cloud or self-hosted n8n.
 
 ## Workflows
 
-
-
 | File | Trigger | Action |
-
 |------|---------|--------|
-
 | [post-order-nudge.json](./post-order-nudge.json) | Webhook on order completion | POST `/api/events/order` |
-
 | [daily-batch-scan.json](./daily-batch-scan.json) | Daily cron (24h) | POST `/api/workflows/scan-users` |
-
-| [twelve-hour-scrape.json](./twelve-hour-scrape.json) | Every 12 hours | Run `npm run discovery:refresh` on scrape runner |
-
-
+| [twelve-hour-scrape.json](./twelve-hour-scrape.json) | Every 12 hours | `npm run discovery:refresh -w discovery-pipeline -- --notify` |
 
 ## 12-hour discovery scrape
 
+**Pipeline:** 7 sources → merge `raw-reviews.json` → normalize → analyze themes → validate → `last-refresh.json` → notify MVP.
 
+Manual reviews merge via MVP **Collect UI** (`/collect`, `POST /api/collect/reviews`) — no `:3001` server required locally.
 
-Fetches latest reviews from App Store, Play Store, Reddit, forums, and social → merges into `data/discovery/raw-reviews.json` → normalizes → re-analyzes themes → validates.
-
-
-
-### Option A — GitHub Actions (recommended for cloud)
-
-
+### Option A — GitHub Actions (recommended)
 
 Workflow: [`.github/workflows/discovery-scrape.yml`](../.github/workflows/discovery-scrape.yml)
 
-
-
-- Runs at **00:00 and 12:00 UTC** (`cron: 0 */12 * * *`)
-
+- Runs at **00:00 and 12:00 UTC**
+- Uses `--notify` during refresh (single webhook, no duplicate curl step)
 - Commits updated `data/discovery/` when new reviews are found
-
-- Optional: set repo variable `MVP_APP_URL` and secret `N8N_WEBHOOK_SECRET` to notify the MVP API
-
-
+- Set repo variable `MVP_APP_URL` and secret `N8N_WEBHOOK_SECRET` for MVP notify
 
 Manual run: **Actions → Discovery scrape (12h) → Run workflow**
 
-
-
 ### Option B — n8n (self-hosted)
 
+Import [twelve-hour-scrape.json](./twelve-hour-scrape.json). Requires **Execute Command** node.
 
-
-Import [twelve-hour-scrape.json](./twelve-hour-scrape.json). Requires **Execute Command** node (self-hosted n8n only).
-
-
-
-```
-
-REPO_PATH=/path/to/GrauationProject2
-
+```bash
+REPO_PATH=/path/to/repo
 MVP_APP_URL=https://your-app.vercel.app
-
 N8N_WEBHOOK_SECRET=your-shared-secret
-
 ```
 
-
-
-The refresh script writes `data/discovery/last-refresh.json` and can POST a summary with `--notify`.
-
-
+Command: `npm run discovery:refresh -w discovery-pipeline -- --notify`
 
 ### Option C — Local cron / Task Scheduler
 
-
-
 ```bash
-
-# Linux/macOS crontab — every 12 hours
-
+# Linux/macOS — every 12 hours
 0 */12 * * * cd /path/to/repo && ./scripts/scheduled-discovery-refresh.sh --notify
-
 ```
-
-
 
 ```powershell
-
-# Windows — run once to register (adjust path)
-
+# Windows — register task (adjust path)
 schtasks /Create /SC HOURLY /MO 12 /TN "BlinkitDiscoveryRefresh" `
-
   /TR "powershell -ExecutionPolicy Bypass -File C:\path\to\scripts\scheduled-discovery-refresh.ps1 --notify"
-
 ```
-
-
 
 ### Manual run
 
+```bash
+npm run discovery:refresh              # scrape + analyze + validate
+npm run discovery:refresh -- --notify  # also POST summary to MVP API
+npm run discovery:scrape               # scrape + normalize only
+npm run discovery:refresh -- --fresh   # ignore existing corpus
+```
 
+Check status: `GET /api/workflows/discovery-refresh` or `/dashboard/discovery`
+
+## Environment variables
 
 ```bash
-
-npm run discovery:refresh              # scrape + analyze + validate
-
-npm run discovery:refresh -- --notify  # also POST summary to MVP API
-
-npm run discovery:refresh -- --fresh # ignore existing corpus (full re-scrape)
-
-```
-
-
-
-Check status: `GET /api/workflows/discovery-refresh` or `GET /api/discovery/status`
-
-
-
-## Environment variables (n8n)
-
-
-
-```
-
 MVP_APP_URL=https://your-app.vercel.app
-
 N8N_WEBHOOK_SECRET=your-shared-secret
-
-REPO_PATH=/path/to/repo   # twelve-hour-scrape only (self-hosted)
-
+REPO_PATH=/path/to/repo   # twelve-hour-scrape only (self-hosted n8n)
 ```
 
-
-
-Set the same `N8N_WEBHOOK_SECRET` in Vercel environment variables.
-
-
-
-## Webhook contract — Post Order
-
-
-
-```json
-
-POST /webhook/order-completed
-
-{
-
-  "userId": "user-atharv",
-
-  "items": ["Milk 1L", "Bread"],
-
-  "categories": ["Groceries"],
-
-  "totalAmount": 245
-
-}
-
-```
-
-
+Set the same `N8N_WEBHOOK_SECRET` in your MVP host env (Vercel / Netlify).
 
 ## API authentication
 
+Workflow API calls include:
 
-
-All workflow API calls include header:
-
-
-
-```
-
+```http
 x-webhook-secret: <N8N_WEBHOOK_SECRET>
-
 ```
-
-
 
 ## Testing locally
 
-
-
 ```bash
-
-curl -X POST http://localhost:3000/api/events/order \
-
-  -H "Content-Type: application/json" \
-
-  -d '{"userId":"user-atharv","items":["Milk"],"categories":["Groceries"],"totalAmount":100}'
-
-
-
-curl -X POST http://localhost:3000/api/workflows/scan-users \
-
-  -H "x-webhook-secret: dev-secret-change-in-production"
-
-
-
 curl http://localhost:3000/api/workflows/discovery-refresh
 
+curl -X POST http://localhost:3000/api/workflows/discovery-refresh \
+  -H "Content-Type: application/json" \
+  -H "x-webhook-secret: blinkit-mvp-webhook-prod" \
+  -d '{"completedAt":"2026-08-03T12:00:00Z","schedule":"12h","themes":10}'
+
+curl -X POST http://localhost:3000/api/collect/reviews \
+  -H "Content-Type: application/json" \
+  -d '{"source":"web_ui","text":"Blinkit delivery was super fast today, love the app"}'
 ```
-
-

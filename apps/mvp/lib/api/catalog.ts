@@ -5,14 +5,14 @@ export interface ApiRouteDoc {
   auth?: "webhook" | "public";
   phase: "discovery" | "mvp" | "ops";
   example?: Record<string, unknown>;
+  /** Omit from GET /api catalog and any in-app API listings */
+  hideFromUi?: boolean;
 }
 
 const base = process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000";
 
 export function getApiCatalog(): { baseUrl: string; routes: ApiRouteDoc[] } {
-  return {
-    baseUrl: base,
-    routes: [
+  const routes: ApiRouteDoc[] = [
       {
         method: "GET",
         path: "/api",
@@ -131,6 +131,7 @@ export function getApiCatalog(): { baseUrl: string; routes: ApiRouteDoc[] } {
         description: "LLM config — Groq/OpenAI model and readiness",
         auth: "public",
         phase: "mvp",
+        hideFromUi: true,
       },
       {
         method: "POST",
@@ -138,6 +139,7 @@ export function getApiCatalog(): { baseUrl: string; routes: ApiRouteDoc[] } {
         description: "Generate AI category recommendation (Groq LLM + discovery RAG)",
         auth: "public",
         phase: "mvp",
+        hideFromUi: true,
         example: { userId: "user-atharv", forceNew: true },
       },
       {
@@ -162,6 +164,7 @@ export function getApiCatalog(): { baseUrl: string; routes: ApiRouteDoc[] } {
         description: "Post-order webhook — creates order + optional nudge (n8n)",
         auth: "webhook",
         phase: "mvp",
+        hideFromUi: true,
         example: {
           userId: "user-atharv",
           items: ["Amul Milk 1L", "Britannia Bread"],
@@ -204,6 +207,10 @@ export function getApiCatalog(): { baseUrl: string; routes: ApiRouteDoc[] } {
         auth: "public",
         phase: "ops",
       },
-    ],
+    ];
+
+  return {
+    baseUrl: base,
+    routes: routes.filter((route) => !route.hideFromUi),
   };
 }
