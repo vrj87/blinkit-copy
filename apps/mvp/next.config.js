@@ -17,16 +17,12 @@ const nextConfig = {
       bodySizeLimit: "2mb",
     },
     outputFileTracingIncludes: {
-      "/mvp": ["apps/mvp/dev.db", "apps/mvp/prisma/dev.db"],
-      "/playground": [...discoveryDataIncludes, "apps/mvp/dev.db", "apps/mvp/prisma/dev.db"],
+      "/playground": discoveryDataIncludes,
       "/discovery/part1": discoveryDataIncludes,
       "/discovery/part3": discoveryDataIncludes,
-      "/demo/user/[id]": ["apps/mvp/dev.db", "apps/mvp/prisma/dev.db"],
-      "/dashboard": ["apps/mvp/dev.db", "apps/mvp/prisma/dev.db"],
       "/dashboard/discovery": discoveryDataIncludes,
       "/api/discovery": discoveryDataIncludes,
       "/api/research/questions": discoveryDataIncludes,
-      "/api/*": ["apps/mvp/dev.db", "apps/mvp/prisma/dev.db"],
     },
   },
 };

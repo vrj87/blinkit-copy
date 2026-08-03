@@ -40,13 +40,24 @@ GrauationProject2/
 
 - Node.js 20+
 - npm
+- PostgreSQL database ([Neon](https://neon.tech) or [Supabase](https://supabase.com) — free tier works for demo)
 
-### 1. Install
+### PostgreSQL setup
+
+1. Create a Neon or Supabase project.
+2. Copy connection strings into `apps/mvp/.env` (see `apps/mvp/.env.example`):
+   - `DATABASE_URL` — pooled URL (Neon pooled / Supabase transaction pooler port 6543)
+   - `DIRECT_URL` — direct URL for migrations (Neon direct / Supabase port 5432)
+3. Run setup (applies migrations + seeds empty DB):
 
 ```bash
 npm install
 npm run backend:setup
 ```
+
+To wipe and re-seed: `FORCE_DB_SEED=true npm run db:seed` from `apps/mvp`.
+
+### 1. Install
 
 ### 2. Run MVP
 

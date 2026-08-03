@@ -3,6 +3,7 @@ import { generateNudge } from "@/lib/llm";
 import { matchesTargetSegment, parseJsonArray } from "@/lib/segment";
 import { getStarterPack } from "@/lib/starter-packs";
 import { getCatalogue } from "@/lib/themes";
+import { syncUserOrderCount } from "@/lib/user-order-sync";
 import type { OrderLineItem } from "@/lib/product-catalog";
 
 export interface PlaceOrderInput {
@@ -39,14 +40,15 @@ export async function placeOrderWithLlm(input: PlaceOrderInput) {
   await prisma.user.update({
     where: { id: input.userId },
     data: {
-      orderCount: user.orderCount + 1,
       lastOrderAt: new Date(),
       categoriesPurchased: JSON.stringify(mergedCats),
     },
   });
 
+  const orderCount = await syncUserOrderCount(input.userId);
+
   const segment = matchesTargetSegment({
-    orderCount: user.orderCount + 1,
+    orderCount,
     categoriesPurchased: mergedCats,
     optedOut: user.optedOut,
     segmentTags: parseJsonArray(user.segmentTags),
@@ -59,6 +61,7 @@ export async function placeOrderWithLlm(input: PlaceOrderInput) {
       segment,
       ai: null,
       message: "User opted out of recommendations",
+      orderCount,
       status: 200 as const,
     };
   }
@@ -67,7 +70,7 @@ export async function placeOrderWithLlm(input: PlaceOrderInput) {
     userName: user.name,
     categoriesPurchased: mergedCats,
     recentItems: input.items,
-    orderCount: user.orderCount + 1,
+    orderCount,
   });
 
   const nudge = await prisma.nudge.create({
@@ -85,7 +88,7 @@ export async function placeOrderWithLlm(input: PlaceOrderInput) {
     },
   });
 
-  return { order, nudge, segment, ai: meta, status: 200 as const };
+  return { order, nudge, segment, ai: meta, orderCount, status: 200 as const };
 }
 
 /** Place starter-pack order when user accepts an AI category nudge */
@@ -124,11 +127,12 @@ export async function placeStarterPackOrder(userId: string, category: string) {
   await prisma.user.update({
     where: { id: userId },
     data: {
-      orderCount: user.orderCount + 1,
       lastOrderAt: new Date(),
       categoriesPurchased: JSON.stringify(mergedCats),
     },
   });
 
-  return { order, itemCount: pack.products.length, status: 200 as const };
+  const orderCount = await syncUserOrderCount(userId);
+
+  return { order, itemCount: pack.products.length, orderCount, status: 200 as const };
 }

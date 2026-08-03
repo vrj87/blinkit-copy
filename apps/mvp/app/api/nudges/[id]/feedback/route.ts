@@ -42,6 +42,7 @@ export async function POST(
       nudge,
       order: serializeOrder(result.order),
       itemCount: result.itemCount,
+      orderCount: result.orderCount,
     });
   }
 

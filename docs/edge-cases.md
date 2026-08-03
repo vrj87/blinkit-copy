@@ -186,12 +186,12 @@ Target: weekly essentials buyers — 3+ orders, ≤2 categories, no expansion ca
 
 | ID | Edge case | Expected behavior | Severity |
 |----|-----------|-------------------|----------|
-| DB-01 | SQLite file missing on cold start | `prisma db push` + seed required; app errors clearly | P0 |
-| DB-02 | Seed run twice | Seed deletes then recreates; ids stable (`user-atharv`) | P1 |
+| DB-01 | Postgres unreachable or migrations not applied | `prisma migrate deploy` + seed required; `/api/health` reports DB status | P0 |
+| DB-02 | Seed run twice | Idempotent: skips if users exist; `FORCE_DB_SEED=true` wipes and re-seeds | P1 |
 | DB-03 | JSON fields corrupt in DB | `parseJsonArray` returns `[]`; treat as ineligible / empty | P1 |
 | DB-04 | Concurrent feedback updates | Last write wins; prefer transactional update | P2 |
 | DB-05 | Themes table empty but `themes.json` exists | RAG loads from file; seed optional | P1 |
-| DB-06 | Production serverless SQLite write fails | Document Turso/Postgres requirement | P0 |
+| DB-06 | Production serverless SQLite write fails | Resolved — Postgres (Neon/Supabase) with pooled `DATABASE_URL` | P0 |
 
 ---
 

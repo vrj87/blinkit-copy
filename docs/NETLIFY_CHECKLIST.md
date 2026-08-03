@@ -11,7 +11,8 @@ Use this before and after connecting [github.com/vrj87/blinkit](https://github.c
 | Next.js 15 plugin v5 | Ready | `package.json` → `@netlify/plugin-nextjs` (dependencies) |
 | Node 20 | Ready | `.node-version`, `netlify.toml` |
 | Prisma Lambda binary | Ready | `prisma/schema.prisma` → `rhel-openssl-3.0.x` |
-| SQLite serverless copy | Ready | `apps/mvp/lib/db.ts` → `/tmp/blinkit-mvp.db` |
+| Prisma migrations | Ready | `apps/mvp/prisma/migrations/` |
+| PostgreSQL (Neon/Supabase) | Required | `DATABASE_URL` + `DIRECT_URL` in Netlify UI |
 | DB + discovery traced in bundle | Ready | `apps/mvp/next.config.js` |
 | Unit tests | Ready | `npm test` (29 passing) |
 | Publish audit script | Ready | `scripts/audit-publish.ps1` |
@@ -37,7 +38,8 @@ Set scopes to **All** or at minimum **Builds** + **Deploys**:
 | Variable | Required | Example |
 |----------|----------|---------|
 | `GROQ_API_KEY` | **Yes** (build + runtime) | Your Groq key |
-| `DATABASE_URL` | Yes | `file:../dev.db` *(relative to `prisma/schema.prisma` → `apps/mvp/dev.db`)* |
+| `DATABASE_URL` | **Yes** | Neon/Supabase **pooled** URL |
+| `DIRECT_URL` | **Yes** (build) | Neon/Supabase **direct** URL (for `prisma migrate deploy`) |
 | `N8N_WEBHOOK_SECRET` | Recommended | Same as local `.env` |
 | `NEXT_PUBLIC_APP_URL` | After 1st deploy | `https://YOUR-SITE.netlify.app` |
 
@@ -68,12 +70,9 @@ Optional:
 ## Local pre-flight (optional)
 
 ```powershell
-# Windows
+# Windows — requires DATABASE_URL and DIRECT_URL in apps/mvp/.env
 cd apps/mvp
-$env:DATABASE_URL="file:./dev.db"
-npx prisma generate; npx prisma db push; npx tsx prisma/seed.ts
-Copy-Item dev.db prisma/dev.db -Force
-npm run build
+npx prisma generate; npx prisma migrate deploy; npm run build
 cd ..\..
 powershell -ExecutionPolicy Bypass -File scripts/audit-publish.ps1
 npm test
@@ -81,7 +80,7 @@ npm test
 
 ## Known limitations
 
-- **SQLite on serverless:** Demo DB is seeded at build and copied to `/tmp` at runtime. Order writes work within a warm Lambda instance; not suitable for high-scale production.
+- **First deploy:** Database is empty until you run `npm run db:seed` once (locally against prod URL) or set `FORCE_DB_SEED=true` for a single build.
 - **Collect UI (`:3001`):** Not deployed — discovery data is bundled in the MVP app.
 - **n8n workflows:** Optional; MVP works without them for the demo.
 

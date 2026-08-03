@@ -2,10 +2,13 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { Part4MvpShowcase } from "@/components/Part4MvpShowcase";
 import { getDemoProfile, PRIMARY_DEMO_USER_IDS } from "@/lib/demo-users";
+import { syncAllUserOrderCounts } from "@/lib/user-order-sync";
 
 export const dynamic = "force-dynamic";
 
 export default async function MvpPage() {
+  await syncAllUserOrderCounts();
+
   const demoUserRows = await Promise.all(
     PRIMARY_DEMO_USER_IDS.map((id) =>
       prisma.user.findUnique({

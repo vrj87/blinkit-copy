@@ -50,7 +50,7 @@ flowchart LR
 
 ## As-built system overview
 
-The monorepo is **implemented end-to-end**: discovery pipeline, research/problem showcases, Blinkit-style MVP phone UI, REST APIs, SQLite persistence, Groq LLM nudges, n8n workflow contracts, and Vitest unit tests.
+The monorepo is **implemented end-to-end**: discovery pipeline, research/problem showcases, Blinkit-style MVP phone UI, REST APIs, PostgreSQL persistence (Prisma), Groq LLM nudges, n8n workflow contracts, and Vitest unit tests.
 
 ```mermaid
 flowchart TB
@@ -81,7 +81,7 @@ flowchart TB
   end
 
   subgraph persistence [DataLayer]
-    SQLite[(SQLite via Prisma)]
+    Postgres[(PostgreSQL via Prisma)]
     Themes[(themes.json + Theme table)]
   end
 
@@ -90,7 +90,7 @@ flowchart TB
   DemoUser --> UI
   UI --> API
   API --> Lib
-  Lib --> SQLite
+  Lib --> Postgres
   Lib --> Groq
   Lib --> Themes
   Collect --> API
@@ -105,7 +105,7 @@ flowchart TB
 |-------|------------|
 | **Frontend** | Next.js 15, React 19, TypeScript |
 | **API** | Next.js App Router route handlers, Zod validation |
-| **Database** | SQLite + Prisma 6 (`apps/mvp/prisma/`) |
+| **Database** | PostgreSQL + Prisma 6 (`apps/mvp/prisma/`) — Neon or Supabase |
 | **LLM** | Groq (`llama-3.3-70b-versatile`) via OpenAI SDK; OpenAI fallback |
 | **Discovery** | `@blinkit/discovery-core`, `tools/discovery-pipeline`, `data/discovery/` |
 | **Orchestration** | n8n workflow JSON in `workflows/`; optional GitHub Actions scrape |
@@ -123,7 +123,7 @@ GrauationProject2/
 │   │   ├── app/                 # Pages + API routes
 │   │   ├── components/          # Blinkit UI, showcases, nudge cards
 │   │   ├── lib/                 # Business logic (llm, segment, catalog, orders)
-│   │   └── prisma/              # Schema, seed, SQLite dev.db
+│   │   └── prisma/              # Schema, migrations, seed
 │   └── collect/                 # Phase 1a: manual review ingest UI (:3001)
 ├── packages/
 │   └── discovery-core/          # Shared types, normalize, path helpers
@@ -148,7 +148,7 @@ GrauationProject2/
 | `npm run dev` | Start MVP app (`apps/mvp`, port 3000) |
 | `npm run dev:collect` | Start collect UI (`apps/collect`, port 3001) |
 | `npm run db:seed` | Seed demo users, orders, themes |
-| `npm run backend:setup` | `prisma db push` + seed (PowerShell) |
+| `npm run backend:setup` | `prisma migrate deploy` + seed (PowerShell) |
 | `npm run discovery:refresh` | Scrape → normalize → analyze → validate |
 | `npm run discovery:scrape` | Scrape only |
 | `npm test` | All unit tests (29) |
@@ -299,7 +299,7 @@ flowchart TB
     Themes[themes.ts — discovery RAG]
   end
 
-  subgraph db [Prisma SQLite]
+  subgraph db [Prisma PostgreSQL]
     User[(User)]
     Order[(Order + lineItems JSON)]
     Nudge[(Nudge + generationMeta)]
@@ -398,7 +398,7 @@ Full machine-readable index: `GET /api` (generated from `lib/api/catalog.ts`).
 
 **Request validation:** Zod schemas in `lib/api/schemas.ts` (`placeOrderSchema`, `nudgeFeedbackSchema`, `generateNudgeSchema`, etc.).
 
-### Database schema (Prisma + SQLite)
+### Database schema (Prisma + PostgreSQL)
 
 ```
 User
@@ -425,7 +425,7 @@ Theme
 
 **Seed data:** Four demo users (Atharv, Amit, Raju, Sandy) with distinct purchase patterns; themes synced from `data/discovery/themes.json` (`prisma/seed.ts`).
 
-**Setup:** `npm run backend:setup` or `cd apps/mvp && npx prisma db push && npm run db:seed`.
+**Setup:** `npm run backend:setup` or `cd apps/mvp && npx prisma migrate deploy && npm run db:seed`.
 
 ### Lib modules (`apps/mvp/lib/`)
 
@@ -496,7 +496,8 @@ Run: `npm test` (all) · `npm run test:mvp` (MVP only) · `npm run test:watch`.
 
 | Variable | Purpose |
 |----------|---------|
-| `DATABASE_URL` | SQLite path (`file:./dev.db`) |
+| `DATABASE_URL` | PostgreSQL pooled URL (Neon/Supabase) |
+| `DIRECT_URL` | PostgreSQL direct URL (migrations) |
 | `GROQ_API_KEY` | Primary LLM (Groq) |
 | `OPENAI_API_KEY` | Fallback LLM |
 | `N8N_WEBHOOK_SECRET` | Webhook authentication |
@@ -508,7 +509,7 @@ Run: `npm test` (all) · `npm run test:mvp` (MVP only) · `npm run test:watch`.
 | Service | Host | Notes |
 |---------|------|-------|
 | Next.js MVP | **Vercel** | `category-explorer-mvp.vercel.app` |
-| SQLite | Bundled at build | `prisma db push` + seed in deploy script |
+| PostgreSQL | Neon / Supabase | `prisma migrate deploy` at build |
 | Groq LLM | Groq API | Env on Vercel |
 | Collect UI | Local / optional | Discovery ingest; production uses API + bundled data |
 | Discovery pipeline | GitHub Actions / local cron | Updates `data/discovery/` |
@@ -593,7 +594,7 @@ flowchart LR
 | LLM hallucinated insights | Quote linkage + validation pass in Phase 1; structured Zod output |
 | MVP scope creep | Catalog is static (19 products); no payments or real delivery |
 | Stale Prisma client after schema change | Restart dev server after `npx prisma generate` |
-| SQLite on Vercel | Acceptable for demo; migrate to Postgres for production scale |
+| PostgreSQL on serverless | Neon/Supabase with pooled `DATABASE_URL` |
 | Webhook secret exposure | `N8N_WEBHOOK_SECRET` in env only; never committed |
 
 ---

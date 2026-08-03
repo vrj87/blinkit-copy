@@ -6,6 +6,8 @@ node_modules/
 *.db-journal
 .vercel
 .env*
+!.env.example
 
 .vercel
 .env*
+!.env.example

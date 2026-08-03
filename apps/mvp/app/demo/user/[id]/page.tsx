@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { DemoUserClient } from "@/components/DemoUserClient";
 import { getDemoProfile } from "@/lib/demo-users";
+import { syncUserOrderCount } from "@/lib/user-order-sync";
 
 export const dynamic = "force-dynamic";
 
@@ -12,7 +13,11 @@ export default async function DemoUserPage({
 }) {
   const { id } = await params;
 
-  const user = await prisma.user.findUnique({
+  const exists = await prisma.user.findUnique({ where: { id }, select: { id: true } });
+  if (!exists) notFound();
+
+  await syncUserOrderCount(id);
+  const syncedUser = await prisma.user.findUnique({
     where: { id },
     include: {
       orders: { orderBy: { createdAt: "desc" }, take: 12 },
@@ -20,18 +25,18 @@ export default async function DemoUserPage({
     },
   });
 
-  if (!user) notFound();
+  if (!syncedUser) notFound();
 
-  const profile = getDemoProfile(user.id);
+  const profile = getDemoProfile(syncedUser.id);
 
   return (
     <DemoUserClient
       user={{
-        ...user,
+        ...syncedUser,
         personaLabel: profile?.personaLabel,
         addressTitle: profile?.addressTitle,
         addressSub: profile?.addressSub,
-        orders: user.orders.map((o) => ({
+        orders: syncedUser.orders.map((o) => ({
           ...o,
           createdAt: o.createdAt.toISOString(),
         })),

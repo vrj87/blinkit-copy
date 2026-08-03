@@ -83,8 +83,8 @@ export function loadUserDemoState(
 ): UserDemoState {
   const normalized = serverOrders.map((o) => normalizeOrderRow(o));
   const merged = mergeOrders(normalized, loadCachedOrders(userId));
-  const storedCount = loadCachedOrderCount(userId);
-  const orderCount = Math.max(serverOrderCount, merged.length, storedCount ?? 0);
+  // DB orderCount is authoritative; merged.length covers offline-only local orders
+  const orderCount = Math.max(serverOrderCount, merged.length);
   return { orders: merged, orderCount };
 }
 

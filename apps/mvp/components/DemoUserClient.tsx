@@ -12,7 +12,6 @@ import {
   loadUserDemoState,
   mergeOrders,
   saveUserDemoState,
-  withNewOrder,
   type UserDemoState,
 } from "@/lib/demo-order-cache";
 import { BlinkitPhoneShell, type BlinkitTab } from "@/components/BlinkitPhoneShell";
@@ -157,12 +156,10 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
         (data.user.orders ?? []).map(normalizeOrderRow),
         loadCachedOrders(user.id)
       );
+      const dbOrderCount = data.user.orderCount ?? 0;
       const next: UserDemoState = {
         orders: refreshedOrders,
-        orderCount: Math.max(
-          data.user.orderCount ?? 0,
-          refreshedOrders.length
-        ),
+        orderCount: Math.max(dbOrderCount, refreshedOrders.length),
       };
       applyDemoState(next);
       setNudges(
@@ -249,6 +246,7 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
       };
       nudge?: NudgeRow | null;
       message?: string;
+      orderCount?: number;
       ai?: { source?: string; provider?: string; latencyMs?: number } | null;
     },
     meta: { itemCount: number; totalAmount: number }
@@ -256,7 +254,15 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
     if (!data.order) return;
 
     const newOrder = normalizeOrderRow(data.order);
-    const next = withNewOrder(user.id, { orders, orderCount }, newOrder);
+    const mergedOrders = [
+      newOrder,
+      ...orders.filter((o) => o.id !== newOrder.id),
+    ];
+    const nextOrderCount =
+      typeof data.orderCount === "number"
+        ? Math.max(data.orderCount, mergedOrders.length)
+        : Math.max(orderCount + 1, mergedOrders.length);
+    const next = { orders: mergedOrders, orderCount: nextOrderCount };
     applyDemoState(next);
     setHighlightOrderId(newOrder.id);
     setAppTab("orders");
@@ -456,7 +462,7 @@ export function DemoUserClient({ user, embedded = false, onStatsChange }: DemoUs
       const n = nudges.find((x) => x.id === id);
       const itemCount = data.itemCount ?? JSON.parse(data.order.items as string).length;
       handleOrderPlaced(
-        { order: data.order },
+        { order: data.order, orderCount: data.orderCount },
         { itemCount, totalAmount: data.order.totalAmount }
       );
       setQueuedNudge(null);

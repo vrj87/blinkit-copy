@@ -17,7 +17,8 @@ Use `https://YOUR-SITE.netlify.app` + path above (or your Vercel URL).
 ## Configured automatically on deploy
 
 - `GROQ_API_KEY` — Groq LLM for explained recommendations (`llama-3.3-70b-versatile`)
-- `DATABASE_URL` — SQLite seeded at build (`prisma db push` + `seed`)
+- `DATABASE_URL` — PostgreSQL pooled URL (Neon/Supabase)
+- `DIRECT_URL` — PostgreSQL direct URL (migrations at build)
 - `N8N_WEBHOOK_SECRET` — `blinkit-mvp-webhook-prod`
 - `NEXT_PUBLIC_APP_URL` / `NEXT_PUBLIC_COLLECT_URL` — set after first deploy + redeploy
 

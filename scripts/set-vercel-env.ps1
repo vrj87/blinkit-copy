@@ -39,7 +39,8 @@ if ([string]::IsNullOrWhiteSpace($webhookSecret) -or $webhookSecret -eq "dev-sec
   $webhookSecret = "blinkit-mvp-webhook-prod"
 }
 
-Add-VercelEnv "DATABASE_URL" "file:./dev.db"
+Add-VercelEnv "DATABASE_URL" (Get-EnvValue "DATABASE_URL") -Sensitive
+Add-VercelEnv "DIRECT_URL" (Get-EnvValue "DIRECT_URL") -Sensitive
 Add-VercelEnv "GROQ_API_KEY" (Get-EnvValue "GROQ_API_KEY") -Sensitive
 Add-VercelEnv "OPENAI_API_KEY" (Get-EnvValue "OPENAI_API_KEY") -Sensitive
 Add-VercelEnv "N8N_WEBHOOK_SECRET" $webhookSecret -Sensitive

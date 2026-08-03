@@ -14,7 +14,7 @@ scripts\deploy-prod.cmd
 
 ## What the script does
 
-1. Sets Vercel production env: `GROQ_API_KEY`, `DATABASE_URL`, `N8N_WEBHOOK_SECRET`
+1. Sets Vercel production env: `GROQ_API_KEY`, `DATABASE_URL`, `DIRECT_URL`, `N8N_WEBHOOK_SECRET`
 2. Deploys to `vrj87/category-explorer-mvp`
 3. Sets `NEXT_PUBLIC_APP_URL` + redeploys
 4. Updates `docs/PRODUCTION.md` with live URLs
@@ -33,7 +33,7 @@ powershell -ExecutionPolicy Bypass -File ..\..\scripts\set-vercel-env.ps1 -Deplo
 - **Discovery data:** `outputFileTracingRoot` includes `data/discovery/` in serverless bundle
 - **Groq LLM:** `GROQ_API_KEY` from local `.env` pushed to Vercel (explained nudges)
 - **Collect UI:** production uses `/dashboard/discovery` instead of localhost:3001 iframe
-- **SQLite:** seeded at build time via `prisma db push` + `seed.ts`
+- **PostgreSQL:** `prisma migrate deploy` at build; seed once via `npm run db:seed` (idempotent — skips if users exist)
 
 ## After deploy
 

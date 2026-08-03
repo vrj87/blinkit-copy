@@ -37,7 +37,8 @@ vercel --prod --scope vrj87
 
 | Name | Notes |
 |------|--------|
-| `DATABASE_URL` | Prefer Turso/Postgres for production; local uses `file:./dev.db` |
+| `DATABASE_URL` | PostgreSQL pooled URL (Neon/Supabase) |
+| `DIRECT_URL` | PostgreSQL direct URL (migrations only) |
 | `GROQ_API_KEY` | From [console.groq.com/keys](https://console.groq.com/keys) — used for nudge LLM |
 | `N8N_WEBHOOK_SECRET` | Shared with n8n workflows |
 | `OPENAI_API_KEY` | Optional fallback if Groq unset |

@@ -7,7 +7,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  DATABASE_URL = "file:../dev.db"
+  # DATABASE_URL and DIRECT_URL — set in Netlify UI (Neon/Supabase)
   # Ensure build-time plugins and Prisma/TS tooling install in CI
   NPM_CONFIG_PRODUCTION = "false"
 

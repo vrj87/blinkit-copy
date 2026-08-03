@@ -41,7 +41,8 @@ git push origin main
 | Variable | Value |
 |----------|--------|
 | `GROQ_API_KEY` | Your key from [console.groq.com/keys](https://console.groq.com/keys) |
-| `DATABASE_URL` | `file:../dev.db` |
+| `DATABASE_URL` | Neon/Supabase **pooled** connection URL |
+| `DIRECT_URL` | Neon/Supabase **direct** URL (for `prisma migrate deploy` at build) |
 | `N8N_WEBHOOK_SECRET` | Same as `apps/mvp/.env` |
 | `NEXT_PUBLIC_APP_URL` | `https://YOUR-SITE.netlify.app` *(after first deploy)* |
 
@@ -96,11 +97,9 @@ powershell -ExecutionPolicy Bypass -File scripts/audit-publish.ps1
 
 ```powershell
 cd apps/mvp
-$env:DATABASE_URL="file:./dev.db"
+# DATABASE_URL and DIRECT_URL from apps/mvp/.env
 npx prisma generate
-npx prisma db push
-npx tsx prisma/seed.ts
-Copy-Item dev.db prisma/dev.db -Force
+npx prisma migrate deploy
 npm run build
 cd ../..
 powershell -ExecutionPolicy Bypass -File scripts/audit-publish.ps1
@@ -112,7 +111,7 @@ powershell -ExecutionPolicy Bypass -File scripts/audit-publish.ps1
 |-------|----------|
 | `apps/mvp/.next` | ~300+ files, ~150–200 MB |
 | Routes | `/mvp`, `/playground`, `/api/health`, etc. under `server/app` |
-| `dev.db` in `.nft.json` | Listed in traces for `/mvp`, `/playground`, `/api/*` |
+| No `dev.db` in traces | Expected — Postgres is external |
 | Prisma engine | `libquery_engine-rhel-openssl-3.0.x.so.node` in traces |
 
 ### Netlify CLI
@@ -147,7 +146,7 @@ Root `netlify.toml` uses `@netlify/plugin-nextjs` (v5 from `package.json`). Afte
 
 ### 500 on page load (database)
 
-Build seeds SQLite and bundles `dev.db`. Runtime copies it to `/tmp` on Lambda (see `apps/mvp/lib/db.ts`). Ensure `GROQ_API_KEY` is set so seed completes during build.
+Ensure `DATABASE_URL` and `DIRECT_URL` are set in Netlify UI. Build runs `prisma migrate deploy` — check build logs for migration errors. Seed demo data once with `npm run db:seed` (locally against prod URL) if the DB is empty.
 
 ### 404 on every page
 

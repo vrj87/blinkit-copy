@@ -13,7 +13,7 @@ Write-Host ""
 
 if (-not (Test-Path $Next)) {
   Write-Host "MISSING: apps/mvp/.next - run build first" -ForegroundColor Red
-  Write-Host "  cd apps/mvp && npx prisma db push && npx tsx prisma/seed.ts && npm run build"
+  Write-Host "  cd apps/mvp && npx prisma migrate deploy && npm run build"
   exit 1
 }
 
@@ -37,11 +37,12 @@ if (Test-Path $appDir) {
 }
 
 Write-Host ""
-Write-Host "=== SQLite databases (apps/mvp) ==="
-Get-ChildItem $Mvp -Filter "*.db" -Recurse -ErrorAction SilentlyContinue | ForEach-Object {
-  $kb = [math]::Round($_.Length / 1KB, 1)
-  $rel = $_.FullName.Replace($Root, ".")
-  Write-Host "  $rel (${kb} KB)"
+Write-Host "=== Prisma migrations (apps/mvp) ==="
+$migrationsDir = Join-Path $Mvp "prisma\migrations"
+if (Test-Path $migrationsDir) {
+  Get-ChildItem $migrationsDir -Directory | ForEach-Object { Write-Host "  $($_.Name)" }
+} else {
+  Write-Host "  WARN: no prisma/migrations directory" -ForegroundColor Yellow
 }
 
 Write-Host ""
@@ -52,10 +53,10 @@ $nftWithDb = $nftFiles | Where-Object {
 }
 if ($nftWithDb) {
   $nftWithDb | ForEach-Object {
-    Write-Host "  OK: $($_.FullName.Replace($Root, '.'))"
+    Write-Host "  WARN (legacy SQLite): $($_.FullName.Replace($Root, '.'))" -ForegroundColor Yellow
   }
 } else {
-  Write-Host "  WARN: dev.db not found in any .nft.json trace" -ForegroundColor Yellow
+  Write-Host "  OK: no dev.db in traces (expected for Postgres)"
 }
 
 Write-Host ""

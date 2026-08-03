@@ -30,7 +30,8 @@ if ($SiteId) {
 
 $vars = @{
   GROQ_API_KEY           = Get-EnvValue "GROQ_API_KEY"
-  DATABASE_URL           = if (Get-EnvValue "DATABASE_URL") { Get-EnvValue "DATABASE_URL" } else { "file:../dev.db" }
+  DATABASE_URL           = Get-EnvValue "DATABASE_URL"
+  DIRECT_URL             = Get-EnvValue "DIRECT_URL"
   N8N_WEBHOOK_SECRET     = Get-EnvValue "N8N_WEBHOOK_SECRET"
   OPENAI_API_KEY         = Get-EnvValue "OPENAI_API_KEY"
   NEXT_PUBLIC_APP_URL    = Get-EnvValue "NEXT_PUBLIC_APP_URL"

@@ -5,6 +5,7 @@ import { DEMO_NUDGE_SEEDERS, type DemoNudgeSeed } from "../lib/demo-nudges";
 import { DEMO_USER_PROFILES } from "../lib/demo-users";
 import { generateNudge } from "../lib/llm";
 import { parseJsonArray } from "../lib/segment";
+import { syncAllUserOrderCounts } from "../lib/user-order-sync";
 
 const prisma = new PrismaClient();
 
@@ -12,10 +13,23 @@ const prisma = new PrismaClient();
 const LLM_NUDGE_USER_IDS = ["user-atharv", "user-raju", "user-sandy"];
 
 async function main() {
-  await prisma.nudge.deleteMany();
-  await prisma.order.deleteMany();
-  await prisma.user.deleteMany();
-  await prisma.theme.deleteMany();
+  const forceSeed = process.env.FORCE_DB_SEED === "true";
+  const existingUsers = await prisma.user.count();
+
+  if (existingUsers > 0 && !forceSeed) {
+    console.log(
+      `Seed skipped: database already has ${existingUsers} user(s). Set FORCE_DB_SEED=true to wipe and re-seed.`
+    );
+    return;
+  }
+
+  if (forceSeed) {
+    console.log("FORCE_DB_SEED=true — wiping tables before seed");
+    await prisma.nudge.deleteMany();
+    await prisma.order.deleteMany();
+    await prisma.user.deleteMany();
+    await prisma.theme.deleteMany();
+  }
 
   let themes: { themes: { id: string; label: string; summary: string; confidence: string; quotes: unknown[] }[] } = { themes: [] };
   try {
@@ -126,6 +140,8 @@ async function main() {
   console.log("\n=== Generating LLM pending nudges (Groq) ===\n");
   const llmCount = await seedLlmPendingNudges();
   nudgeTotal += llmCount;
+
+  await syncAllUserOrderCounts();
 
   const userCount = DEMO_USER_PROFILES.length + 2;
   console.log(`\nSeed complete: ${userCount} users, ${orderTotal} orders, ${nudgeTotal} nudges (${llmCount} fresh LLM), themes loaded`);

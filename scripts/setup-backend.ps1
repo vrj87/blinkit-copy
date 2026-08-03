@@ -15,8 +15,8 @@ if (-not (Test-Path $envFile) -and (Test-Path $envExample)) {
   Write-Host "Created .env from .env.example"
 }
 
-Write-Host "==> Prisma db push"
-npm run db:push
+Write-Host "==> Prisma migrate deploy"
+npm run db:migrate:deploy
 
 Write-Host "==> Seed demo users, orders, nudges"
 npm run db:seed
