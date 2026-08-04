@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T13:55:35.809Z",
-  "reviewCount": 577,
+  "generatedAt": "2026-08-04T02:42:24.779Z",
+  "reviewCount": 877,
   "themes": [
     {
       "id": "theme-habit-reorder",
@@ -14,11 +14,11 @@
         "weekly_essentials_buyer",
         "young_professional"
       ],
-      "frequency": 56,
+      "frequency": 59,
       "quotes": [
         {
           "reviewId": "rev-001",
-          "text": "I use Blinkit every week for milk, bread, and vegetables. Same list every time because I know exactly what I'll get in 10 minutes. Never tried their personal care section â€” not sure if brands are genu...",
+          "text": "I use Blinkit every week for milk, bread, and vegetables. Same list every time because I know exactly what I'll get in 10 minutes. Never tried their personal care section â€” not sure if brands are ge...",
           "source": "play_store",
           "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp"
         },
@@ -48,11 +48,11 @@
         "weekly_essentials_buyer",
         "urban_professional"
       ],
-      "frequency": 86,
+      "frequency": 108,
       "quotes": [
         {
           "reviewId": "rev-001",
-          "text": "I use Blinkit every week for milk, bread, and vegetables. Same list every time because I know exactly what I'll get in 10 minutes. Never tried their personal care section â€” not sure if brands are genu...",
+          "text": "I use Blinkit every week for milk, bread, and vegetables. Same list every time because I know exactly what I'll get in 10 minutes. Never tried their personal care section â€” not sure if brands are ge...",
           "source": "play_store",
           "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp"
         },
@@ -82,11 +82,11 @@
         "new_parent",
         "urban_professional"
       ],
-      "frequency": 79,
+      "frequency": 106,
       "quotes": [
         {
           "reviewId": "rev-001",
-          "text": "I use Blinkit every week for milk, bread, and vegetables. Same list every time because I know exactly what I'll get in 10 minutes. Never tried their personal care section â€” not sure if brands are genu...",
+          "text": "I use Blinkit every week for milk, bread, and vegetables. Same list every time because I know exactly what I'll get in 10 minutes. Never tried their personal care section â€” not sure if brands are ge...",
           "source": "play_store",
           "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp"
         },
@@ -116,7 +116,7 @@
         "home_cook",
         "household_buyer"
       ],
-      "frequency": 93,
+      "frequency": 117,
       "quotes": [
         {
           "reviewId": "rev-003",
@@ -151,7 +151,7 @@
         "student",
         "new_parent"
       ],
-      "frequency": 91,
+      "frequency": 160,
       "quotes": [
         {
           "reviewId": "rev-004",
@@ -185,7 +185,7 @@
         "urban_professional",
         "student"
       ],
-      "frequency": 22,
+      "frequency": 30,
       "quotes": [
         {
           "reviewId": "rev-004",
@@ -219,7 +219,7 @@
         "household_buyer",
         "young_professional"
       ],
-      "frequency": 60,
+      "frequency": 88,
       "quotes": [
         {
           "reviewId": "rev-007",
@@ -253,7 +253,7 @@
         "student",
         "young_professional"
       ],
-      "frequency": 41,
+      "frequency": 49,
       "quotes": [
         {
           "reviewId": "rev-009",
@@ -321,7 +321,7 @@
         "new_parent",
         "weekly_essentials_buyer"
       ],
-      "frequency": 68,
+      "frequency": 96,
       "quotes": [
         {
           "reviewId": "rev-010",

@@ -1,0 +1,32 @@
+{
+  "completedAt": "2026-08-04T02:42:25.189Z",
+  "schedule": "12h",
+  "runner": "discovery-pipeline",
+  "steps": [
+    "scrape (7 sources + merge)",
+    "normalize",
+    "pipeline:analyze",
+    "pipeline:validate"
+  ],
+  "scrape": {
+    "breakdown": {
+      "app_store": 150,
+      "play_store": 114,
+      "reddit": 78,
+      "forum": 34,
+      "social": 55,
+      "product_review": 80,
+      "quick_commerce": 92
+    },
+    "incoming": 603,
+    "added": 425,
+    "skippedDuplicates": 178,
+    "total": 1075,
+    "afterFilter": 877,
+    "chunkCount": 36,
+    "normalizedAt": "2026-08-04T02:42:24.318Z"
+  },
+  "themes": 10,
+  "validationPassed": 10,
+  "validationTotal": 10
+}
