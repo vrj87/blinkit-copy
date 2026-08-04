@@ -13091,5 +13091,842 @@
     ],
     "textHash": "80f5e2ece14e57825651b7a747cc43065e7748a58458ae94cc15902f1e48a690",
     "wordCount": 489
+  },
+  {
+    "id": "appstore-blinkit-3",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Exchange policy. One of the worst online app there product isnt good and they deliver wrong item constantly",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "f923f36c1dbfb9ba3c432dede0e2c76263c7b7b84d682e4debf4acb2d55a51b6",
+    "wordCount": 18
+  },
+  {
+    "id": "appstore-blinkit-4",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "10 minutes partner. One of the favourite app now",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "0d9bdb1a67fef7014d87a25daa2e34b55d2a32989f1ddf976e388041502a5b92",
+    "wordCount": 9
+  },
+  {
+    "id": "appstore-blinkit-6",
+    "source": "app_store",
+    "date": "2026-08-02",
+    "rating": 1,
+    "text": "Defective pedal basket . Ordered 2 one was defective ordered 2 replace defective one. Items missing nor information provided",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "46c4d682aafed81812e038a7e685938e617d53252cf4da63c6377f7028f4974f",
+    "wordCount": 19
+  },
+  {
+    "id": "appstore-blinkit-10",
+    "source": "app_store",
+    "date": "2026-08-02",
+    "rating": 1,
+    "text": "Keya oregano. Its very coarse. Quality is not upto the mark would like to return it. This is not oregano",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "a74f051775a06d5389b3fde2228fccf8618981760d8253e01fe563745b4d150a",
+    "wordCount": 20
+  },
+  {
+    "id": "appstore-blinkit-11",
+    "source": "app_store",
+    "date": "2026-08-02",
+    "rating": 1,
+    "text": "Blinkit Milk and other products. Very poor products are received…hamesha fata hua doodh hi mila hai….never I have received proper good quality milk….ekdm bekar app hain….baki bhi bahot jyada kharab quality ke items aate",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "230a32dd7970614bf4949beed268f9387d394d3e5eea6e2d71c5cea4761b93f2",
+    "wordCount": 34
+  },
+  {
+    "id": "appstore-blinkit-12",
+    "source": "app_store",
+    "date": "2026-08-02",
+    "rating": 3,
+    "text": "Eggs/ meat/ frozen food not available. Biased in not providing eggs/ poultry items. Even in pet food- only vegetarian available. Doesn’t make sense nor we knew Blinkit differentiated between its buyers. Packaging is average- half the time paper bags are torn up- never faced any of the above issues with Swiggy instamart",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "cec3dae5f13c5a964968db8978d0b74cca127bcf113140ccfa4e47a9af6ec325",
+    "wordCount": 52
+  },
+  {
+    "id": "appstore-blinkit-13",
+    "source": "app_store",
+    "date": "2026-08-02",
+    "rating": 3,
+    "text": "Confusing. Confusing and return policy is not perfect",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "005dd052121bd6abed5c1043726ecef5fb80a1b747a7d34bbff7c2112585e57a",
+    "wordCount": 8
+  },
+  {
+    "id": "appstore-blinkit-14",
+    "source": "app_store",
+    "date": "2026-08-02",
+    "rating": 1,
+    "text": "Coupons not provided. No coupons are available while we are using this app from long time.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "e1d5d210355bfc3b0eae0b87a4607d3652b7bb0d389c673b73ac3bdb4a6696df",
+    "wordCount": 16
+  },
+  {
+    "id": "appstore-blinkit-15",
+    "source": "app_store",
+    "date": "2026-08-02",
+    "rating": 1,
+    "text": "Final order placement. Cannot see additional cost at time of checkout",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "628b0fb9f7dbf805adac289ff932676e6321cbaf0b01a861fc0a49698b9436b5",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-blinkit-db1f8f95-d10e-4dd3-aa89-49849742618e",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "August 2nd blinkit has initiated a refund of 26. The refund is not showing. why are you asking for photos after initiating a refund? shos me promocode amount",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=db1f8f95-d10e-4dd3-aa89-49849742618e",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "659d989635852fc9daff36873bd5af02587462ef728ab995d3248a75911681bd",
+    "wordCount": 28
+  },
+  {
+    "id": "playstore-blinkit-074be4c0-2d84-4c9b-bdfa-42e6fdf776fb",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "they cancelled my order multiple times without any reason",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=074be4c0-2d84-4c9b-bdfa-42e6fdf776fb",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "0ee56e037bcc7751e465dda4299d3ff976523bd2699dd9f157b0d4d45fcbf026",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-57bc4823-d408-45d0-95ce-b9438a67f3a7",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "I love this app. I am able to get what I want the only problem is that the products get sold out fast. And my delivery is fast and app is super easy to use...",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=57bc4823-d408-45d0-95ce-b9438a67f3a7",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "fb4021a46d0b2bf6bfeb019739c27ca2810f9bab98c03aaa1e73e04a75cf7ac5",
+    "wordCount": 35
+  },
+  {
+    "id": "playstore-blinkit-8c7b56c7-0f8e-40de-b787-3909f1cf7caa",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "i ordered wrethrex preworkout there is whiten 5 pouch inside but i get only 4 and the seal of preworkout is broken",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=8c7b56c7-0f8e-40de-b787-3909f1cf7caa",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "e5f074f6ce0da99b2dfa003ae3336c90cd2fb65d6a48b0c7c93d1669ffb455dc",
+    "wordCount": 22
+  },
+  {
+    "id": "playstore-blinkit-f5a4918b-03b1-4f07-b190-ad718586b738",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Very disappointed with Blinkit. I paid for my order, but the product was never delivered. Despite taking full payment, the item is missing, and I'm still waiting for a proper resolution. This is unacceptable. Customers trust your service to deliver what they pay for. Taking money without delivering the ordered product damages that trust. I expect an immediate refund or delivery of the missing item. Please resolve this issue as soon as possible before I escalate it to the consumer grievance autho",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=f5a4918b-03b1-4f07-b190-ad718586b738",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "6d9792cf25e3633a1f4590d920562b520634530cda643f0881e7062a8f96944d",
+    "wordCount": 82
+  },
+  {
+    "id": "playstore-blinkit-5946498b-3152-4a67-8071-2cdb64b9735d",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "very good app everything at your door step",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=5946498b-3152-4a67-8071-2cdb64b9735d",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "3573cf624cd563603d6c0c7a8329a71441323bca4aca4bec1627ac351e61f877",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-c8a06be8-14b1-465e-abf8-8a98acbabcac",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "Fast delivery is Blinkit's biggest strength, but good service is about more than speed. Many delivery partners lack professionalism and basic customer etiquette. The return and replacement process is also disappointing. If you receive a defective or wrong product, getting support can be difficult, and you may end up keeping a useless item. Blinkit should invest in better staff training and provide faster, more reliable customer support.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c8a06be8-14b1-465e-abf8-8a98acbabcac",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "e96d2cb6fb215c656c42f0038983dd6d12af8055267168fa2ece5d34ffd1f548",
+    "wordCount": 67
+  },
+  {
+    "id": "playstore-blinkit-a0097473-5f0b-4f0a-bcfc-b4427e3f8adf",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "bhut accha hai gar bete saman aa jata hai",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=a0097473-5f0b-4f0a-bcfc-b4427e3f8adf",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "95d493143b2ae9909a665d6372eb4265dcc9e1a94bfb31a574deca6b0e8de280",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-ce1e7f13-e257-47d9-8b1a-41987f0cb789",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "they deliver quickly but even though I stay in the city but not in proper city center they dont deliver to my door step i need to go bit far from my home to collect my order blink it please look through it please make sure it delivers to my door step",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=ce1e7f13-e257-47d9-8b1a-41987f0cb789",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "1d5d55212887bbeefc30f8d041fffb9c7cc3aeef324338f7f58e4fe76aaa27b5",
+    "wordCount": 52
+  },
+  {
+    "id": "playstore-blinkit-24ac42ab-d9b7-4b4b-85a6-2ad375f3e8a0",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "bss thoda discount diya kro mujhe and best service",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=24ac42ab-d9b7-4b4b-85a6-2ad375f3e8a0",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "3d43e0f49873ee16a93e4518d6dd47e5913f9ac26db02ae9763e646833adb953",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-fe7e72f5-8bb2-438f-8fd1-1e70b47728c9",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 4,
+    "text": "good app for anything you want not available in local market.both local and quick commerce is important",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=fe7e72f5-8bb2-438f-8fd1-1e70b47728c9",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "f0bdc62d27d90e792bf24f4aca11919ca4e3d19bb92476a8e6c7b123ce7ac82f",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-blinkit-66084e71-e85b-4f5c-bb93-490998478d4b",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "My experience with Blinkit has been excellent. Whether it's their refund policy or any other service, everything is fast and reliable. What stands out the most is their customer support—they take quick action to resolve issues, which makes Blinkit better than many other platforms.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=66084e71-e85b-4f5c-bb93-490998478d4b",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "4d047f07586f804afab968cd65f38fa73886511562352d70f86e48a735f1a265",
+    "wordCount": 44
+  },
+  {
+    "id": "playstore-blinkit-0847996c-570c-4b34-a8df-82d757e8dbe6",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "very bad app. charges more than the product",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=0847996c-570c-4b34-a8df-82d757e8dbe6",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "a0b687e2231fa028ba68c2362bbbe484754c5d13cce53d26115f8e1e4a57f4a4",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-4c56577e-9645-4423-bc7c-5f77976c5125",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "delivery partners never carry change with them and never cooperate.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=4c56577e-9645-4423-bc7c-5f77976c5125",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "83dca6c2789b1b4cb0097624ced1ae1bde1082ad09537be5cc3442927293fdc1",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-blinkit-e66ae7c5-7c32-4821-9fb1-fd1af5e687e6",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "when we need most during rain u stop service I personally hate this not good service। Normal days m aap khud bahar ja sakte h khud s lao excess Kharch s bacho offer add karne k chakkar me Faltu items add karna padta h",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=e66ae7c5-7c32-4821-9fb1-fd1af5e687e6",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "8f1552e08a3669dd91b9b423a9232096348907022d585c6c8c97dd13e6e9a2ab",
+    "wordCount": 44
+  },
+  {
+    "id": "playstore-blinkit-312ea5b1-086c-42c2-947d-36ba306abc90",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "it's a worst no proper reply or response to the coustomer 😡",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=312ea5b1-086c-42c2-947d-36ba306abc90",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "c124e5980eeaf51822c61c209d9f177d50475ac24a6aad854b37415e35893727",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-ce6e123c-21cd-4985-aef9-896c703d7045",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "love this app means after this message was aploded it developer \"sweetest person \"thanks me thankyou the developer youa and your app is very nice 💯💯💯💯",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=ce6e123c-21cd-4985-aef9-896c703d7045",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "9e6f76eb95c2989995c62b2168877635126fb794c01695037ee14937b77346e1",
+    "wordCount": 26
+  },
+  {
+    "id": "playstore-bigbasket-688a3810-14f2-46e2-a733-7de49b4c4cd5",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "best quality app and best quality of products thanku TATA",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=688a3810-14f2-46e2-a733-7de49b4c4cd5",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "0274096358dcefb894d6ab1f772da33300347ed1e605a6f4992a9bd5ba1e2b49",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-bigbasket-2a451a45-7f3a-476d-a580-3b7f89e6950e",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "good 😊 I am happy to use this application.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=2a451a45-7f3a-476d-a580-3b7f89e6950e",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "d2563b029a3f1fd64b6e1f979c5235653476f2aee98b466f57f161e150588599",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-bigbasket-aed1eed2-8614-4c5e-b758-b81739b42eee",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Good at products but not good at support or Reacting for customer care",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=aed1eed2-8614-4c5e-b758-b81739b42eee",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "171727620e53dd93054e28f3beabfb06994241d00faae57f22afd38bb1f2e048",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-bigbasket-815fafbc-cd7c-439e-8ddf-96a099a4f99d",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "excellent service very fast and safe well done",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=815fafbc-cd7c-439e-8ddf-96a099a4f99d",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "37b3d27f1c85d2bd199f490818f9192e8796132826016b7ef4490a4ceed086a9",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-457a8224-9175-4c39-9cf3-420111d6b2fd",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "good service. received all listed items in short time.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=457a8224-9175-4c39-9cf3-420111d6b2fd",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "b624f8458a218016a1bced79b5391463f44f08a985680264d6a78ad3b082ca0a",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-bigbasket-8710b3aa-df58-41e5-aa00-d453e7ab9df1",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Very disappointing experience. I received a broken and defective sandwich griller, but BigBasket refused the return, saying it should have been checked at the doorstep. How is it possible to identify an internal defect without opening the package? Prestige says they only provide servicing. Poor customer support, and neither company is taking responsibility. Highly disappointed.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=8710b3aa-df58-41e5-aa00-d453e7ab9df1",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "e8437bac15ea3e687b4a1d40872a597037f1fadf7fe013439f9874dc0ffa7c60",
+    "wordCount": 55
+  },
+  {
+    "id": "playstore-bigbasket-f043b9b1-d4bb-4720-98f6-0c6d224144de",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "it takes a long time to process the payment",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f043b9b1-d4bb-4720-98f6-0c6d224144de",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "bd19235335d875ef3c633f9ad7f7715409b423b48aeb6caed2573f10ab72a785",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-bigbasket-9e92b1d5-f899-44b8-b3aa-b14d01451d02",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "\"Pathetic bot support, blocks accounts if family members use the same address. Do not download.\"",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=9e92b1d5-f899-44b8-b3aa-b14d01451d02",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "784da2a4296a89a271249d6d45ad7f454917458b20914f295778c3de7f28ff61",
+    "wordCount": 15
+  },
+  {
+    "id": "playstore-bigbasket-d3e1e97e-9723-4a76-85e9-ee4201b26068",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "My order was not delivered in Big Basket and they had already taken the payment but still my order was not received And they don't even have any customer care number These people commit fraud",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=d3e1e97e-9723-4a76-85e9-ee4201b26068",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "0b83989a7e6c6c612c5d77e7b3948d0ba327b4ddcb6d0eaa411e5d4c64a0986e",
+    "wordCount": 35
+  },
+  {
+    "id": "playstore-bigbasket-356b0714-43fb-4c12-b589-d7fd64aac9b9",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "WORST service. You wait for days and then they'll call just once (anytime possible), If you can't pick order gets cancelled in next second. Trying it for the last time, if it happens again, deleting the app forever with 1 star.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=356b0714-43fb-4c12-b589-d7fd64aac9b9",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "18c92476bb37bf7e64bde1a3300f1d3ecaf538430543c8ebceef435bcf7c7ef7",
+    "wordCount": 41
+  },
+  {
+    "id": "social-pp-1ko4bvk",
+    "source": "social",
+    "date": "2025-05-16",
+    "rating": null,
+    "text": "Do you guys tip blinkit, zepto and instagram delivery guys? What is with pushing for tips? — [removed]",
+    "author_segment_hint": "india",
+    "url": "https://reddit.com/r/india/comments/1ko4bvk/do_you_guys_tip_blinkit_zepto_and_instagram/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "e0b8f1fd12f17db04fba670ef2b57c49b304d79e4a1b3698dfa4a2df02876acc",
+    "wordCount": 18
+  },
+  {
+    "id": "social-pp-1jd984w",
+    "source": "social",
+    "date": "2025-03-17",
+    "rating": null,
+    "text": "Girliessss, who's your girl crush? I've got two content creators as mine!! — Ones Rashmi Negi (supnegi on Instagram) - she's one of the major reasons I got the guts to travel solo and her content is so raw, I absolutely love it!! And then one is Sriya (sriyart on Instagram) - everything on her profile screamssss loveee (she works at blinkit and her designs are AMAZING) Both these women are inspiring me to be the best version of myself !! :) Share yours also :)",
+    "author_segment_hint": "TwoXIndia",
+    "url": "https://reddit.com/r/TwoXIndia/comments/1jd984w/girliessss_whos_your_girl_crush_ive_got_two/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "086fbeceb93327bcfccd2e554ae5ae729335ec5b8730658c79228b49de1664da",
+    "wordCount": 86
+  },
+  {
+    "id": "social-pp-1hwsek8",
+    "source": "social",
+    "date": "2025-01-08",
+    "rating": null,
+    "text": "Free Amazon/Flipkart Product : A Scam Alert — Hi India, Just wanted to share an update about a scam I personally fell victim to. I never thought I could be scammed, but honestly, greed got the better of me lol. Here’s what happened: I came across an Instagram ad that said, “Free Amazon/Flipkart orders. No advance payment required. Pay only when you receive the package.” It was obviously enticing since I needed certain gadgets for work, though deep down I suspected it could be a scam. Out of curiosity, I clicked on the WhatsApp link. The person on the other end responded instantly. I asked a lot of questions, and he seemed patient and convincing. To cross-check the validity, I even consulted a friend of mine who’s a grey hat hacker. He mentioned it was possible to exploit Amazon panels to get refunds, as refund processing is done in bulk and some cases go undetected. I also searched Reddit and the internet for similar scams but couldn’t find anything. This gave me some false confidence. I decided to test it out, thinking of getting an iPad Air for my drawings. But then I thought, let’s not be greedy and start with something small. So, I selected headphones. He asked me to add ₹2,000 to my Mobikwik wallet (why ₹2,000? Check screenshots). I did as instructed. Then he asked me to join a Google Meet call and share my screen so he could explain the process. During the call, he asked me to open my Mobikwik app to confirm the payment had been added to my wallet. I did this. He then instructed me to open Amazon and try feeding certain card numbers he provided. After trying several, he kept saying they weren’t working and acted surprised, saying things like, “Aise toh kabhi nahi hota” (this has never happened before). Later, I realized that the ₹2,000 I had deposited was taken from my wallet. Upon investigation, it turned out he had linked my Mobikwik account to Blinkit using my number (which he already had from our WhatsApp conversation). While I was busy entering his card details, I received an OTP notification to link my wallet to Blinkit, but I didn’t notice it (still not sure how). That’s how he managed to steal the money. I’m glad I didn’t try for a bigger purchase—this could have been a much greater loss. I don’t understand why Mobikwik allows screen sharing of the app, especially when other popular payment apps don’t.",
+    "author_segment_hint": "india",
+    "url": "https://reddit.com/r/india/comments/1hwsek8/free_amazonflipkart_product_a_scam_alert/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "dee28aec101c74aa930311698ffcaafff51cb7b5b89aaba6e040bad5030b1084",
+    "wordCount": 417
+  },
+  {
+    "id": "social-pp-1hfexjf",
+    "source": "social",
+    "date": "2024-12-16",
+    "rating": null,
+    "text": "Dating scam - Pune Mumbai Girls Beware — I connected with this guy on Aisle, hoping to meet someone genuine. Instead, I ended up being scammed for INR 30k and emotionally manipulated. How It Started: When we first spoke, he seemed sweet and caring, telling me he wanted to marry me and build a future together. I admit I was hesitant, but he said all the right things, and I wanted to believe him. I ignored my doubts when I couldn’t find his work or personal details online, thinking I should give him a chance. This seemed like too good to be true Situation but i still gave the benefit of doubt. The Manipulation: He showed up unannounced, saying he wanted to “surprise me” and couldn’t leave because he didn’t have his house keys. He guilt-tripped me into letting him stay at my place, saying he had nowhere else to go. He fabricated Everything so well that I felt bad for him and ended up agreeing. That night, he got drunk, made me talk abt my vulnerable things and traumas of life and though I stayed awake the whole time, I tried to be kind and understanding. Keep in mind he not only made me order alcohol even made me order cigrettes for him which he claimed he couldnt find anywhere and me being naive i was like oh really let me check on blinkit. Dumb me. The next day, he started asking for money, claiming his car needed repairs after a tire burst. I initially refused, but his constant calls and messages overwhelmed me. He painted himself as helpless and desperate, and I gave in, sending him INR 30k. Later, he fabricated a back injury and asked for another INR 2.5 lakh for surgery, which I refused. The Lies Unraveled: He claimed to be a British citizen working in India, but his accent, behavior, and inconsistent stories didn’t add up. he was not even able to tell the national anthem of UK and he cleverly diverted my mind to other things. On the night, i found He had two phones, and I noticed suspicious notifications, including a small INR 29 debit for Jio Cinema from indusind bank. When I confronted him, he denied everything and stopped responding to my messages. How I Feel Now: I can’t believe I let myself be manipulated like this. I thought I was helping someone in need, but he preyed on my kindness. It’s not just about the money; it’s the trust he broke and the shame I feel for not seeing through him sooner. I ditched my frnds to make time for him and the guilt, betrayal, emptiness and anger is just boiling in me. I do not know even if i have the guts to go to police i mean they will just ridicule me and make me feel shame. My EMI got bounced bcz of the money i lent him just a day before my emi debit day. What I Have: I have details of his car and his Instagram account His whatsapp number but I don’t know if that’s enough to take action. I Need Advice: 1. Should I go to the police? 2. Is there any hope of recovering my money? 3. How do I make peace with this betrayal and get over the trust issue now i have in the Humanity.",
+    "author_segment_hint": "Scams",
+    "url": "https://reddit.com/r/Scams/comments/1hfexjf/dating_scam_pune_mumbai_girls_beware/",
+    "keywords": [
+      "blinkit",
+      "trust"
+    ],
+    "textHash": "a0f4a2e02dba2462651edef79ca1c599bf26bad43b3b0cb2b1c6bff9f9ae0aa5",
+    "wordCount": 563
+  },
+  {
+    "id": "social-pp-18qpdsc",
+    "source": "social",
+    "date": "2023-12-25",
+    "rating": null,
+    "text": "December Beauty Haul! 🎁✨ — A huge, collective - in no particular order - skincare, body care and fragrances haul for the month of December! 💖Amazon: * Mario Badescu Lavender Face Mist - 118.3 ml x 2 * Dot &amp; Key Watermelon Cooling SPF 50 x 2 * BBW Strawberry Snowflakes Travel Size Body Mist * BBW Twisted Peppermint Cream and Mist * Nivea Cocoa Nourish Body Lotion - 400 ml (not pictured as I gave it to my mom who needed it) 💖Myntra December had amazing discounts so I had to stock up - backups of products not shown in the picture) * Dot &amp; Key Cica Anti Acne Face Wash x 2 * Deconstruct Soothing Cleansing balm x 3 (they were 50% off) * Dove dryness care body wash 800 ml (not pictured) - Was 60% off * Dot &amp; Key Vitamin C + E Gel Moisturiser Travel Edition x 2 * Garnier Oil infused Micellar Water 125 ml x 2 * L’Oréal Paris Lash Paradise Waterproof Mascara - Black 💖Blinkit: * Dot &amp; Key Watermelon Face Wash * Coloressence Dazzle Diva Matte Finish Nail Paint (Jade) 💖 Nykaa: * BBW Iced Sugar Plum Cream and Mist * BBW Gingham Gorgeous Lotion * Elf cosmetics bite sized eyeshadow palette - Truffles and Elf Smudge Brush * BBW Golden Mango Lagoon Body Mist * Colourpop Super shock eyeshadow - Rooftop Cocktails * (Bought in a Nykaa Store) My husband gifted me the Charlotte Tilbury Superstar Glow Kit * Bought 30 ml SDJ Rio Radiance Mist through a Reddit seller who sourced it on Nykaa * BBW Mad About You Body Mist 💖 Instagram stores (who sell international brands) * Glow Recipe Watermelon Glow Toner - 150 ml * Glossier You Rollerball perfume * Spectrum x Emily in Paris Macaroon trio sponge set * P. Louise Cheek of it Liquid Blush in Melon Mood On styledotty * Summer Fridays Jet Lag Mask (28g) 💖Victoria’s Secret website: * Amaretto Fizz Fragrance Mist * Fresh &amp; Clean Glow Body Lotion and Mist * Freebie Lip Gloss - Pink Mimosa 💖HOK Makeup * Makeup Revolution Energy Fix Rose Quartz Fixing Spray The end ✨",
+    "author_segment_hint": "indianbeautyhauls",
+    "url": "https://reddit.com/r/indianbeautyhauls/comments/18qpdsc/december_beauty_haul/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "6a3019547515244a6556c4d562f7d8423cc3208e7393b0dbc8043ec3f8633ea8",
+    "wordCount": 361
+  },
+  {
+    "id": "product-blinkit-27aa29b5-1e36-4a60-92d3-2303cb63d0b6",
+    "source": "product_review",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "I placed my first order here and was surprised by the high price of the product. What was even more disappointing was the additional \"high demand\" charge added to my order. This pricing practice feels unfair and unprofessional, especially for first-time customers. Although I received my order, the overall experience was disappointing enough that I have already uninstalled the app. I hope you reconsider these pricing policies to provide a better customer experience.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=27aa29b5-1e36-4a60-92d3-2303cb63d0b6",
+    "keywords": [],
+    "textHash": "41648072eed48b2865abe7a6f871bca1a9f45fe269bdfff1663841fab58ef08c",
+    "wordCount": 73
+  },
+  {
+    "id": "product-blinkit-8fc45eaa-4467-4cbf-9762-9d77df7f42b8",
+    "source": "product_review",
+    "date": "2026-08-01",
+    "rating": 4,
+    "text": "I've had a good overall experience with Blinkit. The app is easy to use, ordering is quick, and deliveries have been smooth and convenient. However, I once received an expired product, which was a disappointing experience. Apart from that one issue, my orders have been satisfactory. Overall, it's a good app, but I hope they improve their quality checks to ensure expired items are never delivered.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=8fc45eaa-4467-4cbf-9762-9d77df7f42b8",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "9862bb9cad68a0cea41d5ccbcd55294c09e63d6d5faae8c0983d2e26c89ec55e",
+    "wordCount": 66
+  },
+  {
+    "id": "product-blinkit-fc728621-1744-4496-8408-05ea927b4ce8",
+    "source": "product_review",
+    "date": "2026-07-31",
+    "rating": 3,
+    "text": "On many occasions, my orders have been delivered more than 10 minutes later than the promised time. Despite these delays, handling charges are applied on every order. In addition, surcharge fees are often charged even when the order value is below ₹499. This does not seem to be a fair or customer-friendly practice. Many other online delivery platforms either provide free delivery or charge very minimal delivery and handling fees compared to your platform.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=fc728621-1744-4496-8408-05ea927b4ce8",
+    "keywords": [],
+    "textHash": "da0664712d4f6bf6843ca79b5a608feb67e0cf327b4555c175cfcdeee55ffd56",
+    "wordCount": 74
+  },
+  {
+    "id": "product-blinkit-1edec4ea-5b2e-4844-ac6e-906e05083dfc",
+    "source": "product_review",
+    "date": "2026-08-01",
+    "rating": 5,
+    "text": "Blinkit has completely transformed the way I shop for groceries and daily essentials. The app is incredibly fast, easy to navigate, and offers a wide range of products at competitive prices. Deliveries are consistently quick, and the products always arrive fresh, well-packed, and in excellent condition. The user interface is clean and intuitive, making it simple to find what I need within minutes. The checkout process is smooth, payment options are convenient, and order tracking is accur",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1edec4ea-5b2e-4844-ac6e-906e05083dfc",
+    "keywords": [
+      "blinkit",
+      "groceries"
+    ],
+    "textHash": "4593cf7b7dfede7bfad78ae2d45e0d9db83b1463ea392210cb968c6fcd918fd4",
+    "wordCount": 77
+  },
+  {
+    "id": "product-blinkit-2ea33b83-9a3f-4f89-a070-baa4f3de096b",
+    "source": "product_review",
+    "date": "2026-08-02",
+    "rating": 2,
+    "text": "I have noticed that Blinkit's delivery service. However, I was disappointed with the additional charges on my recent order. Today, ordered worth ₹151, but extra ₹54 was added as service & other charges. Delivery hub is only at a 5-minute walk from my location, so these additional charges seem excessive. If such high charges continue to be applied even for nearby deliveries, many customers, including me, may choose not to use the service in the future.I request you to review your pricing policy.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=2ea33b83-9a3f-4f89-a070-baa4f3de096b",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "d9f896e50bc0faf4e5e91b63b41ca62069690e240efe120e50138f04f1a44d0f",
+    "wordCount": 83
+  },
+  {
+    "id": "product-blinkit-f08e30ca-4c50-447f-99e7-42d10622d73b",
+    "source": "product_review",
+    "date": "2026-08-02",
+    "rating": 5,
+    "text": "Blinkit has made grocery shopping so much easier. The delivery is usually very fast, the app is simple to use, and there's a good variety of products available. Orders are well-packed, and customer support is helpful whenever needed. A few improvements, like better stock availability and fewer substitutions, would make the experience even better. Overall, it's a convenient and reliable app for everyday shopping. Highly recommended!",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=f08e30ca-4c50-447f-99e7-42d10622d73b",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "8f43b74f43f924b5c3abc3a9a0d4e1a51f2f49bc40deca0f861fbcabef0fdc15",
+    "wordCount": 66
+  },
+  {
+    "id": "product-blinkit-96fb7dbf-e9b1-4754-85b6-d21cfd05d88d",
+    "source": "product_review",
+    "date": "2026-08-02",
+    "rating": 3,
+    "text": "I am a regular Blinkit user, but recently,on two or three occasions,I’ve faced an issue where both the delivery person and I were trying to connect via call, but the call wouldn't go through, yet, the order status would show as 'delivered. I verified that other calls were connecting fine, so this is a serious issue- it could lead to orders being misused. There really needs to be a solution for this, like an OTP system or something similar, please try to fix it.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=96fb7dbf-e9b1-4754-85b6-d21cfd05d88d",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "34e326b9454c00e69e0eb1454f47afc1db03140c03c298d262094245bb2e408b",
+    "wordCount": 84
+  },
+  {
+    "id": "product-blinkit-815a69e2-02c3-4ee3-b596-0946f8bce643",
+    "source": "product_review",
+    "date": "2026-08-02",
+    "rating": 1,
+    "text": "I am extremely disappointed with your delivery service. I regularly place orders from Zink London, 1st Floor, Mantri Mall because I cannot leave my store during working hours. However, almost every time, the delivery partner stops outside the mall and calls me to come and collect the order. If I had to go outside the mall myself, there would be no point in ordering through a delivery app. The whole purpose of ordering is to have the food delivered to my location. On several occasions, my orders",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=815a69e2-02c3-4ee3-b596-0946f8bce643",
+    "keywords": [],
+    "textHash": "1771f6cdac6d906d5c6acd776a6b471db51714539370678164d2a10ad3557c1b",
+    "wordCount": 87
+  },
+  {
+    "id": "product-blinkit-e91bedca-6ad9-47ad-ae41-ac1a4bd65585",
+    "source": "product_review",
+    "date": "2026-07-31",
+    "rating": 5,
+    "text": "⭐️⭐️⭐️⭐️⭐️ Excellent App & Super Convenient! Blinkit is one of the most convenient apps for getting everyday essentials delivered quickly. The app is smooth, user-friendly, well-organized, and easy to navigate. Finding products, adding them to the cart, making payments, and tracking orders is all very simple. I really like the wide product selection, quick delivery, attractive offers, and hassle-free ordering experience.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=e91bedca-6ad9-47ad-ae41-ac1a4bd65585",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "b093d637cc30ce812365aea4a87ca1f18d3c16d499fa90641cddefede6aea0eb",
+    "wordCount": 61
+  },
+  {
+    "id": "product-blinkit-878e0845-2721-497b-87ae-91f4817cb6ce",
+    "source": "product_review",
+    "date": "2026-08-01",
+    "rating": 5,
+    "text": "\"Great experience with Blinkit! Delivery was very fast, the products arrived fresh and well-packed, and the app is easy to use. It saves a lot of time for daily essentials. Prices are reasonable, though delivery charges can sometimes feel a bit high. Overall, a very convenient service and I would recommend it.\"",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=878e0845-2721-497b-87ae-91f4817cb6ce",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "aca62d7fe342baf7e69c1fc85d15a06608686e3fe1f4b15edd02cf186fbbcf32",
+    "wordCount": 52
+  },
+  {
+    "id": "product-blinkit-cd6c16f2-baf2-4308-891f-a161bdb61193",
+    "source": "product_review",
+    "date": "2026-05-31",
+    "rating": 3,
+    "text": "1. When I send audio recording delivery instructions, I tried to play it back, it just turns off after few seconds, so I can't hear back what I recorded. 2. There must be a save for later option like amazon. It helps to add product which I have seen but don't want to buy now. 3. Also if price has been increased or decreased, I must know. It becomes difficult to order when I have large list of items.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=cd6c16f2-baf2-4308-891f-a161bdb61193",
+    "keywords": [],
+    "textHash": "85b18da86c5ef1dcc141f6a552b36eb4e6476fbd4fe997f41e3613d8e12cfe13",
+    "wordCount": 79
+  },
+  {
+    "id": "product-bigbasket-7869d603-15e2-4eb8-9fcc-7a976338f602",
+    "source": "product_review",
+    "date": "2026-08-01",
+    "rating": 5,
+    "text": "Good experience with bb. Prices r reasonable, attractive offers and discounts too. Delivery charges are also very competitive compared to other grocery delivery apps. But some popular brands r missing in the app viz Dev snacks, Muralya whole fat milk etc.. i recommend stocking these commonly purchased items too. Expanding the product range would make the shopping exp even better.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=7869d603-15e2-4eb8-9fcc-7a976338f602",
+    "keywords": [],
+    "textHash": "7a1e595638ab93b494e96760314c2b6610da06f704b8b1c6264ea5dad5f4aef5",
+    "wordCount": 60
+  },
+  {
+    "id": "product-bigbasket-f1559f1b-8860-486c-9324-76da26ba9805",
+    "source": "product_review",
+    "date": "2026-07-31",
+    "rating": 1,
+    "text": "They always cancel at the last moment. Very poor customer service. Delivery slots are 24 hours, and in the last hour, they just cancel the order, stating \"returned.\" If you raise an issue, they just ask you to reorder! Also, they delivered rotten potatoes and curd once!",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f1559f1b-8860-486c-9324-76da26ba9805",
+    "keywords": [
+      "reorder"
+    ],
+    "textHash": "6470a6e6f8feeadafc1300acbfb3ec99fac3bb625a14f5942bdd3bb51bcfa81e",
+    "wordCount": 47
+  },
+  {
+    "id": "product-bigbasket-adf708f0-1f03-4348-934f-a7059116a6c7",
+    "source": "product_review",
+    "date": "2026-07-31",
+    "rating": 1,
+    "text": "Worst App I have ever seen. I suggest not to order anything from this App because they are not accountable for any loss they made. I have ordered 2 items availing their 125 rupees free cash , so total I paid 100 rupees. However they haven't delivered anything but showed delivered. I tried to contact them but no appropriately responses and I lost my 100 rupees ( refunded 94 rupees out of 125 rupees free cash in BB wallet). 2 years back even my friend got scammed for 500 rupees , no response.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=adf708f0-1f03-4348-934f-a7059116a6c7",
+    "keywords": [],
+    "textHash": "28d09fbc54527dc6582c06bf4247db4811bb5a59680f739fd7ce690fd7261142",
+    "wordCount": 93
+  },
+  {
+    "id": "product-bigbasket-f4fc2c29-8f52-4921-b030-2684e4033683",
+    "source": "product_review",
+    "date": "2026-08-02",
+    "rating": 1,
+    "text": "worst app .. My first order got cancelled and now they are showing that they are not reachable and closed due to technical error. And also showing me that your ₹125 discount only last for one more day but I am unable to do order and when I connect their service team , they are replying repeated answer like a bot giving reply..",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f4fc2c29-8f52-4921-b030-2684e4033683",
+    "keywords": [],
+    "textHash": "ff7ff2842603f29f23f7a2c35935a9b6f9062d954b606e95ccc004272c40284e",
+    "wordCount": 63
+  },
+  {
+    "id": "product_review-pp-1bxzyrb",
+    "source": "product_review",
+    "date": "2024-04-07",
+    "rating": null,
+    "text": "MONEY TIMES TALK* *APRIL 06, 2024* — *As per a market veteran,* when market is on its peak, avoid tip and rumor-based buying as chances of getting trapped cannot be ruled out. Research the basic valuation of every company. Strictly follow a rule of allocation of not more than 7-9% of portfolios in a single stock. Even if the promoter promises, never buy more than 9% in a single stock. *As per a market veteran,* do not trade if the concept is not clear in your mind to avoid panics. Markets are at a peak and volatility will be setting with wild swings both ways. *As per a market veteran,* never sell your winners to average out your losers! Otherwise, you will be left holding losers! Bull markets are like marathons, those who run it know the importance of consistency and discipline and do not get swayed by forecast of calamities in steady bull markets. Invest your energy to develop patience to ride the declines. Ride the tide but don’t time the ride. In our 29th March MTTs, *Godavari Drugs* recommended at Rs.93 touched Rs.108, *Ramky Infra* recommended at Rs.486 touched Rs.643, *Lehar Footwears* recommended at Rs.124 touched Rs.166. *Competent Auto* recommended at Rs.465 touched Rs.494, *TBZ* recommended at Rs.104 touched Rs.120, *SIKA Interplant* recommended at Rs.1524 touched Rs.1984. Book partial profit. As repeated in the last three weeks of MTTs, in just five sessions of April everything has changed in small caps/midcaps as the stocks are up by 20-30%. Smart investors generally use such opportunity to buy end March and sell at 25/35% profit when others come for buying in April. In our 29th March MTTs, *Gujarat Industries Power* recommended at Rs.163 touched Rs.189. *HFCL* recommended at Rs.92 touched Rs.101. *Porwal Auto Components* recommended at Rs.51 touched Rs.57. *Tyche Ind*. recommended at Rs.176 touched Rs.189. These still looks good. Buy/hold. *Morepen Lab* Q3 NP rose 180% to Rs.35.20 cr. from Rs.12.57 cr. YoY and 9M NP grew 97% to Rs.70.98 cr. from Rs.35.50 cr. YoY. With its cost control measures, it achieved 151% growth in EBITDA and 256% rise in NP. It plans to come out with a QIP of Rs.350 cr. Buy for 25% gains. *Black Rose Industries* Q3 NP rose 1915% to Rs.5.44 cr. from Rs.27 lakh YoY. It has reduced its debt and plans to establish a specialty chemical project and implement two toll-manufacturing projects. Its 52-week high is Rs.173. Buy for 25% gains. *Menon Pistons,* the only co. to design &amp; manufacture steel forged pistons, gudgeon pins, rings &amp; auto shafts and paid 100% dividend in FY23. It has a ROCE of 26% and ROE of 22%. Buy for hefty gains. *Gujarat Industries Power* Q3 PAT rose 65% to Rs.46.62 cr. from Rs.28.34 cr. QoQ. It has a BV of Rs.211 and a 52-week high of Rs.237 but is now at Rs.183. It plans to set up a 2375 MW renewable energy park worth Rs.6000 cr. Its P/BV is the best among all power stocks and it has a dividend payout of 25%. Buy for hefty gains. *Himatsingka Seide* posted 9M NP of Rs.89.09 cr. as against a LOSS of Rs.86.42 cr. YoY. Keep it on your radar. *Satin Creditcare Network* posted 9M NP of Rs.307.72 cr. as against a LOSS of Rs.93.79 cr. YoY. Its 52-week high is Rs.284. Promoters are directly and indirectly raising their stake. Buy for 30% gains. *Aeroflex* Q3 PAT grew 76% to Rs.9.04 cr. from Rs.5.15 cr. YoY. It undertook a big expansion that is likely to be completed by April 2024. It also acquired 100% stake in Hyd- Air Engineering Pvt. Ltd. A big positive. Add for 25% gains. *Vibrant Global* posted H1 EPS of Rs 17.5 and trades at a P/E of 4x. Promoters hold 71.3% and fund manager, Siddharth Bhaiya, holds 22.64%. It is available at attractive valuations. Add for multi-bagger gains. *GKB Opthalmics manufactures* ophthalmic lenses and has an excellent brand presence. It is a beneficiary of anti-dumping duty imposed on lenses and thus, it is expanding its capacity from 24000 lenses per day to 40000 from internal accruals. Add for good gains. *MindTeck (India)* is a debt-free and dividend paying MNC that provides various emerging technologies including software for semiconductors. Its 52-week high is Rs.279. It is a potential re-rating candidate. Buy. Debt-free *Denis Chem* produces sterile intravenous injectables is trading at very attractive valuations. It has a dividend yield of 3% and M.Cap/sales of 0.55x. It posted Q3 EPS of Rs 2.31 from Rs 1.32 YoY. Varun Daga holds 11.5% and FIIs hold 20.74%. Add. On 5th April, *NCC* hit new 52-week of high Rs.278 with volumes. Keep it on your radar. *Arex Industries* Q3 PAT rose 406.89% to Rs.1.47 cr. from Rs.0.29 lakh YoY and 9M PAT grew 375.47% to Rs.2.52 cr. on higher sales of Rs.37.54 cr. Promoters hold 70.53%, HNIs - Arjun N Parikh holds 2.34% and Umesh D Desai holds 4.25%. Buy for hefty gains. Dividend paying *Pee Cee Cosma* 9M PAT grew 644% to Rs.7.74 cr. from Rs.1.04 cr. on higher sales of Rs.103.10 cr. fetching an EPS of Rs.29.20. Its 52-week high is Rs.525. Promoters hold 74.17%, HNI - Arun Mukherjee holds 2.83%. Buy for decent gains. *Porwal Auto Components* 9M NP rose 523% to Rs.3.20 cr. from Rs.6 lakh YoY. HNIs - Veeresam Pabba holds 1.31% and P. Pirlamarla holds 2.40%. Its 52-week high is Rs.70. Add for 30% gains. Bullish breakout seen in *IRB Infra* on daily and weekly charts with volumes. It is likely to cross its 52-week high soon. Keep it on your radar. BSE SME *Kaka Industries* H1 PAT zoomed 801% to Rs.6.49 cr. from Rs.72 lakh YoY. Its non- current assets rose 98% to Rs.22.05 cr. from Rs.11.13 cr. YoY. Its 52-week high is Rs.252 and is now available at around Rs.180. Add for hefty gains. *Indiabulls Real Estate* hit new 52-week high of Rs.139 on 5 April with record breaking volumes due to big boom in the realty sector and on the hope that the new management Embassy Group will restore its past glory soon. Add for good gains. On 5 April, *Jubilant Pharmova* hit new 52-week high of Rs.649.90 with volumes. Keep it on your radar. *PNB* 9M NP grew 288% YoY. Government hold 73.15% and DIIs hold 13.74%. It hit new 52-week high of Rs.137.50 with volumes on 5 April. Add for 30% gains. *Gujarat Pipavav* posted 9M profit of Rs.27.62 cr. and 36% interim dividend was paid. MFs and Insurance cos. hold 21.24% and FPIs hold 20.12%. It has tied up with Honda Motors to export ‘Honda Elevate’ to Japan. As per market grapevine, RK Damani has accumulated good quantity. Buy for hefty gains. *GPT Healthcare* posted 9M NP of Rs.34.67 cr. from Rs.25.42 cr. YoY. It has already paid two interim dividends. It has a ROCE of 25.5% and ROE of 24%. Its 52-week high is Rs.220. Buy for decent gains. *WS Industries* Q3 NP grew 135% to Rs.13.91 cr. from Rs.5.92 cr. YoY and posted 9M NP of Rs.30.31 cr. from Rs.20.04 cr. YoY. It has a ROE of 64%. It plans to raise funds by equity and convertible warrants. It has a 52-week high of Rs.194. Buy for hefty gains. Divestment candidate, *Bank of Maharashtra* has been reporting higher profits for the last few quarters. As per market grapevine, it may reach Rs.100 in the medium term. Add. *Shri Bajrang Alliance* manufactures food products for Nestle, Dominos, KFC, PVR, Barbeque Nation, etc. Its frozen food is also now available across all retail chains like Dmart, Reliance, Metro, Walmart, Bigbasket and Blinkit. It trades at a P/E of 6x. Buy for multi-bagger gains. Consistent dividend paying *Emami Paper* is available close to its BV and trades at a P/E of 10x. It has very good backup of its Group. Add. *New India Assurance* is aggressive with its ads in print media. Besides, it holds stocks worth its current mktcap in various PSUs. A safe bet. Add. *GE Power* is rising from the ashes. Recently, it has secured various orders from JP Power, Lanco, Tata Power, Balco, Nuclear Power Corp., NTPC. Keep it on your radar. *ADSL* bags Rs.190 cr. project for Taloja Smart City. Given the opportunity of the work it does, it has a very bright future. A dark horse. Buy on dips. Vedavaag Systems is poised for strong re-rating to reach three-digit value in FY25. Add for the long term. Dhunseri Ventures is expected to report excellent Q4 results on the back of strong business and treasury income. Buy for decent gains. *BSE* has been reporting strong performance in equity cash, equity derivatives &amp; mutual fund distribution segment considering the rising stock market participation in India. Add. *Reliance Infrastructure,* engaged in developing infrastructure projects, has won the approval of the Maharashtra Govt. cabinet to purchase of MMRDA-Reliance Infra JV for Rs.400 cr. A big positive. Add. *Aartech Solonics* manufactures electrical machinery and apparatus for NEC. It plans capex at both Mandideep and Parwanoo units in its US &amp; UK subsidiaries. It also operates in the Defence &amp; Power sector which are in an uptrend. Add for multi-bagger gains. *Rudra Global* to switch to 20MW green energy at Rs.100 cr. in Phase-1, which will result in savings of Rs.20 cr. Its clients include L&amp;T Constructions, Reliance Industries, Adani, NHAI, etc. Further, it has recently doubled its production capacity. Add for the long term. *Apollo Micro Systems* enters into a term loan agreement worth Rs.252.5 cr. with SBI. The total loan is split as - term loan of Rs.110 cr. and renewal and enhancement of credit facilities of Rs.142.50 cr. Add for the long term. *Servotech Power Systems* and Electra EV, India’s leading EV powertrain solutions co. founded by Mr. Ratan N Tata, has announced a collaboration for a jointly owned revolutionary EV charger technology for which it has filed for patents. Buy. *Gensol Engineering’s* subsidiary, Scorpius Trackers, achieves milestone of 1000 MW + contracts across India, Japan, Saudi Arabia and Uganda and has established itself as a frontrunner in delivering reliable and bankable single-axis trackers. Add. *Dev Information Technology* has bagged $0.55 million order from US based Lilikoi Holdings, which is acquired controlling interest in it marking the beginning of a transformative partnership. Buy. *Sheetal Diamonds* has changed its name to Rajnish Retail Ltd. and will trade under this name on BSE. All retail business with innovative ideas will be launched under this banner. Add. *Mishtann Foods’* rights issue is now open and priced at Rs.15/ share as against its CMP Rs.20, which seems attractive. Issue closes on 18 April 2024. *NECC* to allot 6,70,000 equity shares and 39,55,062 convertible warrants of Rs. 10 each on a preferential basis at Rs.32.05 to promoters and other non-promoter groups. Add. *Sarveshwar Foods* acquired 100% stake in Business of Green Point Pte. Ltd., which had a turnover of $3,139,471 in FY23. A big positive. Buy. *Paramount Communications* has received a credit rating of BBB- (Stable) from ICRA for its Rs.150 cr. Further, it has repaid its entire outstanding dues of IDBI Bank, SBI, etc. Add. *NLC India* to set up 125 MW lignite-based power plant and a 1000 MW solar power plant in Rajashtan. Accumulate. *Indian Hume Pipe’s* JV bags orders of Rs.1138 cr. with 20% share in Telangana and signs revenue-share agreement with Kalpataru. It also enters a development agreement with Raymond for development of land in Pune. Buy for the long term. Cash-rich *IIFL Securities,* a key player in both retail and institutional segments, posted 104% higher 9M EPS of Rs.11, which may lead to FY24 EPS of Rs.16. Buy. *Federal Bank’s* deposits grew 19% to Rs. 240072 cr. and gross advances grew by 20% to Rs. 212758 cr. for FY24. During 9MFY24, its EPS rose 24% to Rs. 12.3, which lead to FY24 EPS of Rs.18+. Buy for 30% gain. *Satin Creditcare Network* has AUM of Rs.10,600 cr. Its disbursements grew 30% and collection efficiency was 98% in FY24. It has a CAR of 28.7% and posted 9M EPS of Rs.32, which may lead to FY24 EPS of Rs.45. Add for 25% gains. *Manappuram Finance*, a leading gold-loan NBFC, posted 45% higher Q3 EPS of Rs.6.8 and 51% higher 9M EPS of Rs.19.3, which may lead to FY24 EPS of Rs.26. Buy for 20% gains. *GAIL* posted 717% higher Q3 EPS of Rs.4.9 and 49% higher 9M EPS of Rs.11.3, which may lead to FY24 EPS of Rs.17+. Buy for 25% gains. *Nile* is setting up a Lithium-ion recycling plant. It posted 140% higher Q3 EPS of Rs.39.7 and 78% higher 9M EPS of Rs.84.2, which may lead to FY24 EPS of Rs.125+. Add. *Savita Oil Technologies* sells its products in 75+ countries. It posted 131% higher Q3 EPS of Rs.9.8 and 9M EPS of Rs.24.6, which may lead to FY24 EPS of Rs.40. Buy for 20% gains. *Karur Vysys Bank’s* deposits grew 16% to Rs.89,113 cr. and gross advances rose 16% to Rs.74,460 cr. for FY24. Its CASA grew 6.3% to Rs.25,449 cr. and it posted 50% higher 9M EPS of Rs.14.3, which may lead to FY24 EPS of Rs.20+. Buy for 15% gains. 60 years old *Hindustan Tin Works* sells high-performance cans, printed sheets &amp; related components. It posted 93% higher Q3 EPS of Rs.5.2 and 9M EPS of Rs.13.3, which may lead to FY24 EPS of Rs.20+. Buy for 30% gains. *J&amp;K Bank* posted Q3 EPS of Rs.4.1 and 9M EPS of Rs.11, which could take FY24 EPS to Rs.17. Buy for 20% gains. *Amarjothi Spinning Mills’* Q3 operating profit rose 38% YoY to Rs. 6.42 cr. with a P/E of ~ 11x. Promoters have raised their stake to 60%. Buy. *Teesta Agro Industries* with a market cap of Rs.48 cr., cash reserves of Rs.14 cr., a P/E of 11x, market cap: sales ratio of 0.3x and mutual fund equity investment of Rs. 9 cr. is an attractive buy &amp; well-positioned to capitalize on its ‘Kanchan’ fertilizer. *Reliable Ventures* operates a 5-star Heritage Hotel, Noor-Us-Sabah Palace, Bhopal, which is to undergo renovation to conform ‘Hyatt's Unbound Collection’ and slated for debut in 2025. Promoters have raised their holding to 54.08% by buying from open market. Wimplast's debt-free status, stable margins and strong financial performance make it an attractive investment, trading at 13x TTM earnings with a dividend yield of 1.42%. A potential merger with Cello World could lead to a valuation re-rating. *Shilp Gravures*, a leader in Electro-Mechanical Engraving, posted 90% higher Q3 EPS of Rs. 4.5 and 60% higher 9M EPS of Rs. 16.1. This may lead to FY24 EPS to Rs. 22+. Add. *Cravatex,* posted 9M EPS of Rs.16.7 and a recent sale of its loss-making Indian subsidiary, presents a highly undervalued opportunity trading at a 34% discount from its 52-week high. A bargain at current levels. *GE Power* engaged in engineering, procurement, manufacturing, construction. servicing of power plants &amp; power equipment has bagged two projects from Jaiprakash Power worth Rs.774.9 cr. Add. *RK Forgings’* commercial production of 4,500 MT on its Enomoto 630 MT Press Line and 13,750 MT of Maxi Press 6000 MT Press Line will boost profitability. Add. *Man Industries* obtains CE certification for cold formed welded structural hollow sections of non-alloy and fine grain steels. Given the shine in metals, this counter looks great. Add. *Schneider Electric* to invest Rs.3,500 cr. and expand its capacity to cater to the growing power demand in India. Add for the long term. *Vodafone Idea’s* investors approve to raise up to Rs.20,000 cr. through issuance of securities. Something big is cooking. Add. *E-Mart* commences commercial production of a new multi brand specialized store under the brand name ‘Audio &amp; Beyond’ in Delhi’s Rajouri Garden. Add. *Kamdhenu,* the largest producer of international quality steel bars to split its equity share. Add for hefty gains. *Page Industries* receives demand notice of Rs.86.2 cr. from the Commissioner of Customs, Bangalore. Sell. *Cello* to set-up a glassware facility in Rajasthan to boost its manufacturing capabilities across product categories. A big positive. Accumulate. *Hero MotoCorp* receives Rs.309 cr. of tax demand and interest of Rs.296 cr., which it plans to appeal against. Sell now and consider entering later. *Teerth Gopicon* into engineering construction of roads, sewerage &amp; water distribution projects plans to raise Rs. 44.4 cr. by its SME IPO opening on 8th April. *Money Times Talk is part of 'Money Times' publication.bs.*",
+    "author_segment_hint": "UpdateINDIA",
+    "url": "https://reddit.com/r/UpdateINDIA/comments/1bxzyrb/money_times_talk_april_06_2024/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "e80a02a6244bc8c3ea8d8a010646869a586d0b9516d2488c055891b821eb4327",
+    "wordCount": 2729
+  },
+  {
+    "id": "product_review-pp-vxub7p",
+    "source": "product_review",
+    "date": "2022-07-13",
+    "rating": null,
+    "text": "What Happened To Grofers? (Full Case Study) - The Techno Bits — This is the story of Grofers, the company which fulfilled our needs at home, today it faces some or the other problem every day. Grofers, which started in 2013, was going to get IPO in 2021. But suddenly it merges with Zomato in a $700 million deal. Moreover, while companies like Swiggy and Zepto reach new heights every day, Grofers is on the brink of shutting down. **Why did the brand we knew as Grofers, change its name? Did Swiggy and Zepto hit Grofers hard? What went wrong that a company working for so long has to face all this today?** **What happened to Grofers?** ## CASE STUDY: WHAT HAPPENED TO GROFERS? The story began in 2013 when Saurabh Kumar and Albinder Dhindsa noticed everything getting done through phones, be it food delivery or booking a cab. Everything got done with a click on your phone. They got an idea at the time. They thought of how everything is done via phone, then why go out for groceries? This could also be done via phone. This was the start of [Grofers](https://blinkit.com/), In very little time with great funding, Grofers started expanding itself at a fast pace. Soon, Grofers completed over 50,000 orders a day and dominated the market. Till 2021, Grofers and Big Basket were the only companies in India’s online grocery delivery services. Then something changed and the fate of the companies dominating this space changed forever. Many startups similar to Grofers also started in 2013, but from Local Banya to [PepperTap](https://www.peppertap.in/), none of the grocery delivery startups were successful. But why is that so? Well, very few people know that as simple as the online delivery space seems, it is that much more complicated on the inside. It has many aspects that aren’t visible on the surface but become responsible for the failure of startups. The question is what are these things? It is unit economics, that is per order if the company profits or has a loss. From the surface, we only see what’s shown to us but the unit economics which decides a company’s profitability or failure. Many of us think that Grofers succeeded due to a lack of competition because when Grofers was on top, there was no competition in the market. But that’s not true. **Peppertap, Local Banya, GrocShop, FlashGroc, and Getnowmarket**, all were also in the online grocery delivery space. But Grofers alone did something that made it survive. From PepperTap to Local Banya, they had a single vision, to deliver groceries to homes within 1-1.5 hours. It’s an amazing idea but it has a huge disadvantage. It would disrupt the entire company’s cost structure. Grofers had a genius strategy for this. But to understand this, you’ll have to first understand **How the online grocery delivery business works?** So, most startups would work in this way. The customers would order on the app. This would go to the shopkeeper they had tie-ups with. And then a company delivery boy would collect and deliver it. This model had 3 major problems. 1. No control over quality. Whatever quality the shopkeeper had, only that got delivered to customers. 2. The lack of inventory. Customers could only shop from the shopkeeper’s inventory. If the shopkeeper doesn’t have inventory, the customers would face many problems. 3. High cost but low margins. Due to this, most grocery delivery startups would get customers by offering discounts, but the customer would leave them due to poor service. But you know what? Out of all the startups, only Grofers changed its entire working model. First of all, Grofers closed its 90 minutes delivery because they understood after looking at the market that no one is in such a hurry that they want their grocery in 90 minutes. Then, it closed its operations in many cities and focused only on metro cities. They set up their warehouses in metro cities which gave them 3 main superpowers. 1. **Super inventory.** As Grofers is a technology business, they have data from which they know what products to keep and which products customers don’t usually order. Hence, they can stock up on their best-selling products as all the warehouses are owned by Grofers. 2. **Stackable items.** Grofers delisted all the perishable items on its list, which means the items that rot quickly, and only kept the items that could be stored for long. This resulted in a low storage cost. 3. **Good margins.** They got good margins because of 2 reasons. **Number 1, as there are no middlemen**, all their margins are higher as compared to having middlemen. **Number 2, keeping private label products.** They got a higher margin on private label products as compared to branded products. Read the full case study on: thetechnobits.in",
+    "author_segment_hint": "casestudy",
+    "url": "https://reddit.com/r/casestudy/comments/vxub7p/what_happened_to_grofers_full_case_study_the/",
+    "keywords": [
+      "blinkit",
+      "groceries"
+    ],
+    "textHash": "0fafa8e61f58e45a28584f093491f2da84654666a33d53e693032b2cc4211ec9",
+    "wordCount": 802
   }
 ]
