@@ -13928,5 +13928,850 @@
     ],
     "textHash": "0fafa8e61f58e45a28584f093491f2da84654666a33d53e693032b2cc4211ec9",
     "wordCount": 802
+  },
+  {
+    "id": "appstore-blinkit-2",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "Discounts and offers. Showing something about the offers and discounts but not applied while paying.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "15e2fee863f010d01ca6963c4b5bdeaf3c2a5d6f14c567d62d969ade8ade0909",
+    "wordCount": 15
+  },
+  {
+    "id": "appstore-blinkit-3",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Asking extra money. Very bad experience they told after certain amount the order would be free and then they added surge charges very bad they should mention in the order that they will charge whatever amount they want very bad experience I would tell everybody use other platform instead of Blinkit",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "a91fde85e6ca06a310b7162df7478dfa29c9200ebfa47a0c457be16db4edd6fc",
+    "wordCount": 51
+  },
+  {
+    "id": "appstore-blinkit-4",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Worst customer service & worst quality products. I’ve been a loyal Blinkit customer for a long time and spend around ₹1,000–₹2,000 almost every day on groceries. Unfortunately, the quality of service has deteriorated significantly. I repeatedly receive products that are stale, damaged, broken, or in extremely poor condition. What’s even more disappointing is the customer support. Every time I raise a complaint, I receive the same automated response saying they are “unable to validate the issue,” regardless of the evidence provided. Even after requesting a callback multiple times, I rarely receive one. On the occasions when someone does call, there’s still no meaningful resolution. This has become a recurring problem, especially with bulk orders, and it feels like customer concerns are simply ignored. As a regular customer who has trusted Blinkit for daily essentials, I expected much better quality control and customer service. The convenience of quick delivery means very little if customers are left with damaged products and no support when things go wrong. Blinkit seriously needs to improve its quality checks and provide responsive, human customer support instead of relying on repetitive bot replies. I’m extremely disappointed with the overall experience",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "4fe947b0f1c8ec94e25c5d9933d1233cec9e57af2a79060a5ac8ee16439210c6",
+    "wordCount": 193
+  },
+  {
+    "id": "appstore-blinkit-5",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Pathetic platform and disappointing customer experience. Extremely disappointing experience with Blinkit. The order issue was never resolved despite multiple follow-ups with customer support. Every interaction resulted in generic responses with no ownership or accountability. What’s most frustrating is that customer satisfaction seems to be the last priority once an issue occurs. Fast delivery means nothing if there is no support when things go wrong. I expected much better from a company of this scale. Unless Blinkit improves its customer service and resolution process, I wouldn’t recommend relying on it.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "b821ddf9d66cb6a71d43ca681302ad1651688ffc50e661ca996c539081a1f68a",
+    "wordCount": 89
+  },
+  {
+    "id": "appstore-blinkit-10",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Cheating. I order from blinkit one hair dryer and they given me the defective product and when i try to replace it they are denied that we can’t help you it the second time when i get defective product the customer care is only saying that we can’t help sorry",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "08b8f51dff3fa1581735e2807107fa459cfd8833bce451e239c5356ba4548df3",
+    "wordCount": 50
+  },
+  {
+    "id": "appstore-blinkit-12",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Request do not make it mess. Items are costlier than zepto. Hardly use blinkit like 1time put of 50times",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "f1fee01fc551ff5db2b602846447116c54ec1ff6210bb0babb403439b5f91407",
+    "wordCount": 19
+  },
+  {
+    "id": "appstore-blinkit-13",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "Delivery charges. Delivery and handling charges are too high rather then other app like zepto amazon now, flipcart, even mytra 30 min",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "916418099c4b8e2c3a13ce4e23199764fc28ffd3d66aeb4b9471d5511145e8b8",
+    "wordCount": 22
+  },
+  {
+    "id": "appstore-blinkit-14",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Change the name to sleepoverit.. alow and delayed delivery. Starts by 8-10 mins and by the time order is placed and payment made the delivery got to 20-40 mins",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "5d06b4d5aff1e6d94e7cd069f603ac95a4453a4e4202db10e8119dc30d6bcad1",
+    "wordCount": 29
+  },
+  {
+    "id": "appstore-blinkit-16",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "not in my location!!!!! :(((((((😭😭😭😭😭. hey!! used to buy a lot through your app until i moved to here. pls bring it to kechery , thrissur !!! PLS",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "9784e3289d9ab28a8c2014eb570affdb93c2ae5f63bdaf75a458563c9bf0e2ca",
+    "wordCount": 28
+  },
+  {
+    "id": "appstore-blinkit-17",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Very bad customer service. They don’t respond to my issues",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "db2a5e21068a6abfef9dc8257db7b986cb5836dce445699a88d9715756ac7838",
+    "wordCount": 10
+  },
+  {
+    "id": "appstore-blinkit-19",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "I want delivery people to keep change. Delivery person never keeps a change if we tell them to keep they say u should have keep the change the argue and say if u don’t had change u should have not ordered anything using the app",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "5dcc74565a07a56ba7ec670f31f672d038f336b199405e4197ccb68a5cfd0e59",
+    "wordCount": 45
+  },
+  {
+    "id": "appstore-blinkit-21",
+    "source": "app_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "Best app for daily needs. I have been using most of the daily need apps but blink it is always best. Never run out of any product, very easy to handle and app has no glitches at all.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "cd557d235b3bac304f11d15088fb9ba206811f9b0ada09409d485ae16a112dca",
+    "wordCount": 38
+  },
+  {
+    "id": "playstore-blinkit-0c5aaf3f-c974-445a-9757-7348d153ee9d",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "I have ordered of Rs 818. in which potato was rotten. I asked delivery boy that I will pay the product I have ordered except potato. I don't want such rotten potato. he said to me you cancel all order. and he he took away all product. he argument badly. he said I will not return because I save 25 rs per delivery. he said you cancel it and purchase again. why you people send such rotten product. we have only this work to cancel and purchase products.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=0c5aaf3f-c974-445a-9757-7348d153ee9d",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "595dc8777b10bbec471f04250a33f30af06b46a8d65d3dc2e09197218604d48e",
+    "wordCount": 88
+  },
+  {
+    "id": "playstore-blinkit-c596a5e8-3f67-42c4-acdb-2f82d538644c",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 2,
+    "text": "blinkit service is very fast , and it gave us Offers or , free delevery chances 😊",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c596a5e8-3f67-42c4-acdb-2f82d538644c",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "8e7dd4b22ed0de0514dd41a4e4c4612b64c18ff5c3ceeddc284c149254107841",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-blinkit-b0109ac4-990e-439c-a4d3-b0a5707cc0ea",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 5,
+    "text": "My Experience of blinkit the best deliver aap",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=b0109ac4-990e-439c-a4d3-b0a5707cc0ea",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "b655620b4361705babda6859f75ef876266fc92395de3c1845463bcb3c138031",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-37f709e0-394a-48d7-baad-ee25e09617f6",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 4,
+    "text": "Good app , better for faster and instant delivery than jio mart . Jio mart is cheaper but blinkit is faster. Deducted 1 star as it need to focus on it discouts as jiomart does. Then think it will become capable of receiving 5 stars",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=37f709e0-394a-48d7-baad-ee25e09617f6",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "92e6ef03b7bdf6448af83c18e919da88ea8ad235805dca6622be8f5b8bf0ed6d",
+    "wordCount": 45
+  },
+  {
+    "id": "playstore-blinkit-c81553d6-d332-48a5-8754-0e86232479b1",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 5,
+    "text": "best app, but I want cash on delivery option",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c81553d6-d332-48a5-8754-0e86232479b1",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "92696ead5d0bc9d3fbdf345239f583ed5a72ae174fd6e421fe6bd2268d2fea06",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-6fc7b457-53be-4a98-a8a9-d5ba54bdb8c3",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 4,
+    "text": "good service but returning a perished or damaged product is quite cumbersome process one has to go through",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=6fc7b457-53be-4a98-a8a9-d5ba54bdb8c3",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "c2454fb64c70f012db7482df0b78f3c0f568a3af90835a09ac022e69f741a097",
+    "wordCount": 18
+  },
+  {
+    "id": "playstore-blinkit-4c99b2f6-b6b2-4973-87d7-3827f1fb9ef4",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 5,
+    "text": "good app Bas delivery charge mat add krna baaki apps ki tarah",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=4c99b2f6-b6b2-4973-87d7-3827f1fb9ef4",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "349b76035931ae59f984bd78d8fee30d5ca52487caa17a66a194dae2a4e2925f",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-7993e8ef-d1a8-4f64-8549-7214ddfbd8be",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 3,
+    "text": "forud hai bilkint wale .... mnee 3 Aug ko ek order Kiya usne barish aane kai karan wo pracal mujhe dilver na kr kai application mai dilver dikha diya . jab mnee eski sikayt unke customer care sai ki to unhone mujhe wo order dobara sai send kr diya jabki mnee unse mera refund manga to unka khena tha ki yai hmari policy nhi hai .... jab mnee order Kiya us time 7 bze thai sam kai or order aayya 11 bze rat ko to wo parcal ko us time kon khayee ga .. kuki mai market sai offline sman buy kr liya tha",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=7993e8ef-d1a8-4f64-8549-7214ddfbd8be",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "41159ca6373a4cf28352ec35fe21891b38f902e0ec980a3c6e3484429861d04a",
+    "wordCount": 104
+  },
+  {
+    "id": "playstore-blinkit-05768a93-b1e1-4bfc-9ebc-67ee4cc14d0f",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "worst experience. Already made payment and again and again asked handling fees for the same product to be delivered.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=05768a93-b1e1-4bfc-9ebc-67ee4cc14d0f",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "00d1d079d359eb25125693b728ac2784ddaf09bfa9dfa17aebd689a517477889",
+    "wordCount": 19
+  },
+  {
+    "id": "playstore-blinkit-07d29d68-72f3-41a6-b875-c22098cd1d30",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 2,
+    "text": "the search tab is not working?? there is a problem regarding touch in your apps, kindly loot onto this",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=07d29d68-72f3-41a6-b875-c22098cd1d30",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "b47f2e2e0811b74ddff8d1c38451a8743d1d1f4c40f888e81f128c1f6adbb48b",
+    "wordCount": 19
+  },
+  {
+    "id": "playstore-blinkit-57d9bf80-8d45-445d-a400-27cad3865a3b",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "very horrible experience. it has the worst customer care support. they don't give resolution. They don't even address the issue there is only a chatbot . ridiculous customer service. you can't connect to them even in four days of placing the order. and even if the item received is defective you cannot replace it because they don't talk. worst app.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=57d9bf80-8d45-445d-a400-27cad3865a3b",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "1327ee46d694c2f8a209acd8387b7072a84db6152cc3838c64bd38e951c6e22f",
+    "wordCount": 60
+  },
+  {
+    "id": "playstore-blinkit-c1d13d56-cfe4-495d-9d73-d43b2703d87d",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 5,
+    "text": "best app (in my opinion) sometimes it doesn't show cash oh delivery I think blinkit should fix that🥰☺️",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c1d13d56-cfe4-495d-9d73-d43b2703d87d",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "487f31e4fd9aa50bc15c031f926a35eba20a2721794d673b9ee147af8e04b921",
+    "wordCount": 18
+  },
+  {
+    "id": "playstore-blinkit-fd3cce69-0da5-4671-a5cd-381e01482493",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "my order is not at time when i really need it it's already 50 minutes pass and now they say it's cancelled by some issues it's not good i am not satisfied with it",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=fd3cce69-0da5-4671-a5cd-381e01482493",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "a8375cc0ff7b6d605123554de524ab3cfb4732dcf76803c6ca5328a07841d386",
+    "wordCount": 34
+  },
+  {
+    "id": "playstore-blinkit-c2215232-b501-4a50-9491-330e60a956b5",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "items are sent in open covers . bill not given.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c2215232-b501-4a50-9491-330e60a956b5",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "d3d7d1620a3076c18653c8e4309886db673d0ae55dd57669b36400d9812061e5",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-blinkit-5329676c-9cd1-4265-88dd-0ba35341f759",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "there r hidden surge charges according to the app.when there is high demand . these r not showing when we pay for the items. there was 30 rupees surge charge . I feel really cheated . very bad experience. app should show these charges before payment so the customer should know about that there is a high demand.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=5329676c-9cd1-4265-88dd-0ba35341f759",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "0ee6adbc373e0be70d9ad172cc608e2aa435c175231e7933852f1be7f6e4bf73",
+    "wordCount": 58
+  },
+  {
+    "id": "playstore-blinkit-950542f7-0849-42b4-b901-7608aa4e1252",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 5,
+    "text": "very nice app for your daily needs...and even if hv any emergency... love the service",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=950542f7-0849-42b4-b901-7608aa4e1252",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "dc2b8ed9d41cae0d1dd1a7b7dba816a798a2c0dae90e271d94bb4d9735795777",
+    "wordCount": 15
+  },
+  {
+    "id": "playstore-blinkit-b2ef1696-92da-4e30-8230-fd2119531e09",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 4,
+    "text": "blinkit I just want to tell you that you should open your store in Sonbhadra of Uttar Pradesh also, there is a great need for it.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=b2ef1696-92da-4e30-8230-fd2119531e09",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "83c044a6ffec1d36c42572af8e809211d0a12694d85d762db604d020a50faa4b",
+    "wordCount": 26
+  },
+  {
+    "id": "playstore-blinkit-2e6607c2-54d0-4019-878d-f61ccddb5223",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "Make a offline store. that would be great.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=2e6607c2-54d0-4019-878d-f61ccddb5223",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "d604c2827faf458381de0cf22e944410dd26da332c63eb818bfc5d9d1c3790c7",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-1d78888e-6c3d-4be5-906b-9c556f755577",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Free Delivery unlocked notification not present for each item selection adfition deletion. Lost Rs 30 (deliveey charges) & Rs 12 (handling charges) for above inclusive order value of rs 183. Felt like deceived. Big Basket, Zepto & Swiggy notifies user after free delivery amount is reached & similarly if any item is removed, these app notifies that Free Delivery is removed. Anyways bvlinkit is 4th liking option at last place; bit costly too.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1d78888e-6c3d-4be5-906b-9c556f755577",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "00188c8a5aaff24fa3ba140624f3e87474d84970e7e6f4558bbd60cebec969c6",
+    "wordCount": 73
+  },
+  {
+    "id": "playstore-blinkit-3088570f-d28e-4ac2-800e-c5b88d5106da",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "third class service Your service is so cheap; I have to keep begging just to get my own money back. Either issue the refund, or I will file a complaint in the consumer court. I will never order from this app again—you are losing a valuable customer. Okay?",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=3088570f-d28e-4ac2-800e-c5b88d5106da",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "334a8bcf70017ad2da08eebb8e21468c280b835801c140ac0170fbd75cf88f15",
+    "wordCount": 48
+  },
+  {
+    "id": "playstore-blinkit-af1f26f7-46d9-4865-bb39-40d1be254fe3",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "too much high rates for gst, delivery and night charges",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=af1f26f7-46d9-4865-bb39-40d1be254fe3",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "34a52b3ef0cd0834909bf624681f533b542c7f8acf9eec4ebe04a7271451d1b6",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-bigbasket-e803dce4-1528-4202-b57b-3df74044c3cf",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 5,
+    "text": "seriously it's amazing.... Awesome product price and quick delivery even you don't believe immediate return policy....Great Great Congratulations. keep it up ❤️❤️❤️",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=e803dce4-1528-4202-b57b-3df74044c3cf",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "6a3dc9794822e1874cf000c7e48736619e81c09697715878fb3117ddeed4aa8f",
+    "wordCount": 22
+  },
+  {
+    "id": "playstore-bigbasket-88a7dec2-e94d-44ba-8647-474fb3752a55",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "worst app. No customer support. Bb daily was far better and user friendly.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=88a7dec2-e94d-44ba-8647-474fb3752a55",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "4b860a9f6dc82927e8ee777578a72f3e25b08a8a29a088a37a7c05181676027e",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-bigbasket-9b208572-29be-453a-9524-3444416d8f78",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "A very bad experience. again and again a big basket takes orders and after cancelled orders without any information it's a waste of money and time both don't buy from the big basket.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=9b208572-29be-453a-9524-3444416d8f78",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "641e4cdb642f1ad19007cb3a167b1c638a7d00e0239aa6f6bc42c3f4f680b294",
+    "wordCount": 33
+  },
+  {
+    "id": "playstore-bigbasket-cbf4f009-68d7-490b-b62d-07021a6fae46",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "worst customer care service worst response wrost app delivery boy yy behaviour also not good",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=cbf4f009-68d7-490b-b62d-07021a6fae46",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "d9c6b19f6c96f9a10557d2f17a04d02a52177e80b33997ddb5d847d63e738086",
+    "wordCount": 15
+  },
+  {
+    "id": "playstore-bigbasket-cceb2ab5-6c5b-43a4-975e-e81e91d5c709",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 4,
+    "text": "good delivery bhiya bahut acche the kaafi time tak wait kiye the",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=cceb2ab5-6c5b-43a4-975e-e81e91d5c709",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "a1431a9353afba2f17f95ac2ae1aa3f2e8340bc3974372dedb4843a621a18b73",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-bigbasket-a35bf0c5-c4a6-4c3b-ab83-6c3b7befef8a",
+    "source": "play_store",
+    "date": "2026-08-04",
+    "rating": 1,
+    "text": "first they deliver a damaged product and when I return the product I selected the refund in original source of payment which was my bank account and these people cleverly refunded the amount in bb wallet now I have to order from the this website and I know they are going to send the same damaged product, why you people are doing this 😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=a35bf0c5-c4a6-4c3b-ab83-6c3b7befef8a",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "8ed26e09a8f21930267e752a8bbbc8d93f605fb89146eb41e91a6d4aaacd1dce",
+    "wordCount": 64
+  },
+  {
+    "id": "playstore-bigbasket-97bb8379-cde6-47b8-9877-81b5404cb13f",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 2,
+    "text": "App not working properly. Always show error while searching any items. Even goingv trough category is not possible. location jamshedpur",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=97bb8379-cde6-47b8-9877-81b5404cb13f",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "630b8c08fd81056b61203a405860bf6944ae98f5ee8e089f79a3f7b9ed5e6729",
+    "wordCount": 20
+  },
+  {
+    "id": "playstore-bigbasket-3b5f8768-681d-4cc7-bc66-0992c9574339",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "I ordered a cauliflower and it wasn't fresh at all and there were so many insects inside.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=3b5f8768-681d-4cc7-bc66-0992c9574339",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "4c70e203d23369942b04dff7a451022de13708533a162056522f82ee5a7bb7b9",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-bigbasket-8972d945-dfbe-4fb6-a202-a9993364abce",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "itni bekaar service hai mai bata nhi skta subha order kro toh shaam ko ata hai ye koi baat hui ads pr toh aise dikhte hai jaise turant ajayegaa sab se bekaar app lagaa mujhse gandaa ek dumm , intizaar krte krte margyaa huu abhi tak mera order nhi hai isse jldi toh zomato wale krdete hai blinkit best hai.... 😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡😡",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=8972d945-dfbe-4fb6-a202-a9993364abce",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "c737c37379ca8400d2f7696ffdd24672a43369f139962b7d440c643ebb80f236",
+    "wordCount": 61
+  },
+  {
+    "id": "playstore-bigbasket-054fd9bd-8cb4-4aa1-8c38-689a8533a457",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Orders always get cancelled due to operational constraints. Didn't like last minute cancellation.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=054fd9bd-8cb4-4aa1-8c38-689a8533a457",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "167755e07882e184db61d8d6d444f418d0aa80f76fc16178ba34bc96c1a6e26d",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-bigbasket-4758194e-75e1-496d-b243-347991b7d49d",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "The app crashes multiple times when I try to track order status or add a new address 😕",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=4758194e-75e1-496d-b243-347991b7d49d",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "83ead1a6e289cc921cdaca1b7b6a5a4f44a9e2d998e096a908d108b00ba2eac6",
+    "wordCount": 18
+  },
+  {
+    "id": "playstore-bigbasket-6241a85a-e3a8-41f6-9587-7773605fcb0a",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "I don't know why everyone around me getting 150 cash back but i am not getting any I have tried with so many other contact no. too but it's not happening why this much partiality whyyy",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=6241a85a-e3a8-41f6-9587-7773605fcb0a",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "a21c654dfd810daa8645128987cccde5fa2c43d2d33f9db54abd70cd11ff1870",
+    "wordCount": 36
+  },
+  {
+    "id": "playstore-bigbasket-13e3665a-e3b8-4435-af39-f4b34834bcee",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "worst app i have ever seen. They told you when you purchased your Order will arriving in 5 minutes but after 1 hours it also shows within 5 mintues arriving.... How many hours will you take for complete your 5 minutes? it seems 2 hours i have ordered.... There is no any option to contact customer helpline",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=13e3665a-e3b8-4435-af39-f4b34834bcee",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "71084615a6300d3348e2947ead3f11858fb31fe0dbf1bac6fd6b135c1232156e",
+    "wordCount": 57
+  },
+  {
+    "id": "playstore-bigbasket-9830941c-a2ab-4c32-bfb5-a0102b2e0d39",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Refunds never get credited back. Support staff are AI bots. Was useful once, all good things must end.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=9830941c-a2ab-4c32-bfb5-a0102b2e0d39",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "a2a22f83fbbb27b19ddb7a730537e98d65da0c7f736c2b34201eff863856400f",
+    "wordCount": 18
+  },
+  {
+    "id": "playstore-bigbasket-7f9aa874-72a3-48d2-9051-f40735ab5ced",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 4,
+    "text": "very good service and beautiful big basket i received with my order 😊",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=7f9aa874-72a3-48d2-9051-f40735ab5ced",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "a220602cb9d536f673ec7529a9ca06268b24ffd8d88eeb50ab6347b9defd171a",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-bigbasket-b7a4a615-7bd4-4594-96b9-9491180d3a92",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 5,
+    "text": "The best shopping app I can say 🥳🥳it gives cash back also🥹🥳I choose only big basket over other apps ❤️",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=b7a4a615-7bd4-4594-96b9-9491180d3a92",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "12658bafb41d457aae5769b8d71be4d6ce3d9e419f7367d1eee9a2290689ee03",
+    "wordCount": 20
+  },
+  {
+    "id": "playstore-bigbasket-5a6ee68d-0b4d-4118-9514-5918e490b917",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "its very frustating that every time we have to change delivery date & slot if we add items or go to another page in this app. By default time set is of morning. Why? Often we have to cancel order and order again if slots change automatically. Kindly fix this issue.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=5a6ee68d-0b4d-4118-9514-5918e490b917",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "41483e9773d3699b9f1d91b4c1e4fc1178800357b9a4b00d1304c39899fda6c5",
+    "wordCount": 51
+  },
+  {
+    "id": "playstore-bigbasket-df0877dd-f743-4df5-a13c-a6edd5d1c3c7",
+    "source": "play_store",
+    "date": "2026-08-03",
+    "rating": 1,
+    "text": "Worst Application, They sell data to data Stealer Idiots.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=df0877dd-f743-4df5-a13c-a6edd5d1c3c7",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "03dbc2e8caacfb10160fe25509d9a52ccfaf7d778035fc25ed91a45c6bc994bc",
+    "wordCount": 9
+  },
+  {
+    "id": "forum-pp-1k16mcl",
+    "source": "forum",
+    "date": "2025-04-17",
+    "rating": null,
+    "text": "Help me in my Project: Swiggy Instamart, Blinkit and other Quick Commerce(QC) Apps vs Traditional Kirana Stores: FUN Survey!! — [removed]",
+    "author_segment_hint": "SampleSize",
+    "url": "https://reddit.com/r/SampleSize/comments/1k16mcl/help_me_in_my_project_swiggy_instamart_blinkit/",
+    "keywords": [
+      "blinkit",
+      "instamart",
+      "swiggy instamart",
+      "quick commerce"
+    ],
+    "textHash": "10119a576b70b1344578c19f1f82f5c54914f28ebfddb6cfe38f77458dc9ed9b",
+    "wordCount": 21
+  },
+  {
+    "id": "forum-pp-1k16l04",
+    "source": "forum",
+    "date": "2025-04-17",
+    "rating": null,
+    "text": "Help me in my project: Swiggy Instamart, Blinkit and other Quick Commerce(Q.C.) Apps VS Tradition Indian Stores: Fun Survey!! — [removed]",
+    "author_segment_hint": "SampleSize",
+    "url": "https://reddit.com/r/SampleSize/comments/1k16l04/help_me_in_my_project_swiggy_instamart_blinkit/",
+    "keywords": [
+      "blinkit",
+      "instamart",
+      "swiggy instamart",
+      "quick commerce"
+    ],
+    "textHash": "a0c7ff55ecc6ec81e678aae9ede58007b81ec70e0ca9a44da92251a682d77855",
+    "wordCount": 21
+  },
+  {
+    "id": "social-pp-1j7dain",
+    "source": "social",
+    "date": "2025-03-09",
+    "rating": null,
+    "text": "M4F : looking for slow burn roleplay — M4F : looking for slow burn roleplay Hi I'm M24 from Mumbai looking for a like minded female who into slow burn roleplay which includes a good story formation and then the action part. We can develop the story based on our kinks and I have a lot of stories in my mind. I prefer pure intimacy and sexual tension instead of hard kinks. Let me tell you I respect women and want them to actively take part in the story formation My kinks are - public , smoking, bdsm , high heels, long nails etc I'm open for all age group Hmu if you have the same prefrence Please dm for a good experience Dont read below - Domestic companies, including startups and manufacturing firms, have significantly increased hiring during final placements at several IIMs, surpassing foreign multinationals. The hiring surge is attributed to rapid economic growth, increased demand in various sectors, and government initiatives, leading to a substantial rise in job offers and competitive salary packages. By Prachi Verma &amp; Sreeradha Basu, ET Bureau Follow us Mar 08, 2025, 05:30:00 AM IST New Delhi | Bengaluru: Homegrown companies have ramped up hiring during the final placements for the Class of 2025 at several Indian Institutes of Management (IIMs), topping last year’s salary packages in many cases. ADVERTISEMENT Some of these domestic companies are first-time recruiters, said officials at various IIMs including Ahmedabad, Lucknow, Indore, Kozhikode and Mumbai. “Indian firms, including startups, manufacturing and industrial companies, boutique firms and homegrown fintech and BFSI companies have hired about 40% more than foreign multinationals,” said Roopak Kumar Gupta chairperson, CARE (Corporate Access Readiness &amp; Engagements) at IIM Kozhikode, which is currently conducting its final placement. Rapid economic growth, increased demand in fintech, consulting, manufacturing, and infrastructure, along with government schemes, digitisation, and expanding domestic market opportunities have fuelled this uptick, Gupta said. ETPrimeET PRIME - TOP TRENDING STORIES How Indian banks gave away an opportunity called UPI, and its control, to PhonePe, and Google PayHow Indian banks gave away an opportunity called UPI, and its control, to PhonePe, and Google PayBusiness of biryani: how Biryani By Kilo is winning Indian palates with consistency and automationVarun Beverages outshines HUL, returns 100% in one year. Can it sustain the momentum ahead?Why top BharatPe executives are leaving the fintech unicorn to start their own venturesAre you buying high and selling low? Blame it on the behavioural gapTop Nifty50 stocks analysts suggest buying this week Subscribe to ETPrime Agrees Neeraj Pandey, chairperson, Career and Development Services (Placements), IIM Mumbai. “This year, domestic hiring has been stronger at IIM Mumbai, with Indian companies offering more roles and competitive salaries,” he said. ADVERTISEMENT At IIM Mumbai, e-commerce and quick-commerce companies hired more, including Blinkit (14 offers with packages of Rs 30 lakh), Meesho (7 offers, Rs 49 lakh), Zepto (6 offers, Rs 33.5 lakh) and Delhivery (6 offers, Rs 24 lakh). “The hiring and packages are better at these companies, primarily driven by rising consumer demand, digital adoption, and improved logistics,” said Pandey. As a result, overall job offers at IIM Mumbai are up by over 10% and there’s been a 5% increase in average salaries compared to last year, with 198 companies participating in the placement process. ADVERTISEMENT The retail and e-commerce sector saw a 47.73% rise in hiring, with offers increasing from 44 to 65. Domestic companies are offering highly competitive packages and well-structured career programmes at IIM Indore, said director Himanshu Rai. ADVERTISEMENT It is the same for IIM Ahmedabad. “Initial data analysis suggests that the Indian firms have indeed shown more appetite for our students. Students, too, have responded in a similar manner,” its chairperson-placements, Viswanath Pingali said. According to Pingali, Indian firms across sectors--including finance, marketing, operations and supply chain--are hiring more this year. IIM Lucknow’s placements highlight a surge in domestic roles with competitive packages, driven by innovation in tech, consulting, and emerging sectors, said its chairperson, student affairs and placement, Priyanka Sharma. Indian firms that hired for the first time from IIM Lucknow include PhonePe, Purplle, Vector Consulting Group and established PSUs such as BPCL and HPCL. Top packages for international roles have come down. At IIM Ahmedabad, in the lateral process Maharashtra-based FinIQ Consulting (financial engineering) made the highest number of offers at 11, followed by Bengaluru-based Navi with 10 offers. At IIM Calcutta, the average and highest salary packages have increased significantly, said Ritu Mehta, chairperson, Career Development and Placement Committee. Top offer at IIM Calcutta crossed the Rs 1 crore mark and the median salary has risen about 15% compared to last year. Indian firms including TCS, Kotak Mahindra Bank, Navi and Zomato were among those that rolled out the highest number of offers at IIM Calcutta alongside foreign MNCs like Accenture, American Express, BCG, EXL, EY-Parthenon, Goldman Sachs and PwC. ADVERTISEMENT The packages at IIM Indore have seen an increase due to more finance companies visiting the campus. “The increased economic growth and interest in the niche sectors, energy, EV, etc. have brought unique recruiters to our campus,” said Rai of IIM Indore. Whatsapp BannerThe finance sector hired the highest number of candidates, he added. The banks that hired from Indore include Goldman Sachs, JPMC, and Deutsche Bank, and Indian Banks like Kotak Mahindra, ICICI Bank and Axis Bank. Dont read below ,,- READ MORE ON IIM placementsdomestic recruitersIndian Institutes of Managementfinal placements 2025homegrown companieshiring trends IIMsaverage salary packagesrecruitment increase 2025Indian firms hiringIIM Ahmedabad NEXT READ Hike allocation for upskilling initiatives in Budget to create future-ready workforce: Tata TechLooking back at the key trends: Fastest growing industries that defined 20245 skills for sure-shot success in a hybrid work modelTata Group to create 5 lakh manufacturing jobs over next five years: N ChandrasekaranTechnology and leadership in last mile logistics: Embracing digital transformationTop companies to provide internships to 1 crore youth over next five years: Mansukh MandaviyaBudget 2024: Finance Minister Nirmala Sitharaman announces Rs 1.48 crore for education, employment, and skillingFirefighters, deep-sea divers &amp; such: It’s a woman thingLack of mass hiring by Amazon, Goldman Sach and other big cos adds to the woes of IITD students amid 30% drop in job offersNavigating career crossroads: insights from ET career talks Amazon Super Saver Days - Upto 70% off on Appliances, Electronics and more.... WazirX’s Proposed Scheme of Arrangement: A Path to Recovery and Future Stability for Users Blue-collar workforce in India struggling for gender equality: Report",
+    "author_segment_hint": "indianroleplay",
+    "url": "https://reddit.com/r/indianroleplay/comments/1j7dain/m4f_looking_for_slow_burn_roleplay/",
+    "keywords": [
+      "blinkit",
+      "quick-commerce"
+    ],
+    "textHash": "fbff2fa92c973a18d46d6e0be1e1ca2fdd7bf597ba4719b6b86f448290b42736",
+    "wordCount": 1076
+  },
+  {
+    "id": "social-pp-1jangop",
+    "source": "social",
+    "date": "2025-03-13",
+    "rating": null,
+    "text": "Trusted Kirana stores — The local Kirana store is outplaying Q-commerce at its own game! Here’s how: Aditi, a Bangalore techie, ordered fresh veggies at 9 AM. When her chai was ready, her groceries were at her doorstep. Not from [hashtag#Blinkit](https://www.linkedin.com/search/results/all/?keywords=%23blinkit&amp;origin=HASH_TAG_FROM_FEED) or [hashtag#Zepto](https://www.linkedin.com/search/results/all/?keywords=%23zepto&amp;origin=HASH_TAG_FROM_FEED) but from the same Kirana uncle she’s trusted for years. This isn’t just about quick delivery. It’s hyperlocal retail, proving why billion-dollar startups are struggling to keep up. Why Kiranas Are Winning:✔ Tech-First Approach – WhatsApp orders, digital payments, automated billing—Kiranas ditched the old-school way long ago.✔ Hyperlocal Domination – They don’t just serve the neighborhood; they are the neighborhood. Decades of trust and personal relationships that no app can replicate.✔ Cost-Effective &amp; Super-Fast – No expensive dark stores, no massive burn. Just well-stocked shelves, lean operations, and delivery speeds that even 10-minute apps can’t match.The Reality Check: 85% of FMCG sales in India still happen through Kirana stores. While Q-commerce giants bleed money to survive, Kiranas are evolving—on their terms. Better products, faster deliveries, and loyalty that can’t be bought with discounts. The same platforms that once tried to eliminate Kiranas are now their biggest enablers. Funny how things turn out, right? We’ve already seen [hashtag#JioMart](https://www.linkedin.com/search/results/all/?keywords=%23jiomart&amp;origin=HASH_TAG_FROM_FEED) Digital making this model work. Hashtag [\\#Grofers](https://www.linkedin.com/search/results/all/?keywords=%23grofers&amp;origin=HASH_TAG_FROM_FEED) tried and failed. But now, the smartest players aren’t replacing Kiranas—they’re partnering with them. The future isn’t just Q-commerce. It’s Q-commerce powered by Kiranas.[hashtag #kirana](https://www.linkedin.com/search/results/all/?keywords=%23kirana&amp;origin=HASH_TAG_FROM_FEED) [\\#qcommerce](https://www.linkedin.com/search/results/all/?keywords=%23qcommerce&amp;origin=HASH_TAG_FROM_FEED) [\\#hyperlocal](https://www.linkedin.com/search/results/all/?keywords=%23hyperlocal&amp;origin=HASH_TAG_FROM_FEED) [\\#retail](https://www.linkedin.com/search/results/all/?keywords=%23retail&amp;origin=HASH_TAG_FROM_FEED)",
+    "author_segment_hint": "StartUpIndia",
+    "url": "https://reddit.com/r/StartUpIndia/comments/1jangop/trusted_kirana_stores/",
+    "keywords": [
+      "blinkit",
+      "groceries",
+      "trust"
+    ],
+    "textHash": "15967743879cb0cf333715ed6fb818df8033f51259ab154feed88e023af96c80",
+    "wordCount": 235
+  },
+  {
+    "id": "reddit-pp-10830ia",
+    "source": "reddit",
+    "date": "2023-01-10",
+    "rating": null,
+    "text": "How Quickcommerce Is Benefitting From Dark Store? — A concept that seemed far-fetched a couple of years ago, has now become the ultimate answer to everyone who wants quick delivery. From Swiggy, BlinkIt to billion-dollar valuation company Zepto, fast deliveries are becoming increasingly popular, and it all begins at dark stores. So, what is it? And why do most companies need it? https://preview.redd.it/hz06vhpdv5ba1.png?width=1200&amp;format=png&amp;auto=webp&amp;v=enabled&amp;s=c08ff1147c5ea2a3189637890836562608667d5d # What Are Dark Stores? Dark Stores are micro-warehouses that are located close to the point of delivery, these warehouses are small as opposed to those which are big and mostly situated in remote corners of the city, or on the outskirts. There can be hundreds of dark store warehouses in a city, compared to large 3-4 warehouses, that can store large inventories. Each of these warehouses has 1,500-2,000 SKUs (Stock Keeping Unit), that can store distinct product items, hence serving consumers in a few minutes. # How Does It Help In Qickcommerce? The [dark store](https://thestorefresh.com/how-dark-stores-are-revolutionizing-grocery-e-commerce/) is the answer to the uprise of quick commerce. As these warehouses are of similar structure to supermarkets, where shoppers are not allowed, these spaces contain technology, which helps in quick packaging and billing, so it can be supplied to the consumer within minutes. When a supermarket is situated in a highly populated area, it not only has better footfall but also has higher expenses. One of the challenge supermarket faces is to maintain it for consumers and accommodate heavy footfall without chaos. This is not practical and easy a lot of times, hence, dark stores come as a rescue, where any consumer who wants to buy an item can skip going to the grocery store and purchase it online. As the stores are located on every corner of the city, they can deliver to consumers in 10-15 minutes. **Conclusion** As online grocery shopping took an exponential curve during lockdown when going to outside stores became difficult, quick commerce took advantage of behavioral change among consumers through dark stores. These are here to stay, and in the upcoming years, we will see the growth in the type of SKU and services in quick commerce, better known as “10-minute delivery”",
+    "author_segment_hint": "u_NiloyH",
+    "url": "https://reddit.com/r/u_NiloyH/comments/10830ia/how_quickcommerce_is_benefitting_from_dark_store/",
+    "keywords": [
+      "blinkit",
+      "quick commerce"
+    ],
+    "textHash": "246f6f73cace3c5018314a178e2ac801e682e33e9e6d3b1b40b45e88da91286e",
+    "wordCount": 358
   }
 ]
