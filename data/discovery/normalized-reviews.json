@@ -38147,5 +38147,889 @@
     ],
     "textHash": "d58a23162aa237b793cf02b62596253562fe088dcc7e4fbf3152aaafea9918ba",
     "wordCount": 15
+  },
+  {
+    "id": "appstore-blinkit-1",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Great app. Great app, not a bot lol",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "f6f4573c9c93fc30df8cdbafcd9b4d65af761d4f2cae65b1eba53f8fbcad51a7",
+    "wordCount": 8
+  },
+  {
+    "id": "appstore-blinkit-2",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "False Commitment Related Delevery. Very worst experience They will commit and they will not deliver the Products And After my payment they will refund my amount after 3 to 4 Working days And Customer care also not responding properly",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "78e654b570567a21fe13e0cb3f5e83c536ae35da96dc5e8ddd4a60d41d38552f",
+    "wordCount": 39
+  },
+  {
+    "id": "appstore-blinkit-3",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "Worst customer service. Firstly they do not deliver complete order and after issuing the complaint they will just ignore it highly prefer zepto and swiggy insta mart",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "3875a8339831979b1eef945f340c72d5e94c639baead674c2d13a953b17284e7",
+    "wordCount": 27
+  },
+  {
+    "id": "appstore-blinkit-6",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Best service. Get what you want in just few min great service",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "628f56d9594a116f6961768f7bd1aae66d21d79e5eae5142711d15251c897016",
+    "wordCount": 12
+  },
+  {
+    "id": "appstore-blinkit-8",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Rating by Rihanna. Good app very ecellent but overpriced",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "273927ff88d8290a958d012210477188930b6836a1655ba2e7c435b562c2d5df",
+    "wordCount": 9
+  },
+  {
+    "id": "appstore-blinkit-9",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Made life easy. It made our life easy by being so quick and easily accessible",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "d18d1c66a99feb8c813c80d41f0cfcf28e02b43bab77ed04a36aa9cae25026f8",
+    "wordCount": 15
+  },
+  {
+    "id": "appstore-blinkit-11",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "hate this ap. hate this app refund nhi krta",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "494870742d688dca2f3f6a2d055ab784356a6d264194e7ce7e012ce0fe24e1a8",
+    "wordCount": 9
+  },
+  {
+    "id": "appstore-blinkit-12",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Is something behind your efficiency? Is it some Strategy?. Hats off to the originator of this model. It has changed short/petty shopping dynamics. Well done!! You have proved we in India have enough circulation of consumer products. We don’t need world market. We need sincere and honest work force.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "f9112d9d4f3f5ca042934b9de610aacfe46cfadc5f87030ece3ccce47677287f",
+    "wordCount": 49
+  },
+  {
+    "id": "appstore-blinkit-15",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Fantastic actually last minute app. Fantastic services by blink it",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "94161ea939ec82a249e5f72fb381390ee7fcc7f4c28682e05dda1deda45be096",
+    "wordCount": 10
+  },
+  {
+    "id": "appstore-blinkit-16",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "1 Star — Extremely Disappointing Experience. Received a body wash that was already opened, clearly used, and had less than the full quantity. This is a basic hygiene and quality-control failure. What made the experience even worse was the customer support — despite clearly explaining the issue, I received no meaningful help, compensation, refund, or proper resolution. Sending an opened personal-care product and then failing to take responsibility when a customer complains is completely unacceptable. Very disappointing experience from start to finish. I expected much better from this platform and will seriously reconsider ordering from it again.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "d9ec0029a952eb3664fee1f8f656a2dd6acb5afdbe5fde405d77a745f8b78032",
+    "wordCount": 97
+  },
+  {
+    "id": "appstore-blinkit-17",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "Pathetic customer support. Pathetic support and they don’t care about the customers. Please stay away guys🥲",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "ba716ee96deb1041c7985dda5a5836b372e48fd2da1d24456b482c5c6a2aca60",
+    "wordCount": 16
+  },
+  {
+    "id": "appstore-blinkit-18",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 2,
+    "text": "Not able to delete the order. I was able to delete the order till few weeks back not I am not able to delete the order. I do not see any option to do so. The application is updated to latest version. Fix this please",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "4a1052e1b49ac95aab5e9aa617226f766b464f3c930f8b9335e1f12e90f25092",
+    "wordCount": 45
+  },
+  {
+    "id": "appstore-blinkit-19",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "Delivery time 21 minutes. Delivery time 21 minutes last time it was 18 minutes. Is that 10 min promise still there?",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "903befd9769dc17f1693fd8e2a189f8050f958cd5221d08fcf2787a8ce107376",
+    "wordCount": 21
+  },
+  {
+    "id": "appstore-blinkit-20",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "High cost compared to Amazon now. Amazon now doesn’t charge you handling fee and other charges plus it gives a cashback so I’m preferring Amazon now over blinkit",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "ae909d6da915baa86ab434f27f7a3fbdb10b01c0a839f3647697aefef6f1563c",
+    "wordCount": 28
+  },
+  {
+    "id": "appstore-blinkit-21",
+    "source": "app_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Speed. So damn fast and has everything u need literally in a blink 🫡",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "71e73ae7f8e7409c857dde55439274b5e150f429e4987655333da0c188ac5993",
+    "wordCount": 14
+  },
+  {
+    "id": "playstore-blinkit-71cce832-12fc-40c1-a695-605edb2aa347",
+    "source": "play_store",
+    "date": "2026-08-19",
+    "rating": 5,
+    "text": "Most important thing is that medical consultants are available free of cost, general medicine can be ordered thank you so much",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=71cce832-12fc-40c1-a695-605edb2aa347",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "9764ebdda71f01f90d693dbcab6e92230976c33d5408bf86542ef5586db57c03",
+    "wordCount": 21
+  },
+  {
+    "id": "playstore-blinkit-40ae3779-13fb-49b8-b69b-1645e4b4f8ab",
+    "source": "play_store",
+    "date": "2026-08-19",
+    "rating": 2,
+    "text": "sometimes products are near to expiry date please consider",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=40ae3779-13fb-49b8-b69b-1645e4b4f8ab",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "78d73e01728d4961490d6c2a5e29da244214dafaf3b255f9dd42b522fb656b96",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-89a65556-4ff3-4602-a9a6-eb652c6ebb37",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "worst app ever, like they always deliver damaged products only , so be careful while using this app , there are many other options we have but if someone is choosing you with trust you shouldn't do this with them , literally hate this app",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=89a65556-4ff3-4602-a9a6-eb652c6ebb37",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "4ad171c18dd7dc0391d3440b0580a2598b8a827a5cafc8a56f5282e0ae66cc3c",
+    "wordCount": 45
+  },
+  {
+    "id": "playstore-blinkit-54b9b3f5-1853-45e7-8b5d-491550e70421",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "They add late night convenience charge, but it becomes more of a headache to deal with issues that arise in night, slow response from customer support, no response from delivery partners etc",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=54b9b3f5-1853-45e7-8b5d-491550e70421",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "9e0f0274e3c3768dcccbfa78f1bcf654bcf443766ca74cbd328626797b59df83",
+    "wordCount": 32
+  },
+  {
+    "id": "playstore-blinkit-a812210e-3ca9-43a4-950c-311d3afbe8e1",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "i thought about ordering some food in zomato but last time they delivered me the wrong order. one of my brothers ordered some snacks and milk drink from blinkit yesterday so I thought and placed an order thank you i received also",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=a812210e-3ca9-43a4-950c-311d3afbe8e1",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "8c487e777e8c959dce1cd17935cd7fa690b4470ed304e0a29f7f34efe82826ef",
+    "wordCount": 42
+  },
+  {
+    "id": "playstore-blinkit-90898b84-8413-4a6a-923d-8d25cb0c6136",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Super grateful to Blinkit! When all shops were closed late at night during a medical emergency, they delivered the medicines in minutes. Truly a lifesaver service!",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=90898b84-8413-4a6a-923d-8d25cb0c6136",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "06de1ce279490cbdf1de6f65f647d40ed1d668f5f0f03582fd0d90fef7a771e5",
+    "wordCount": 26
+  },
+  {
+    "id": "playstore-blinkit-3194d211-4a6a-4808-a796-4b4900f63771",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "rider never come at my floor even lift in building and also they don't leave package in lift we have to go down for collect order",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=3194d211-4a6a-4808-a796-4b4900f63771",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "1d5b96623642e0b81b93a2aa4e94357d03ce0e61e9ea751b2067d6adf03a0570",
+    "wordCount": 26
+  },
+  {
+    "id": "playstore-blinkit-1f0987f2-ab23-4923-a5cd-4f39a79558b3",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "this is not good app if you order not coming any order",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1f0987f2-ab23-4923-a5cd-4f39a79558b3",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "202587c942e4196c2e36c3e5f4eb039fcd0eeaa410062c5f22b6baf1abebe75b",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-a18657d7-8ed3-4a82-95b1-d5d9896cbb91",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "abhi order aana baki h..... original review order aane ke baad milega",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=a18657d7-8ed3-4a82-95b1-d5d9896cbb91",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "84b948a7b8bd1e19f85d5c964935cedc6d234a9eafbd0a7868ab53082e23cd01",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-d2328569-d263-4dca-9f82-77d6aaeb19a4",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 2,
+    "text": "The surge fee is applied way too often. Customer support is basically just an AI bot, and most of the time you end up at a dead end. Night rides are another major issue. The app may show a 7-minute wait time when booking, but even after waiting an hour, a rider still isn’t assigned. And if you try to cancel at that point, you’re asked to pay a cancellation fee.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=d2328569-d263-4dca-9f82-77d6aaeb19a4",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "06e9215e820fce429c7305e04475a11ed6219e3771d44e1fc82632db7dc0b701",
+    "wordCount": 71
+  },
+  {
+    "id": "playstore-blinkit-9a876140-7510-4abf-b64b-e078b682d5eb",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "2019: Midnight cravings with no way to get snacks 🥲 2026: One tap, and it’s at your doorstep ✨ We really are living in the future. 🙏🏻",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=9a876140-7510-4abf-b64b-e078b682d5eb",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "f3f2bdecb182da37edc51e170e2176a2dece2c2a83f4a269152a9fd1217b6ace",
+    "wordCount": 27
+  },
+  {
+    "id": "playstore-blinkit-5f4ab516-90f2-4aff-9ac9-cc48b71889a2",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Love ❤️ it blinkit is now my fav app",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=5f4ab516-90f2-4aff-9ac9-cc48b71889a2",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "14a7171d9abc257a74242e2dcbf518eb90f8b418a160516bd768f1f252688264",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-15584c8f-d09f-430c-b34c-af87d42d6730",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "poor experience when needed assistance in then , got reply from assistance \" we can just help you wih our words\".",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=15584c8f-d09f-430c-b34c-af87d42d6730",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "6e1de41e1817839e843658b97479058a17ecc501931a1285858654a9518118f9",
+    "wordCount": 21
+  },
+  {
+    "id": "playstore-blinkit-a49295e2-e7b8-4d53-80a4-09694a366d07",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "FRAUD N HORRIBLE APP Very disappointed yesterday I ordered godrej aer matic machine n it showed delivered but it's not delivered n now they don't have customer care number where we can call.They are using only email n when I wrote to them couple of times they refuse to understand the issue n give any resolution.I will take legal action against this fraud app n will post this matter on all social media sites.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=a49295e2-e7b8-4d53-80a4-09694a366d07",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "d834d3d30772643462c05e8fbc9e521b233aa6d64dc3240aada923fb7ff094c8",
+    "wordCount": 74
+  },
+  {
+    "id": "playstore-blinkit-3e2cb3f1-834f-44ff-b11f-b0df25c308e5",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "mene abhi 20 min pehle ek speaker order Kiya or uski quality shi nhi h to m vapas Krna chahta hu apke headquarter ke karan keh rahe hain ki company se baat kro agar aap check krke item nhi le sakte to sell kiu krte hain or agar mujhe company se hi baat krni hoti to m usse hi direct order kr leta mujhe ye speaker vapas karna hai is speaker ko vapas leke jao ek star isliye de rha hu kiuki 0 ka option nhi hai.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=3e2cb3f1-834f-44ff-b11f-b0df25c308e5",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "82e0f77cfbc359d6585d686887dca21607675a2431f99b8f893166e3f2bc7184",
+    "wordCount": 87
+  },
+  {
+    "id": "playstore-blinkit-0323e6c6-7107-4e4d-91a0-86de67cf0920",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 3,
+    "text": "it would me nice if blinkit is available in many places",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=0323e6c6-7107-4e4d-91a0-86de67cf0920",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "2dfed521688afa9994fb318c6b552d553655cf987e204a1a6b908c6818a050c0",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-blinkit-b9c7a458-c313-45d5-8f51-dd6134261920",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Excellent Product & Great Service! Really happy with the blanket. The quality is very good, soft, comfortable, and worth the price. The service was also excellent, and the staff were polite and helpful. Overall, a great experience. Highly recommended! 👍",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=b9c7a458-c313-45d5-8f51-dd6134261920",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "96db42c6e0e2850f2036e43e645ced567944fb7ef3b058a8f63bd01dbd8a4411",
+    "wordCount": 40
+  },
+  {
+    "id": "playstore-bigbasket-21a4b14e-94d0-4841-a2a3-c118a4d171a0",
+    "source": "play_store",
+    "date": "2026-08-19",
+    "rating": 5,
+    "text": "We are pleased to hear that your recent delivery was fast and satisfactory. It is always our goal to ensure a positive experience for our customers. We appreciate you acknowledging the hard work of our delivery agents. Your feedback is valuable in helping us maintain your service standards. Thank you for choosing us.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=21a4b14e-94d0-4841-a2a3-c118a4d171a0",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "ef26f210d89fa8535e0f4168b03aa3ca893be5aa8abc8d2872505ce181a350ce",
+    "wordCount": 53
+  },
+  {
+    "id": "playstore-bigbasket-b31f9385-8a25-4544-b294-4217956745fc",
+    "source": "play_store",
+    "date": "2026-08-19",
+    "rating": 1,
+    "text": "Big Basket is the worst online shopping platform because I ordered some stuff from it yesterday, and it gave me a morning slot for today between 8:00 AM and 10:00 AM. It then made me wait until 11:00 AM, and at 11:00 AM, they said the order was cancelled. They even took three days to process my refund! That’s why I say it’s better to order from somewhere else like Flipkart or Blinkit. You get your stuff immediately, and it’s secure too",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=b31f9385-8a25-4544-b294-4217956745fc",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "15329239c786af9e6db71cbee4a3744b608cf256b91bc054806c9d728c2d8903",
+    "wordCount": 82
+  },
+  {
+    "id": "playstore-bigbasket-c5ae744c-3e45-4602-8007-c092d3995fc0",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "very bad experience not log in and open account",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=c5ae744c-3e45-4602-8007-c092d3995fc0",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "8e84654fd2bbe70a75fa5fc980208cb41c89461f233003831c0463e77c9b790a",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-bigbasket-a92b80da-b51b-4192-9c2d-e1778f46be30",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "worst experience I was eating dinner until I pickup the call within 2 times in 3 to 2 minutes the order was cancelled by delivery guy worst app and I can't complain also because of no return chat option",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=a92b80da-b51b-4192-9c2d-e1778f46be30",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "5a22f29db723c0b7e8417b323534c2f56ad725c27ba0d40a8ad7207a670fd038",
+    "wordCount": 39
+  },
+  {
+    "id": "playstore-bigbasket-f2fe0400-97f7-43b3-aa91-c8ae5f2719b0",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "if its out of sock they will not keep it and there will be no proper refund",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f2fe0400-97f7-43b3-aa91-c8ae5f2719b0",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "bd9be2d4adb39861c0cb762c53cc4816aab6c5640f6476cdb670f73e6ce104ec",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-bigbasket-055fe1f8-47d5-4772-9903-c7701256d94d",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "it's very good service and good product I'm very appreciated thank you Bigbasket",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=055fe1f8-47d5-4772-9903-c7701256d94d",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "3a212af3eebad58dc15e30b9777564842f30108652b34b0cab8aaa51f70122ce",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-bigbasket-1eb6fda3-5294-45e0-980c-01ed2c08b58c",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "useless app meri location Maan hi nhi rha hai",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=1eb6fda3-5294-45e0-980c-01ed2c08b58c",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "a8e1ee8359a52d6bbb99e6dadc90fce2fa81cb1ae7d3c3ccfd845cdb5882aa92",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-bigbasket-f187b5bc-3694-4651-a3c2-1810d767bfb9",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "good delivery timing and very nice delivery person",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f187b5bc-3694-4651-a3c2-1810d767bfb9",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "166f2452d823452fe734f999a01ab8b55ed67f960aee995e042b53ae076e53e5",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-d1514d9c-6166-4a0e-b1ce-df864cbaa3cd",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "There are a lot of bugs in the app. It doesn't even let me apply bank offers and vouchers. There is always some kind of error present. The delivery is also slow. Pathetic service provided by BigBasket.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=d1514d9c-6166-4a0e-b1ce-df864cbaa3cd",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "ad15c03dd002a9f983d7f83f618d458199bd94cf2f36eb5b937f589de4a83470",
+    "wordCount": 37
+  },
+  {
+    "id": "playstore-bigbasket-71f84384-6ddf-468d-a755-f19020d8c5c7",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "I am extremely disappointed with Bigbasket's billing practices. I recently noticed that the rates displayed and booked for products while placing the order are entirely different—and higher—than the actual prices charged on the final bill. Showing one price on the app to secure the order and charging a higher amount at billing feels deeply misleading and borders on cheating customers. This erodes trust completely. Please investigate this pricing glitch immediately, refund the overcharged amounts",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=71f84384-6ddf-468d-a755-f19020d8c5c7",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "7148298cc8e307fc8839fd8399b53ad69c47ed55e9e7a217e3504a6a11f5d749",
+    "wordCount": 74
+  },
+  {
+    "id": "playstore-bigbasket-78c7cba7-7606-40a7-9e2d-a27485504d5c",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "A recurring theme where intentionally some or the other product is marked as not available at the time of delivery and amount refunded to wallet to trigger repurchase. Even after this, the same item is still shown as available in the app. Quality of products have gone down drastically as well.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=78c7cba7-7606-40a7-9e2d-a27485504d5c",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "dfedd37f1c7408f202e4193d19445647a3405ffdd3ce2a94bc2060cff93b77b4",
+    "wordCount": 51
+  },
+  {
+    "id": "playstore-bigbasket-252ec2d4-f1a3-44c0-bb5f-ce8ff5ce63a8",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "Refund policy is worst. Refund is credited to the wallet and you have to go through long process to get wallet money from wallet to bank for almost three months.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=252ec2d4-f1a3-44c0-bb5f-ce8ff5ce63a8",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "88dc186a5ce39dc53fadeb0035ed28a961c943b66e3c57556572b83533a71fb9",
+    "wordCount": 30
+  },
+  {
+    "id": "playstore-bigbasket-b6d43289-787a-497f-ad4e-ac9d42b729da",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "I was a regular user of Bigbasket and BB daily application for past 3-4 years but since when BB daily has been merged with Big Basket the application has become pathetic. BBdaiily option is nowhere visible and when checking with Customer Care, they are eager to just end the conversation instead of giving proper response to our queries. They themselves are now making us move to another application like Milkbasket for daily product requirement.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=b6d43289-787a-497f-ad4e-ac9d42b729da",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "dd181792fc89f0f1aea72ece65c12870f93fc06fba9cb4f95818575943a5af89",
+    "wordCount": 74
+  },
+  {
+    "id": "playstore-bigbasket-7fa42308-1f77-47a7-b84c-c219df908423",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Good Bigbasket Team and All Night duty team thanks for you",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=7fa42308-1f77-47a7-b84c-c219df908423",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "256f9793cba3fe07591d0d6358e5e7d82fc1fb9c652d8b87e540fd6a1e3924a7",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-bigbasket-37f01d51-acfa-4394-8197-89454f278331",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "Evening though I am located in prime area of Bangalore, most of the orders are getting cancelled and had to invest time to get refund. If BB does not have intentcto supply, then why do you book orders. I don't recommend BB anymore",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=37f01d51-acfa-4394-8197-89454f278331",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "0dfc67371232c86ce94bdbee9d8011b80f3c4aaea1e33abff104612c06662072",
+    "wordCount": 43
+  },
+  {
+    "id": "playstore-bigbasket-4a499f2f-37f2-4974-90a1-bff3e1addfef",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "very good and very fast delivery and very good for a delivery boy 💞 Thanks for big basket 🧺",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=4a499f2f-37f2-4974-90a1-bff3e1addfef",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "4cdc2d5916726145a17429c95b504e54e72cd53d629edeed596f642fccd69169",
+    "wordCount": 19
+  },
+  {
+    "id": "playstore-bigbasket-09eda6ef-ca88-4da9-bb61-6a5604088f39",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "unable to run not delivering at our location",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=09eda6ef-ca88-4da9-bb61-6a5604088f39",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "7ba2b38172be4bda4f2ba3a5a653e01a270c27dc30f32db7940181c24040749e",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-1659ecf6-dab2-416b-a868-d1c87eb34762",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "bakwas grocery app h order karo delivery driver mana karte h order cancel kar dete hai uske baad atak jate h 7 din ke liye uske baad inke call centers ko phone kro to vo phone nhi uthate h 3 baar order Kiya 3 baar rider ne cancel kar diya paise fas gaye",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=1659ecf6-dab2-416b-a868-d1c87eb34762",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "50c5aeb21b0522e4a67aa69fa15a0a5686393db8449ccd2a339eedd875ef6bba",
+    "wordCount": 53
+  },
+  {
+    "id": "playstore-bigbasket-00ea5bc6-8ad7-4c6e-bb52-2b87795f10ff",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "delivery ok but Bag not available for this parsal why",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=00ea5bc6-8ad7-4c6e-bb52-2b87795f10ff",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "c118ebd2af2c5d5886768985dc0b184a7f218e4ce018d14ee5d70920b9db07ce",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-bigbasket-e7898c26-3966-4333-92c6-177b8ab044f8",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "worst experience... All the vegetables I ordered were very poor quality",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=e7898c26-3966-4333-92c6-177b8ab044f8",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "6be2401194ed17346740f2cee2099161837ad97d491e23a777895af96ce9c601",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-bigbasket-665ca4b7-2527-4376-a0e0-8e45a33e8ca7",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "bhoot oa javab Maja aa gaya this is very nice and good",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=665ca4b7-2527-4376-a0e0-8e45a33e8ca7",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "23bdd9581af5797e0e5f885769bed9c111d5931b5147b2b21bcdd8750740f4f6",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-bigbasket-9a7e0bbc-4008-40d3-b662-5f90b70d99f7",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 3,
+    "text": "The recently merged bbdaily app has removed so many useful features and conveniences for morning delivery",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=9a7e0bbc-4008-40d3-b662-5f90b70d99f7",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "65f80d62bd08b93321c55ef6df1033400636484b71d605938f5068210b188c14",
+    "wordCount": 16
+  },
+  {
+    "id": "playstore-bigbasket-1aa4cb59-9847-415d-8128-60901932db88",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "Bigbasket — Extremely Disappointing Experience ⭐ 1/5 — Very disappointing and frustrating experience with Bigbasket. The app prominently shows 8-minute delivery, which creates an expectation of quick service. But after placing the order, the delivery gets combined with another order supposedly to “reduce pollution,” and what should arrive in 8 minutes ends up taking around 40 minutes. If the service cannot actually deliver in 8 minutes, why advertise it that way?",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=1aa4cb59-9847-415d-8128-60901932db88",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "4409eab6949421e848efa5c563b2c360625014b31b00446d5a9366e6acbf0f10",
+    "wordCount": 71
+  },
+  {
+    "id": "playstore-bigbasket-73b88964-e591-4680-87de-b5b7c2f6eaaf",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "Bigbasket is a good The product provided we are satisfied all time shopping in Bigbasket",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=73b88964-e591-4680-87de-b5b7c2f6eaaf",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "368d006e6dfbc738913320c6f572743179c0fd4794d06e325d9f781bee382bb6",
+    "wordCount": 15
+  },
+  {
+    "id": "playstore-bigbasket-d8b7b475-5a07-490a-ad5a-4a7232f0c386",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 5,
+    "text": "pahli bar shoping kiya o bhi produc t bahut hi achha aaya",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=d8b7b475-5a07-490a-ad5a-4a7232f0c386",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "00ff462b6136d8ecdbbad8b5d9d8ce00f9a1e65f79871729b66fc56b955dd3c4",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-bigbasket-c2ad53f5-76ce-4645-b13b-f96c089ded23",
+    "source": "play_store",
+    "date": "2026-08-18",
+    "rating": 1,
+    "text": "this is the warest grocery app in the india ex:- biscuit price is 20rs final total amount is 88rs bad app warest app fake app don't download this app",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=c2ad53f5-76ce-4645-b13b-f96c089ded23",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "f78cb383141b5622d2564f66668eece80418219e68243e480959efe7581070c7",
+    "wordCount": 29
+  },
+  {
+    "id": "product-blinkit-1d2659eb-bd58-4b88-94f2-827f1168c5bd",
+    "source": "product_review",
+    "date": "2026-08-16",
+    "rating": 1,
+    "text": "I order from blinkit, flipkart minutes, snabbit, or whatever-it names delivery apps, everyone can find it's way to my home except blinkit, even I have added clear voice instructions still these guys don't call and just roam around the place till I call from my end to guide them. Then they won't climb a couple of floors no matter how big or small the order quantity is, they'll just stand on the road hoping I'll come down and pick on my own. if I was free enough to go down i would buy on my own.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1d2659eb-bd58-4b88-94f2-827f1168c5bd",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "4441fb6c1726bc6a355f5c3f93f403dd6245e4fffe29122364883f31485f8c97",
+    "wordCount": 96
   }
 ]
