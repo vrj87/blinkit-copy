@@ -90535,5 +90535,970 @@
     ],
     "textHash": "a893af706bbbe9f60c429bf0204c0b319f1c51809842d3ab5ad2e959023e4736",
     "wordCount": 22
+  },
+  {
+    "id": "appstore-blinkit-1",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Excellent. V user friendly app and qood home delivery service also",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "72a3dd52c7b23cb9d6d464ea68e68973318a249826f763d21038baa8d242cc86",
+    "wordCount": 11
+  },
+  {
+    "id": "appstore-blinkit-3",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "They offload trash. Sold me smelly comforter and then replaced it with another smelly comforter and now i am stuck with something they picked up from trash",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "4434bfe359331d254d0b2a6c28ac4a8331b292e593cf58c73211ceb322353d67",
+    "wordCount": 27
+  },
+  {
+    "id": "appstore-blinkit-4",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "Not Find Location In Dehugaon. Not Find location only 100 mtr",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "71f9e5b5c5bbd29e95f20db6bf3f3f2b1819038a893c10c48c9dd51c0fa6f4d2",
+    "wordCount": 11
+  },
+  {
+    "id": "appstore-blinkit-5",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Improvise. Blinkit can be improvised a lil but till now it’s nice",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "895f8e9e10754d59551b11d2767aa9f8c44f618748b140f6391e46625de07971",
+    "wordCount": 12
+  },
+  {
+    "id": "appstore-blinkit-8",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Nice platform one solution only Blinkit. 5 Star always",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "99d7aab7e9e2c14fda2f03026a908d9437dcd01c98e04300f50ed5f4f010ea0c",
+    "wordCount": 9
+  },
+  {
+    "id": "appstore-blinkit-9",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "App crash. Unable to use the app on IOS 27 after login it shows page is broken or doesn’t exist",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "bf5e7aa6917d03c16749b118b173db5e85f6e4ec471aa3fb8dab16b12a0e2d71",
+    "wordCount": 20
+  },
+  {
+    "id": "appstore-blinkit-13",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "I hope you gave me cashback. Need cashback",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "ce34093e2271fb5ce91042dae053d37b63f99995f71b7f65f0ce5f4c2299964b",
+    "wordCount": 8
+  },
+  {
+    "id": "appstore-blinkit-14",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Blinkit app issue. Sir im facing difficulties in opening blinkit app, everytime its showing link broken or page doesn’t exist. Please resolve this issue",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "5d02f398a8ab92e8ae7acc4a3c243c15ad3d6729c77b58a88893e6cf3c133735",
+    "wordCount": 24
+  },
+  {
+    "id": "appstore-blinkit-15",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "They don’t pay the refunds. They don’t pay refund and returns",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "b8f36f2dd3a78821944913dab2d58837772eeb1c7cc0a5d05dc5c12ee1c67a52",
+    "wordCount": 11
+  },
+  {
+    "id": "appstore-blinkit-19",
+    "source": "app_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "No feature. No feature to search for 70 % or more , discounted products 01Aug2026 There is no option to remove or increase limit of wish list products 16sep26",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "ba183affc04fc4f00965756fb7a2fbc680c379193383067e827c6dcbe1e22dc8",
+    "wordCount": 29
+  },
+  {
+    "id": "appstore-blinkit-21",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 4,
+    "text": "Fast, pricey and furious. The quickest delivery in my area, efficient though can not vouch for the quality of the eggs and also the price is high.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "a63aadb6199a7e3987cf10f52ea87df41441c01f88df92c313a5b11f7f71a20b",
+    "wordCount": 27
+  },
+  {
+    "id": "appstore-blinkit-22",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 5,
+    "text": "Best app in india. Truly last minute app i really love it ♥️",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "89c7ace59133e2b10a95d66c010ef467fb22fa2e5415a2f9b8bb58e511a4ee66",
+    "wordCount": 13
+  },
+  {
+    "id": "appstore-blinkit-23",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 1,
+    "text": "Regarding my order. Button mushroom is worst, it’s black and dirty",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "b4d5f51f590ef93ebce29da347e57e9ae946feeebf0ecbbb55452074597ecd0f",
+    "wordCount": 11
+  },
+  {
+    "id": "appstore-blinkit-24",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 1,
+    "text": "Used product delivered. I ordered hair dye.. and what I found was it was already empty, the developer.. I’m totally disappointed.. never order from Blinkit..",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "5b800a0e27d61e781b50372ee7ccdcf3bfd4478ab6fe7ed3a4d5371ae72b6f57",
+    "wordCount": 25
+  },
+  {
+    "id": "appstore-blinkit-26",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 5,
+    "text": "Address c2 Pragya ravi Shankar sankul Bhattar Surat. Nani",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "498a779b9d931dc74835d2cc349e77965ad597ced567387649b7e4f4a9ff40c9",
+    "wordCount": 9
+  },
+  {
+    "id": "appstore-blinkit-27",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 1,
+    "text": "Near expiring products. When we order online, we trust your quality. However, things are going south. A lot of times the products are about to expire and poor quality. The recent ordered milk is an example.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "4ff803063159f0a2ba448bb3974d1d00953170284e3cb1bae298780d2c5478ee",
+    "wordCount": 36
+  },
+  {
+    "id": "appstore-blinkit-28",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 2,
+    "text": "Delivery charges. Jitni bhi stores h sbse jyda delivery charges apke h",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "a8510d3ff0843e003db291c90a2e92885396ff29885da72382412cb9a881fea8",
+    "wordCount": 12
+  },
+  {
+    "id": "appstore-blinkit-31",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 5,
+    "text": "Helpfull. Fast delevry 🩷 and supporting delevry partner 🙌🙌🙌",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "eb3dc27e5695dd29c41f3ae57d6f00142f53634e60f19ebba6e8879dd81e72da",
+    "wordCount": 9
+  },
+  {
+    "id": "appstore-blinkit-32",
+    "source": "app_store",
+    "date": "2026-09-15",
+    "rating": 3,
+    "text": "Improve scan card option. I scanned sbi card to add but surprised to see card getting added in name of idbibank",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "9ec606a1824979b693516b2d0472cae8184e48d99daa9560c2d08999c381d1a6",
+    "wordCount": 21
+  },
+  {
+    "id": "playstore-blinkit-376a7873-e817-4cda-a5ef-478caab00dba",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "Delivery speed seems to be something else and takes a long time",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=376a7873-e817-4cda-a5ef-478caab00dba",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "4b81cc8d7fe0be0bf2d94bc4ddbacf0f7d99b9095ce18d2bb3252958b49aad05",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-cb1c58b4-946d-47b8-b293-74f225e02e1a",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Super. fast delivery and good quality product 👌",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=cb1c58b4-946d-47b8-b293-74f225e02e1a",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "ec06025eec8c458021196b2b085fb3ad540af294a9e522ed91493bb493f1c0ed",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-9de1d5ef-ee1a-485d-b0a6-28653e7e99f3",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "some of the products are too bad, shoul improving taking actions like removong those products",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=9de1d5ef-ee1a-485d-b0a6-28653e7e99f3",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "03e007468458a7c2701f697e2843521a7d347b9c1f632856448abb22511714a7",
+    "wordCount": 15
+  },
+  {
+    "id": "playstore-blinkit-efeb1cad-8bc7-4747-b736-a9df9c00c3ec",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Best app I get my groceries at my doorstep very good service. But I wanted one feature to be added which is when any delivery is completed it tells me to rate it's delivery partner and I wanted an box there where I can share my custom own review about the delivery partner it would be great if you add it cuz one time some delivery boy got angry on me just because I didn't picked the call cuz I was busy in the kitchen. Hope you understand Thanks. 😁🙏",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=efeb1cad-8bc7-4747-b736-a9df9c00c3ec",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "0b0b8c06f53a0cbc64e1526cc953db5a01501d5720aa34d926b1acb2d331cb8c",
+    "wordCount": 90
+  },
+  {
+    "id": "playstore-blinkit-ed59c70c-a1b1-4643-b077-e0f34c5e6c3c",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 4,
+    "text": "veggies at my location are not delivered fresh",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=ed59c70c-a1b1-4643-b077-e0f34c5e6c3c",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "7d2e50d70fd4b612437369294ef38926d7ffe526505a7b583419e1c7c09d3010",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-1570ed3a-6479-4162-91dc-51b9a0bf568d",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "i placed order for my friend didn't receive twice they changed location and after that today I had placed order again if you don't have delivery partner please don't take our money at least you or else mention there smtg !!! I'm waiting for my order i had already paid for that!!!!",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1570ed3a-6479-4162-91dc-51b9a0bf568d",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "765da403e4c2f704a482306dc6a79f2e507741d623d962d2f25e0a53c8846928",
+    "wordCount": 52
+  },
+  {
+    "id": "playstore-blinkit-2e52f0cb-3c11-4caa-9907-32a1e97954bd",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "apne ap daily band ho jata h, uninstall karke install karna padta h",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=2e52f0cb-3c11-4caa-9907-32a1e97954bd",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "cbb669414c517140b2298af12cf71207f1d2c7c6f7dba3be71c30f4c0c585410",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-blinkit-a02b0db0-efdb-4ac3-ba16-d7fc469adfbe",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "absolutely amazing app like you can literally order anything at the very last moment and they'll show up😭🙏🏻",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=a02b0db0-efdb-4ac3-ba16-d7fc469adfbe",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "4908393416aefd6e33c5d4e57f91ff535dc3cefd9d8573505337271578a61d05",
+    "wordCount": 18
+  },
+  {
+    "id": "playstore-blinkit-849e0827-baf6-414a-b417-3e731e2b2332",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "very baad no customer support team I am worried about blinkit customer support",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=849e0827-baf6-414a-b417-3e731e2b2332",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "1d9426da7e42aa2373a3ae8512369c794ed4e56efaa25849fda518e1ec242208",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-blinkit-1c57e40a-20ab-458f-8f4d-3ae0f31c7c5a",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "very good application. However, I have a suggestion for you. Whenever I send a greeting card, it usually goes out blank inside; if you could arrange a system where I provide a message and you copy it onto the card, that would be great.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1c57e40a-20ab-458f-8f4d-3ae0f31c7c5a",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "fa67fcaa87dc611759e62ca4816daea2a568270005094ff4e3056b89875c25dd",
+    "wordCount": 44
+  },
+  {
+    "id": "playstore-blinkit-9da483ff-307a-44c2-9bda-c7ec9cda9768",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "ok very good service I always use blinkit",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=9da483ff-307a-44c2-9bda-c7ec9cda9768",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "f110b4837c9747d94ca9cad2256947371e40b74731eb26c585f8a4d4624145dc",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-9a52c0cc-71fc-40a1-aa4b-eb221d3ac124",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 4,
+    "text": "dr imran sheikh good and fast service 👍👍",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=9a52c0cc-71fc-40a1-aa4b-eb221d3ac124",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "a133f471f58bf48129b42b9c2e8258604f550c6b023131b452f5ed3f231a6fa8",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-2b0318bf-a980-4835-b73f-8ea71e0287b2",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "You have a problem with your location. You cannot see your actual location and it appears 1 kilometer ahead of the location,You can fix this.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=2b0318bf-a980-4835-b73f-8ea71e0287b2",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "2716f131370e0959c8097ab12e490739d5ffe06fa6fcd763f9949334c98aa9a9",
+    "wordCount": 25
+  },
+  {
+    "id": "playstore-blinkit-d62e9d48-850c-4690-bbd4-560bee8788ea",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 2,
+    "text": "time pr product aata hai but price jitna show karta hai utna jada bdha deta hai",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=d62e9d48-850c-4690-bbd4-560bee8788ea",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "2673105a2ee06bc61da89141a70dd373c7675d93b7fa9df76b6bb121f6bc5aa5",
+    "wordCount": 16
+  },
+  {
+    "id": "playstore-blinkit-a0283bb1-5e71-4da1-bd6a-e54bbf17b062",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "If less than 1 star is available so I surely give it to blinkit. i have ordered ghee and after making payment, The Blinkit team called me that the order was not serviceable at your location and we had to cancel the order and impose a penalty of 20 rupees. They impose a penalty for their inability to deliver the product.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=a0283bb1-5e71-4da1-bd6a-e54bbf17b062",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "c41e1c00f9f17913f6530e8240cfdc722cf7a1ad969e4bf2d20b3c10c7d04b8f",
+    "wordCount": 61
+  },
+  {
+    "id": "playstore-blinkit-94e20da0-2834-496b-859e-cf47f76f1778",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "the always change 13 that I don't like, unke ad ke liye main kyon pay karun 🤷",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=94e20da0-2834-496b-859e-cf47f76f1778",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "582fa3672395e020335126ef4a0541db6e7b27a7d83c13f7ee74027de44a563b",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-bigbasket-ea13cbb5-b928-4879-8c9e-0f46ed07ccd8",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "very convenient service. Will be happy if also include some more varieties of brands. Thank you",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=ea13cbb5-b928-4879-8c9e-0f46ed07ccd8",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "89e244039ffa0f4233040e4eb20e0b7482dfad5b299419394610234335a54715",
+    "wordCount": 16
+  },
+  {
+    "id": "playstore-bigbasket-d3c79555-1c4c-4c2f-909d-71095f58bd8e",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Bigbasket is the best and reliable app for fresh and grocery items.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=d3c79555-1c4c-4c2f-909d-71095f58bd8e",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "614cc17458df3934faa4fba47151039730450bfb368f0bc85f3b32b11d38e481",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-bigbasket-2a9a029d-260e-4b9c-a216-d8ea6d885fff",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "pathetic app, this app doesn't open at all everytime it will say server issue",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=2a9a029d-260e-4b9c-a216-d8ea6d885fff",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "790b77af4e24b7c1ebd08d10e49bd0ddf161004f831db2df6356b2b6e2d849ca",
+    "wordCount": 14
+  },
+  {
+    "id": "playstore-bigbasket-be208e99-2cfc-4274-86a5-3e66b1e7aae3",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "very vgood app and I experience very well",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=be208e99-2cfc-4274-86a5-3e66b1e7aae3",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "deffba004106a3e37bb071bdeaa09e57aad52005a10b6cbe2080c8a8c2473bef",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-f42f7805-7907-4429-be73-b6f180e93dc1",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "app is not open showing error I try many times but still showing error",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f42f7805-7907-4429-be73-b6f180e93dc1",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "bc64038ab91c4f621453230b3e759c49098bce52b6a33f876ef43f1820ec0fc4",
+    "wordCount": 14
+  },
+  {
+    "id": "playstore-bigbasket-63145f56-677a-465d-9d78-60509eb38a30",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "I am not sure why bigbasket has increased the handling charges from rs6 to rs8, where Zepto does not charge anything as of now.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=63145f56-677a-465d-9d78-60509eb38a30",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "2c7107497d68a8a5f4834ce5e0d5f9f7e7d62b0b25122d9c6e1edbc2a8e66d75",
+    "wordCount": 24
+  },
+  {
+    "id": "playstore-bigbasket-28148c91-842d-4436-b246-2e4023845d0c",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "THEY SEND THE WRONG ORDER AND DONT REFUND THE FULL AMOUNT",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=28148c91-842d-4436-b246-2e4023845d0c",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "37a148b0e056bfbf9d94d50e13d111f853247793646951b9a4ce770caaee80ca",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-bigbasket-2f4e6cf8-ae08-4a04-b643-8af7e50b91de",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "It is safe app for ordering groceries and accessories etc...",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=2f4e6cf8-ae08-4a04-b643-8af7e50b91de",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "4c05daeb2a4da9f9e39a339903c1b801fb25935ae88820764f517c2a4723ec57",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-bigbasket-b45b1245-d9c3-467a-8162-5d24b74d15c7",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "It takes a lot of time to open this app.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=b45b1245-d9c3-467a-8162-5d24b74d15c7",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "205d8bcf12eefde8fdc43b2c89dfd6d91342e1e0b1f0429566588a02ebfb1808",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-bigbasket-938ceb7b-ce33-4833-aacc-b5b00ef8662f",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "these big basket always takes a time to load and some times it will not open but in other hand th other all app (online) will work nicely but only problem is have with these but in discount all it is very good pls solve these problem",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=938ceb7b-ce33-4833-aacc-b5b00ef8662f",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "98c930086b6dfc82b9e5600a2100155c3e2930680cf0129bef03985d2c809bc3",
+    "wordCount": 47
+  },
+  {
+    "id": "playstore-bigbasket-aba032d9-8b7b-4667-aaa0-34beffd37e37",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "I have given a zero-star rating because of the delay in my refund. I placed an order on September 1, but the order was cancelled due to some reason. I was informed that my refund would be processed, but today is September 15 and I still have not received my money. I have contacted customer support multiple times through chat, but the issue has still not been resolved. This is very disappointing. Please check my refund status and process the refund immediately. I would also appreciate a clear up",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=aba032d9-8b7b-4667-aaa0-34beffd37e37",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "ddf7c68461295821177149419ebaf6b43e1363395e772542c6a1b652ca6d7683",
+    "wordCount": 89
+  },
+  {
+    "id": "playstore-bigbasket-f6d49470-f3da-4741-90fd-331013dfb08d",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "Whenever I receive a coupon, the app suddenly shows “We’ll be back soon” and I’m unable to place an order. Strangely, as soon as the coupon expires, the app starts working normally and says “Now you can order.” This keeps happening repeatedly. Please fix this issue and clarify what is going on. Very disappointing experience.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f6d49470-f3da-4741-90fd-331013dfb08d",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "aeb90214eaec0f0783581ecc191f960757bc03ee57015a41b16f198cb2178146",
+    "wordCount": 55
+  },
+  {
+    "id": "playstore-bigbasket-6ef09ec9-5a49-48b9-a2ad-018293d3e68f",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 5,
+    "text": "very fast delivery and good product and no time waste for workers hours men's or women's 💜💜💜💜🫰🫰🫰",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=6ef09ec9-5a49-48b9-a2ad-018293d3e68f",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "0b131c1f92016c0716f48a198f9a4a3802ef7611a47bcbedeb4dd378a8ce3c62",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-bigbasket-c4674726-ad60-48a9-bb52-0909c0f3f809",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "very bad service from Bigbasket customer care also not helping am public ko sirf bewakoof banate hai",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=c4674726-ad60-48a9-bb52-0909c0f3f809",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "06236e1416b1a828692e7c7f041685c3ce9da268f4c6cd9a3580e5b521bb01fb",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-bigbasket-dabeeee0-baf1-4c07-a93f-978e27058752",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "Useless platform. They made me wait for 50 minutes and then cancelled the order and sending a message that i hadn't received the calls for picking up the order.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=dabeeee0-baf1-4c07-a93f-978e27058752",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "27043987f1e01d46557314291adf07b64687bc736d033f9f2c33a9c37a2a209c",
+    "wordCount": 29
+  },
+  {
+    "id": "playstore-bigbasket-590c6e8d-1160-464d-8239-53059baa62db",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 2,
+    "text": "2 star minus 3 star due to SODEXO MEAL PAAS PAYMENT MADE MANY TIMES CREATE PROBLEM??? OVER ALL 5 STAR FOR DELIVERY PERSON",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=590c6e8d-1160-464d-8239-53059baa62db",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "1f8b2053b8128d51aca7fb9070e66b8342c2bb3aef6f87da57b4df6b7f1328d0",
+    "wordCount": 23
+  },
+  {
+    "id": "playstore-bigbasket-8c71f09e-3b02-45cb-be67-fbfa1c4a816c",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "worst help and support staff. This app showed me a discount of rs 125 while I was ordering successfully applied but when delivery associate reached me and at the time of payment discount automatically got removed and I had to pay the full amount including that rs.125 This is not good. yrr nhi dena to mt show kro na ye kya hai do or fir payment ke time hta do. Not a good gesture 😡😡",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=8c71f09e-3b02-45cb-be67-fbfa1c4a816c",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "2a04f908efde6ed2d5ea43a4611e44a9d3a21c86e0a18798336626a08eaa3403",
+    "wordCount": 75
+  },
+  {
+    "id": "playstore-bigbasket-1da6142b-3186-4383-af3f-911aada415ee",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "my account deactivated long time.. poor customer support team",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=1da6142b-3186-4383-af3f-911aada415ee",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "0e7d333c900a266c767438f2ca66852e90cd742048f1f659f28654dfb6ba8307",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-bigbasket-c6aaeaeb-7c79-4f84-a105-c124800c3178",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 4,
+    "text": "quality not gud and no response for returns",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=c6aaeaeb-7c79-4f84-a105-c124800c3178",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "b08c3c1f5677bc38d408f50716fa932eee0470f60ebe87d0641a629cf991d213",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-f192010c-c4c7-46f3-81c6-58f83da459df",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "My first experience with BigBasket was disappointing. One item was unavailable without prior notice, and a combo product arrived with one item missing. I returned it, but the refund went to my BB Wallet, so I placed another order. This time, the box looked repeatedly opened and the product inside looked used. It makes the good things about BigBasket feel pointless when you feel like you wasted money on products you could have received in better condition elsewhere.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f192010c-c4c7-46f3-81c6-58f83da459df",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "2c50a1f0bad853bd13cb9da6c0770620b41a418bcbcb051f33d47971c0d8f335",
+    "wordCount": 78
+  },
+  {
+    "id": "playstore-bigbasket-195d26fa-fd57-4b34-ad45-aaa45c55dda9",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "worst app. first they cancel order and say it will take 3 to 4 business days to get your money back. Today is 16th day and still they saying same. Worst experience and very poor service.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=195d26fa-fd57-4b34-ad45-aaa45c55dda9",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "2cd7d63a3de21cf09f3c797ea3b0b99a2e3a9c34acb0ba5c2b85063f02335c4b",
+    "wordCount": 36
+  },
+  {
+    "id": "playstore-bigbasket-4a196ee4-bb67-4440-bfc4-7a7158ce4861",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "bro ye log diet coke la hi nhi rhe hai",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=4a196ee4-bb67-4440-bfc4-7a7158ce4861",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "8384bd1c4315590d76336411e4d9536bfb691893a5b2cb159df2ea48527bc990",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-bigbasket-b06c161a-02cb-4014-89b6-37b979868a58",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "the app is having poor management I wanted to delete my account but it got re logged in I don't know how n now they are saying we just delete once. other apps allow you to delete anytime n number of times to delete your account without any complex process as it's customers legal right Bigbasket team update your system.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=b06c161a-02cb-4014-89b6-37b979868a58",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "252eb3c05e528b664977810a6c11a92722ae5510c39739767c4ee85a95a0151b",
+    "wordCount": 60
+  },
+  {
+    "id": "playstore-bigbasket-0dd906bb-ec3a-49a5-8264-236d0de72060",
+    "source": "play_store",
+    "date": "2026-09-16",
+    "rating": 1,
+    "text": "First they accept order and then cancel order because they don't have resources. then in new order they deliver the ended shelf life product or near to ending shelf life Product. such a worst experience. and the main thing is that you have to wait 3 days to get an order and 3 days to return it back.and they put money in their wallet, so you forcefully have to use it. Never ever order from this app.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=0dd906bb-ec3a-49a5-8264-236d0de72060",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "2bb17e1da3ba366ef4cc1b101c256a264e119e3dfa17b7860944c81bc8916abd",
+    "wordCount": 77
+  },
+  {
+    "id": "social-pp-1vqitza",
+    "source": "social",
+    "date": "2026-08-17",
+    "rating": null,
+    "text": "How to Build an Effective Digital Marketing Funnel for Indian Businesses — Getting people to visit your website or social media profile is only the beginning. The real challenge is turning those visitors into **leads, customers, and repeat buyers**. This is where a **digital marketing funnel** becomes important. A well-designed funnel helps businesses understand the customer journey—from the moment someone discovers your brand to the point where they make a purchase and eventually become a loyal customer. For small businesses, startups, agencies, e-commerce brands, local businesses, and service providers in India, a digital marketing funnel can make marketing more organized, measurable, and effective. In this guide, we'll explain what a digital marketing funnel is, how it works, and how Indian businesses can build one from scratch. # What Is a Digital Marketing Funnel? A digital marketing funnel is a framework that represents the different stages a potential customer goes through before and after making a purchase. A simple funnel looks like this: **Awareness → Interest → Consideration → Conversion → Retention → Advocacy** At the top, you have a large audience that may not know your business. As people become more interested and eventually make a purchase, the audience becomes smaller—but more valuable. The goal isn't simply to get as many people as possible into the funnel. The goal is to **move the right people through each stage efficiently.** # Why Does a Marketing Funnel Matter? Without a funnel, businesses often post content, run advertisements, and collect leads without understanding what happens next. A funnel helps you answer important questions: * How are people discovering our business? * Why are they becoming interested? * What makes them trust us? * Why are they contacting us? * Why do they decide to buy? * Why do some customers leave? * How can we encourage repeat purchases? A clear funnel connects your marketing activities to actual business results. # Stage 1: Awareness The first stage is **Awareness**. At this point, potential customers may not know your business exists. Your goal is to get your brand in front of the right audience. # Useful Awareness Channels You can use: * SEO * Social media * Instagram Reels * YouTube * Blog content * Google Ads * Meta Ads * Influencer collaborations * Local SEO * Referrals For example, a digital marketing agency in India could publish: **\"5 Reasons Small Businesses Struggle to Get Leads Online.\"** Someone searching for solutions may discover the article through Google or social media. They may not be ready to buy yet—but they now know the agency exists. # Stage 2: Interest Once people become aware of your brand, the next goal is to create **interest**. At this stage, customers want to learn more. They may: * Visit your website * Follow your Instagram account * Read your blog * Watch your videos * Download a guide * View your services * Sign up for your newsletter Your content should provide useful information rather than immediately pushing for a sale. # Examples A web development company could publish: **\"What Should a Business Website Include in 2026?\"** A fitness business could create: **\"Beginner's Guide to Creating a Consistent Workout Routine.\"** Educational content gives potential customers a reason to stay connected with your brand. # Stage 3: Consideration Now the customer is actively comparing solutions. They may be asking: * Which company should I choose? * Is this service worth the price? * What makes this brand different? * Can I trust this business? * What do previous customers say? This is where **trust-building content** becomes extremely important. # Use: * Customer reviews * Testimonials * Case studies * Portfolio * Product demonstrations * FAQs * Comparison guides * Detailed service pages * Expert content For example, a digital marketing agency could show how it helped a previous client improve their online presence. Instead of simply saying: **\"We provide excellent digital marketing services.\"** showing real work and customer experiences provides stronger evidence. # Stage 4: Conversion At this stage, the potential customer is ready to take action. Your job is to make that action as easy as possible. Depending on your business, conversion could mean: * Making a purchase * Booking a consultation * Calling your business * Sending a WhatsApp message * Filling out a contact form * Requesting a quotation * Booking an appointment * Signing up for a service # Use Clear Calls-to-Action Examples include: **Get a Free Quote** **Book a Consultation** **Talk to Our Expert** **Shop Now** **Send Us a WhatsApp Message** **Request a Callback** Don't make customers search for what to do next. # Stage 5: Lead Nurturing Not every potential customer will buy immediately. Someone may: * Need more information * Compare competitors * Discuss the purchase with someone else * Wait for their budget * Need additional time to decide This is why lead nurturing is important. You can nurture leads through: * Email * WhatsApp * Helpful content * Follow-up calls * Retargeting campaigns * Product updates * Special offers For example: **\"Hi, we wanted to check whether you had a chance to review our proposal. Please let us know if you have any questions.\"** A professional follow-up can turn an interested prospect into a customer. # Stage 6: Retention The funnel shouldn't end after a customer makes a purchase. A successful business also focuses on **retaining customers**. Existing customers can be extremely valuable because they may: * Buy again * Upgrade their service * Recommend your business * Leave positive reviews * Become long-term customers # Retention Strategies You can use: * Loyalty programs * Customer support * Email updates * Exclusive offers * Educational content * Personalized communication * Follow-up messages * Product recommendations The goal is to make customers feel valued after the sale. # Stage 7: Advocacy The final stage is **Advocacy**. A happy customer can become one of your best marketing channels. They may: * Recommend your business * Tag you on social media * Leave a review * Share your content * Refer friends * Create user-generated content Encourage satisfied customers to share genuine experiences. Word-of-mouth recommendations can be especially valuable for local businesses in India. # How to Build a Digital Marketing Funnel From Scratch Now let's look at a practical process. # Step 1: Define Your Ideal Customer Before building your funnel, understand who you're targeting. Consider: * Age * Location * Profession * Income or budget * Interests * Problems * Buying behaviour * Preferred platforms For example, a local salon and a B2B software company will need completely different funnels. # Step 2: Define Your Customer's Problem Your marketing becomes more effective when you understand the problem your customer wants to solve. Ask: **What does my customer want?** **What is stopping them from achieving it?** **What information do they need before buying?** For example, a small business owner may want more customers but may not know whether they need SEO, social media marketing, or paid advertising. Your content can help answer those questions. # Step 3: Choose the Right Marketing Channels You don't need to use every digital platform. Choose channels based on your audience. # Google Search + SEO Useful when customers actively search for solutions. # Instagram Useful for visual and consumer-focused businesses. # Facebook Useful for local businesses and community-based marketing. # LinkedIn Useful for B2B and professional services. # YouTube Useful for educational and demonstration-based content. # WhatsApp Useful for direct communication and lead follow-up. # Step 4: Create Content for Every Funnel Stage One of the biggest mistakes businesses make is creating content only for people who are ready to buy. Instead, create content for different stages. # Awareness Content * Reels * Educational posts * Blog articles * Infographics * Industry trends # Consideration Content * Case studies * Reviews * Comparisons * FAQs * Detailed guides # Conversion Content * Offers * Free consultations * Product pages * Pricing information * Testimonials # Retention Content * Tutorials * Customer updates * Loyalty offers * Helpful tips # Step 5: Create a High-Converting Landing Page If you're running a campaign, don't always send visitors to your homepage. A dedicated landing page can be more effective. A good landing page should include: * Clear headline * Problem or benefit * Service/product information * Trust signals * Testimonials * Relevant images * Strong CTA * Simple contact form For example, an ad promoting **SEO services for Indian small businesses** should ideally lead to a page specifically about that service—not a generic homepage. # Step 6: Add Multiple Contact Options Indian customers use different communication methods. Depending on your business, offer options such as: * Phone * WhatsApp * Email * Contact form * Appointment booking Make it easy for customers to choose the method they prefer. # Step 7: Follow Up Quickly Generating a lead is only half the job. Your response time matters. Create a simple process: **New inquiry → Quick response → Understand requirement → Share solution → Follow up → Close sale** Use a CRM or spreadsheet if necessary to track leads. Don't allow potential customers to disappear simply because nobody followed up. # Step 8: Measure Every Funnel Stage A funnel becomes powerful when you measure it. Track: # Awareness * Reach * Impressions * Website traffic * Video views # Interest * Page views * Engagement * Email sign-ups * Social profile visits # Consideration * Service-page visits * Downloads * Consultation requests * Repeat visits # Conversion * Leads * Sales * Bookings * Conversion rate # Retention * Repeat purchases * Customer lifetime value * Referrals * Reviews This helps you identify where potential customers are dropping out. # Example: Digital Marketing Funnel for an Indian Small Business Imagine a web design company targeting small businesses in Chandigarh. # Awareness Instagram Reel: **\"5 Signs Your Business Website Needs a Redesign.\"** ↓ # Interest Customer clicks through to a blog explaining website problems. ↓ # Consideration Customer views the agency's portfolio, testimonials, and case studies. ↓ # Conversion Customer sees: **\"Book a Free Website Consultation.\"** ↓ # Lead Customer submits the inquiry form. ↓ # Follow-Up The agency contacts the customer and discusses their requirements. ↓ # Sale Customer purchases a website package. ↓ # Retention The agency offers maintenance, SEO, and digital marketing services. ↓ # Advocacy The satisfied customer leaves a review and recommends the agency. This is a simple example of how different marketing activities can work together. # Common Digital Marketing Funnel Mistakes Avoid these mistakes: ❌ Sending every visitor directly to a sales page ❌ Having no clear CTA ❌ Targeting everyone ❌ Creating only promotional content ❌ Ignoring existing customers ❌ Not following up with leads ❌ Using a complicated contact form ❌ Not tracking conversions ❌ Focusing only on website traffic ❌ Ignoring mobile users ❌ Changing strategies without analyzing results A funnel should make the customer journey **simpler**, not more complicated. # How Much Does It Cost to Build a Marketing Funnel? There is no fixed cost. A simple funnel can be created with relatively affordable tools: * Website * Landing page * Google Business Profile * Social media * Email marketing * WhatsApp * Analytics Larger businesses may invest in: * CRM software * Marketing automation * Paid advertising * Professional content * SEO * Dedicated landing pages * Lead management systems The important thing is to start with what your business actually needs. # Digital Marketing Funnel Checklist Before launching your funnel, make sure you have: ✅ A clearly defined target audience ✅ A clear customer problem ✅ Awareness content ✅ Educational content ✅ Trust-building content ✅ A professional website ✅ Strong landing pages ✅ Clear calls-to-action ✅ Easy contact options ✅ A lead follow-up process ✅ Customer retention strategy ✅ Review and referral strategy ✅ Conversion tracking # Final Thoughts A digital marketing funnel helps transform random online marketing activities into a structured customer journey. Instead of simply asking: **\"How can I get more followers?\"** ask: **\"How can I attract the right people, build trust, convert them into customers, and keep them coming back?\"** For Indian businesses, a strong funnel can combine **SEO, Local SEO, social media, content marketing, websites, Google Ads, WhatsApp, email marketing, reviews, and follow-up** into one connected strategy. You don't need to build a complicated funnel from day one. Start with the basics: **Attract → Educate → Build Trust → Convert → Follow Up → Retain → Encourage Referrals** Then measure the results and improve each stage over time. **A successful digital marketing funnel isn't about getting the most traffic. It's about turning the right traffic into real business growth.**",
+    "author_segment_hint": "u_designdensolutions",
+    "url": "https://reddit.com/r/u_designdensolutions/comments/1vqitza/how_to_build_an_effective_digital_marketing/",
+    "keywords": [
+      "buy again",
+      "trust"
+    ],
+    "textHash": "17309a03bfa88b85e64c7052ec22a7569b8b1af964c198127e777120aad1d0e5",
+    "wordCount": 2112
+  },
+  {
+    "id": "reddit-pp-1u3q0to",
+    "source": "reddit",
+    "date": "2026-06-12",
+    "rating": null,
+    "text": "QUERY ABOUT FOOD DELIVERY OR PARCEL DELIVERY OPTIONS IN VIT VELLORE 💔 — Hi, im a fresher joining vit vellore this year, i want to know about these things: hostel wifi speed? internet connectivity overall? swiggy/zomato/blinkit works? amazon parcels delivery?",
+    "author_segment_hint": "Vit",
+    "url": "https://reddit.com/r/Vit/comments/1u3q0to/query_about_food_delivery_or_parcel_delivery/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "e6c334229db98f76541d5a14e4acaa945d914f8bc2bc84b730a51db14aca5fa0",
+    "wordCount": 40
+  },
+  {
+    "id": "product_review-pp-1oyrhz8",
+    "source": "product_review",
+    "date": "2025-11-16",
+    "rating": null,
+    "text": "Swiggy Instamart’s Superwoman Sunday just blessed my wallet — I still can’t believe this happened so I’m sharing it here before it feels like a dream. I went on Instamart for the Superwoman Sunday offer and picked up about ₹2700 worth of stuff I actually needed: pads, diapers for my baby, The Body Shop face wash, Cetaphil creams and all that boring adult life shopping. Then out of nowhere they had Maybelline and L’Oréal products for ₹1 each. Yes. One rupee. I placed the four times (approx 600 Rs each time) ended up with around ₹12,000 worth of makeup for one rupee each!! (This was in Pune by the way. If it was a glitch, I’m not complaining. I’m already weirdly protective of my Re 1 lipstick.)",
+    "author_segment_hint": "IndianBeautyDeals",
+    "url": "https://reddit.com/r/IndianBeautyDeals/comments/1oyrhz8/swiggy_instamarts_superwoman_sunday_just_blessed/",
+    "keywords": [
+      "instamart",
+      "swiggy instamart"
+    ],
+    "textHash": "e782d3387b088be639132b25c98778b1395eb07f3a41b536e1a4f7c18acf667e",
+    "wordCount": 127
+  },
+  {
+    "id": "product_review-pp-1q14u9s",
+    "source": "product_review",
+    "date": "2026-01-01",
+    "rating": null,
+    "text": "Charging more than the MRP mentioned on the packet. — I am not an active reddit user so don't think this is a bot account. I just created this account to share my experience on instamart. I ordered Bru coffee from Instamart. At the time it said the MRP is ₹740 but with discount it is available for ₹592. When the pack arrived, It has MRP ₹500. I immediately asked to return the product and get a refund. But they refused to do so . Instead they offered me a coupon worth ₹95 which can only be used on instamart within 30 days and comes with typical t&c's like ghee, baby products etc. are ineligible. Charging more than MRP is an offence under \"Legal Metrology Act\" and \"Consumer Protection Act\".",
+    "author_segment_hint": "swiggy",
+    "url": "https://reddit.com/r/swiggy/comments/1q14u9s/charging_more_than_the_mrp_mentioned_on_the_packet/",
+    "keywords": [
+      "instamart",
+      "baby products"
+    ],
+    "textHash": "8bac0fecd13ef1a12a5d04541996f714eaa58419048abcddf14bff5b3655ddab",
+    "wordCount": 130
+  },
+  {
+    "id": "product_review-pp-1uy4wha",
+    "source": "product_review",
+    "date": "2026-07-16",
+    "rating": null,
+    "text": "Call pe tasks kregi?? M4f — Aisi ladki jisko tasks krne ho ekdum degrading ke saath, without face, privacy rhegi ekdum, kon h randi? Kon banegi aaj kuttiyyaaa? Limits will be respcted, but fully wild krengee aajjaaaa, daddyyy here to ownn. Ignoreee Hi Manpreet, I hope you’re doing well. I wanted to follow up regarding the assignment I submitted for the Product role at Torrins. I genuinely enjoyed working on it, as it gave me an opportunity to understand the product and think through some real user problems. I remain very interested in the opportunity to work with the Torrins product team. Please let me know if there are any updates regarding the next steps or if you need any additional information from my side. Best regards Choose any ONE product: Blinkit Swiggy (Instamart) Zepto You are a Product Manager on the Growth Team at your chosen company. Quick commerce platforms have successfully become a part of users' weekly routines. Many users place recurring orders for Groceries, snacks & beverages and household essentials. Over time, however, shopping behavior becomes highly repetitive. Users often purchase the same set of products repeatedly and rarely explore new categories available on the platform. One of the company's strategic goals is to: Increase the percentage of Monthly Active Customers who purchase products from at least one new category every month. Examples: A user who buys groceries starts buying pet supplies. A user who buys snacks starts buying personal care products. A user who buys household essentials starts buying baby products.",
+    "author_segment_hint": "indianroleplay",
+    "url": "https://reddit.com/r/indianroleplay/comments/1uy4wha/call_pe_tasks_kregi_m4f/",
+    "keywords": [
+      "blinkit",
+      "instamart",
+      "quick commerce",
+      "new category",
+      "personal care",
+      "pet supplies",
+      "baby products",
+      "groceries"
+    ],
+    "textHash": "3bd4a923a74e2e91a8a2daf77fbfc7429aad2d8eab5b6206eb26697371e6d42d",
+    "wordCount": 255
   }
 ]
