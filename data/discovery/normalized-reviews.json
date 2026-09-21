@@ -96717,5 +96717,587 @@
     "keywords": [],
     "textHash": "56ca4e930812774fc7b0632333ab1bcd5d43f4c5086286a3e0195ff4b7bbc528",
     "wordCount": 83
+  },
+  {
+    "id": "appstore-blinkit-5",
+    "source": "app_store",
+    "date": "2026-09-19",
+    "rating": 1,
+    "text": "NO INSTENT SUPPORT AVAILABLE. I swear, after today, I’m never ordering from this third-class app again. I placed an order for biscuits around 10:30 PM, and some items were missing/damaged. I needed immediate support, but the app has practically NO real customer support available—only useless automated responses. When a customer has a genuine issue with an order, especially late at night, there should be an option to immediately connect with a real support executive. Instead, you’re forced to go through automated replies and emails while your problem remains unresolved. This is a SERIOUS customer-service failure. What’s the point of promising quick delivery if you completely fail when the customer actually needs help? Extremely frustrating and disappointing experience. I’m done ordering from Blinkit.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "7a8061647164ad0ef207a946d32244daa5017aff977adabd658c8c5a111a8564",
+    "wordCount": 122
+  },
+  {
+    "id": "appstore-blinkit-6",
+    "source": "app_store",
+    "date": "2026-09-19",
+    "rating": 1,
+    "text": "Don’t buy anything in this app. I buy switch box and it’s not fit for my socket 😢😢just I asked replace with another but there is no option please I request😓😓 guys please buy directly in shop I just un installed app this is my last order thank you 🙏🙏",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "4531ddef52c51c2e58b17152b1341ddb26c39396ac74f651ae186d3564182886",
+    "wordCount": 50
+  },
+  {
+    "id": "appstore-blinkit-8",
+    "source": "app_store",
+    "date": "2026-09-19",
+    "rating": 4,
+    "text": "Extra charges. I already buy expensive from this but price charge hieger",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "6b31b58192759f0a8294cb021d70d2eedb5edef125e23b8925d259a36418c62f",
+    "wordCount": 12
+  },
+  {
+    "id": "appstore-blinkit-10",
+    "source": "app_store",
+    "date": "2026-09-19",
+    "rating": 2,
+    "text": "Delivery Charge not reasonable. Too much for extra delivery charge and extra small cart charge.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "c4d19d8759028b3e1c12c4fbfecccac8866edce250f9065d29c8a20392ff03e4",
+    "wordCount": 15
+  },
+  {
+    "id": "playstore-blinkit-e0685caa-3ca8-4d90-8545-cbe9b0580683",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 2,
+    "text": "Price is little on the higher side, also you need to provide option for QR Code scanning for the payment.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=e0685caa-3ca8-4d90-8545-cbe9b0580683",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "090872004d6373fa8f3b73941eb963369bb3eb91265fcb3deb0c15aa82c0db20",
+    "wordCount": 20
+  },
+  {
+    "id": "playstore-blinkit-0be4e3be-4baf-41fe-8ae9-13f3871383bf",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "Very dirty packaging..ordered many items like ice cream and bread. But all items come in a terrible condition. Very disappointed with the delivery.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=0be4e3be-4baf-41fe-8ae9-13f3871383bf",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "d1334b8099e5824f9151b7f7bc4c9ca9b6e7fbc71bb3202812da8536b8ab5392",
+    "wordCount": 23
+  },
+  {
+    "id": "playstore-blinkit-18584164-9854-4f92-9005-b05e51f867e2",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 5,
+    "text": "So easy to use. Snappy and seamless. Best in class.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=18584164-9854-4f92-9005-b05e51f867e2",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "de723b1b1788f07bfbe8654498666c202a382318d517065e8125ddaee5fc84da",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-blinkit-c998f613-6c8b-4155-98f6-9d1a4a70fdda",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "whwn you show the final bill its allways show increased amount why????? ive ordered for rs. 528/_ bill showed rs.553/_ but final bill raised rs. 568/_ why this kind of fraud you do with the customers??????",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c998f613-6c8b-4155-98f6-9d1a4a70fdda",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "126b856a8188aced6d45db73d43a3f094d7a551a59e7ef586671d6f5739a926f",
+    "wordCount": 36
+  },
+  {
+    "id": "playstore-blinkit-c623e0ac-54d8-4e8c-9c34-db0bcd2285e8",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 5,
+    "text": "It is very good in terms of time everything . But I request please make the availability of materials for buying soon on blinkit",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c623e0ac-54d8-4e8c-9c34-db0bcd2285e8",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "698c45ad09189b856d1fe0a640d37468c9dd555575fa49748918c613fbdfd56f",
+    "wordCount": 24
+  },
+  {
+    "id": "playstore-blinkit-63f6d0b4-84f1-4c07-a546-cca8beb268df",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "I never imagined my experience with Blinkit would be this horrible' Blinkit does not have a return policy Once you have received the product you have to use the product you have to use the product even if you don't want the product never buying from Blinkit",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=63f6d0b4-84f1-4c07-a546-cca8beb268df",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "72210c802113536478629f28a37a3213d889c3fc47cddcd72247081dbb48a583",
+    "wordCount": 47
+  },
+  {
+    "id": "playstore-blinkit-613cc955-84e3-4bad-8e39-4353d16f15bb",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 3,
+    "text": "there is no offer coupon and price negotiation with respect to mrp",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=613cc955-84e3-4bad-8e39-4353d16f15bb",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "b9c650be3c4c7d6f0fd5a40665b623206ba549abd6dc7db474b8d220a38639d7",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-e08cbcb4-eb04-4059-8c9c-a2e33818eb68",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "Blinking support service is best in Worst services given..",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=e08cbcb4-eb04-4059-8c9c-a2e33818eb68",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "f3098d66fd5143216af045be7d4936751a24570110a9cff8cd5b45194481b9f4",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-aead49f3-c986-442e-837c-fffcbc0874dd",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "Received products with one day expiry date. which is totally not entertainable. pls provide fresh breads and vegetables.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=aead49f3-c986-442e-837c-fffcbc0874dd",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "3c51d6a5bd9c36b8cd6c8a16b53f78e27ecbc919298a297ef91922567523ede2",
+    "wordCount": 18
+  },
+  {
+    "id": "playstore-blinkit-9a1e6a17-3fd8-4086-8c9c-37853dbfa7bc",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "Now A days ur services are not good every time some issues in produts not Happy",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=9a1e6a17-3fd8-4086-8c9c-37853dbfa7bc",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "2caf7dd6fecf8f98caabc1c8350069cbced4e210d8c85531b8f910d667b81222",
+    "wordCount": 16
+  },
+  {
+    "id": "playstore-blinkit-33ecbc72-b569-491a-8955-d0397da4f846",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 4,
+    "text": "this app is preety good i got almost every item I need.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=33ecbc72-b569-491a-8955-d0397da4f846",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "b0480c7e97cd916f47c55abb8dd333253167433479da43262dba24406bb6e94d",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-067e8545-2033-4da1-bae0-fde3e449ddd7",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 5,
+    "text": "1. Delivery is fast and safe. 2. delivery man good communication.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=067e8545-2033-4da1-bae0-fde3e449ddd7",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "4e7b9775ea5a3ae8eb3421b915ee5f3be35ec0cbf4cfec3dd3b5e16d59485882",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-blinkit-bef6e3f6-ff51-443f-875d-4c0ff3d96010",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 4,
+    "text": "one of the best online grocery service provider in Madurai. particularly Vegetables are fresh and clean.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=bef6e3f6-ff51-443f-875d-4c0ff3d96010",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "2593dbbb53f817bb95b214034fe66c371500ffbbd6ab66382a0fa04554928dbb",
+    "wordCount": 16
+  },
+  {
+    "id": "playstore-blinkit-44a61c5f-fe80-4b95-83de-0250ba0bfaef",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "mujhe mere order me puri quantity nahi mili mene coustomer support se baat ki per samasya hal nahi hui or mene e-mail bhi bhai diya hai 😡😡",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=44a61c5f-fe80-4b95-83de-0250ba0bfaef",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "ae8c3d97774cdbd634cc493cd9d3f6b1ce0ef73d89a5b4f352d0cba544e92f5c",
+    "wordCount": 27
+  },
+  {
+    "id": "playstore-blinkit-cbce0043-dd94-4ade-8a02-38662ad1cc1f",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 5,
+    "text": "loved it and satisfied too ,very fast as compared to other apps.👍😊",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=cbce0043-dd94-4ade-8a02-38662ad1cc1f",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "98a8be869623c1441555f0481b260e51fe87b54b40a521f6acecd91d4955645d",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-blinkit-dbbd6c8e-9144-4583-b7fe-1fe103ae6716",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 5,
+    "text": "Good Service But ek problem hai 149 ke niche free dilevery avilable nhi hai , Agar ise 49 lar diya jaye 69 to better option rhega.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=dbbd6c8e-9144-4583-b7fe-1fe103ae6716",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "ace3956f683ca86d965059f918932990dd7b0861ebe696da513fb7e4cc630d33",
+    "wordCount": 26
+  },
+  {
+    "id": "playstore-blinkit-1774dcf9-23ce-4083-8de7-e28901c1d331",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "blinkit sent used product You have sent me a used product. The earbuds were not properly packed, and there was no user guide/manual inside the box. I only received the earbuds and the rubber ear tips. This clearly does not look like a new product",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1774dcf9-23ce-4083-8de7-e28901c1d331",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "e5dfb6d2fd65f72d8c39132e135d85ecab65c8ec1c7a622ea2aabc7192d2f375",
+    "wordCount": 45
+  },
+  {
+    "id": "playstore-bigbasket-f7ec6b9d-6e9e-48ee-a358-b10552ea6aff",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "most stupid app, half of the time they will cancel morning delivery and then one bot will call you more than 10 times to irritate you by informing that your order is cancelled. who has built this app - tech and ops guys should be immediately terminated",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=f7ec6b9d-6e9e-48ee-a358-b10552ea6aff",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "2b3f472ad166f162635c4d354f97370e2d0253ff2cd87a363ff029a7343a2365",
+    "wordCount": 47
+  },
+  {
+    "id": "playstore-bigbasket-52f828c2-66a5-4520-946b-9ebf4c5ad80f",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "Not Good. There are product quality issues, specifically in bbdaily products., that too in dairy ones. They don't have any customer redressal section in their whole customer service section. A Big Big No for me to use bbdaily from now on.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=52f828c2-66a5-4520-946b-9ebf4c5ad80f",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "c72e67a0169770a7b3683138eb1f0141d3207243e08cfad8e30defb66e0dda5a",
+    "wordCount": 41
+  },
+  {
+    "id": "playstore-bigbasket-2b13d6c7-2d18-4407-97dc-07dc351d5d86",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "Big Basket sending the old stock, near or expired products. If you don't observe you will consume the expired products I have ordered an eggs pack of 12 on 19 Sep, the product i received is packed on 1st Sep and Expires on 19th Sep. It is always better to buy in a physical store, these online platforms are sending expired products",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=2b13d6c7-2d18-4407-97dc-07dc351d5d86",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "5a7746a6ebe47dcffa98b76d9ba2ab1d6a0eee67ffa9f00a18c2a0ed8351a3f4",
+    "wordCount": 62
+  },
+  {
+    "id": "playstore-bigbasket-125c1773-c7c5-4a4f-a44e-9412d8153934",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 5,
+    "text": "bahut badhiya quality bahut achcha product very good",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=125c1773-c7c5-4a4f-a44e-9412d8153934",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "5b2ae36e659b965aef5bff128afcedadf6cd3f59492af797b1e1b38f7fb24f82",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-c92d9801-eb76-4698-9925-3aad6e083420",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 1,
+    "text": "last minute cancellations are more in bb delivery. Atleast 4 days in a week, the deliveries will be cancelled at 7am, the rush hour. cant rely on bb anymore",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=c92d9801-eb76-4698-9925-3aad6e083420",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "0729917a41a21e608674c00d6067fb775db8f989273be51543edb3ac38ca0969",
+    "wordCount": 29
+  },
+  {
+    "id": "playstore-bigbasket-77c508ca-2517-4116-9ecf-1ecfb55ae7bc",
+    "source": "play_store",
+    "date": "2026-09-20",
+    "rating": 3,
+    "text": "I am facing issue with product invoice i have purchased a earbuds from bb but with 10 day product failed I have chat with team mail drop but no response from bb team",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=77c508ca-2517-4116-9ecf-1ecfb55ae7bc",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "5d1a3b0ddb62ef2a69e451a74bf8e171993dc731bcbd5f54163a7bef84957c6f",
+    "wordCount": 33
+  },
+  {
+    "id": "playstore-bigbasket-5ba58a42-89c1-420d-aec7-5797065624f1",
+    "source": "play_store",
+    "date": "2026-09-19",
+    "rating": 1,
+    "text": "very bad it's not good delivery was not good it's taken 2 times payment",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=5ba58a42-89c1-420d-aec7-5797065624f1",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "895a432b64e4349d87533c9f655555f8bfd58f74f56682683ce28996f399e9d1",
+    "wordCount": 14
+  },
+  {
+    "id": "playstore-bigbasket-98ce3398-ce82-4dae-9b1c-453d995f038f",
+    "source": "play_store",
+    "date": "2026-09-19",
+    "rating": 1,
+    "text": "bb always delivered wrong products to me 😡🤬",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=98ce3398-ce82-4dae-9b1c-453d995f038f",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "bd8396a55a38739531deeb694f2d77de03c639c72587b5c274ca184f51038c13",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-e3df96ba-b912-44dd-9e32-2a0420cc96f5",
+    "source": "play_store",
+    "date": "2026-09-19",
+    "rating": 1,
+    "text": "they provide expired products when asked for returning they doesn't respond neither the social media team replies nor any of them help. taken my 2k now not replying.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=e3df96ba-b912-44dd-9e32-2a0420cc96f5",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "abbc84aff7f731f07e566b28502e7db3226211d55d181bc55e2d442871578777",
+    "wordCount": 28
+  },
+  {
+    "id": "playstore-bigbasket-8bebca9a-ddd1-4ead-af94-f9059a4ac9c2",
+    "source": "play_store",
+    "date": "2026-09-19",
+    "rating": 5,
+    "text": "please tell your tech team to improve the map my location is perfect your delivery partners are getting irritated",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=8bebca9a-ddd1-4ead-af94-f9059a4ac9c2",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "790b99c02097dcb674beec586604db39fa34323c7697102e6e1d9eef9c1454c5",
+    "wordCount": 19
+  },
+  {
+    "id": "playstore-bigbasket-802bfd87-6aa2-4011-ac60-0801d00eb4f4",
+    "source": "play_store",
+    "date": "2026-09-19",
+    "rating": 1,
+    "text": "Very disappointing experience with BigBasket. I waited for 2 days for my order, only to have it cancelled. On top of that, the ₹50 FreeCash I applied to the order was also lost. Customers shouldn’t have to suffer because of order cancellations from BigBasket’s side. Please resolve this issue and refund my ₹50 FreeCash.very cheap customer support my problem till date not resolved.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=802bfd87-6aa2-4011-ac60-0801d00eb4f4",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "63f02a638e4735cee9f012864fbcfd0ccebeb17d727abb80ef5815b691c58fe7",
+    "wordCount": 63
+  },
+  {
+    "id": "playstore-bigbasket-ba2fa31a-040c-4337-8d44-433733ea3797",
+    "source": "play_store",
+    "date": "2026-09-19",
+    "rating": 1,
+    "text": "so has been very poored response and no information have cancel my order than the report this app",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=ba2fa31a-040c-4337-8d44-433733ea3797",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "28d7c87470876a81201427ea88163b4504a6a2592bed93549c499c7efdd5712b",
+    "wordCount": 18
+  },
+  {
+    "id": "social-pp-1s61h6s",
+    "source": "social",
+    "date": "2026-03-28",
+    "rating": null,
+    "text": "Anyone worked at Nish Hair with (inframe: Parul Gulati)? Because the stories are WILD. @parulgulati — Okay so I’ve been going down a rabbit hole on this as a lot of my friends happen to have worked with her and honestly… the more I hear, the worse it gets. This is going to be long but all of it is true and it’s insane. **1. NDAs for a HAIR EXTENSIONS BRAND??** 🚩 Every employee has to sign an NDA before joining. Like… what exactly are we protecting here? Trade secrets of clip-ins? Multiple people have said this is less about business and more about making sure no one talks about what actually goes on inside that office. **2. The Office = Fear Factory** This isn't \"my boss is a bit intense.\" P terrorizes people. Screams at them publicly over the smallest things. No closed doors, no private conversations…. just open humiliation at your desk. Her philosophy? I pay you = I own you. People aren't employees. They are hostages with a salary. And if you dared to resign? You have to literally beg for your own full and final settlement. Money you already earned. **3. ZERO Boundaries. Like Actually Zero.** 🤯 P regularly talks about her sex life. Openly. In the office! Unsolicited. Casually. Like it is nothing. There's one conference room moment people cannot forget, she apparently announced to the room: *\"I f\\*\\*\\*ed Ash\\*\\*\\* Cha\\*\\*\\*\\*\\*\\*\\*\\* at this table.\"* The same table where people work and eat lunch. Cool cool cool. Also your job title means nothing. Marketing, sales, whatever - you could end up doing her personal errands with zero extra pay and zero discussion. Just do it or else. **4. The Dubai Incident** 🛫 P was at her Dubai salon. A staff member didn't hear her call. Instead of, you know, calling again like a normal human … P grabbed her by the hair and pulled. The girl was stunned in the moment. But she slept on it and came back the next morning absolutely furious - shouting, breaking things. Saying how dare her? I know what goes on here, I will make it all public. Fully justified. And P? She ran. Literally packed up and flew back to India. But plot twist- once safely home, she apparently got down on her **knees** to apologise. The same woman who publicly humiliates her staff had to literally kneel for one girl in Dubai who wasn't having it. **5. \"100% Human Hair\" Lol okay** 👀 She markets her products as 100% human hair, made in her warehouse. Premium. Luxe. Worth every rupee. What she doesn't post on Instagram, unlike literally everything else in her life, are her monthly China trips. Where she buys the same wigs at 10% of what she charges you. No mention. Just vibes and markup. Your \"luxury human hair\" is a cheap Chinese import with a luxury price tag slapped on it. And when real customers left honest negative reviews calling this out? She didn't fix anything. She went through her database, dismissed anyone she couldn't find in it (ignoring that tons of people buy via Blinkit or offline stores under different names), and then begged her inner circle for fake five star reviews to bury the truth. People called it \"great marketing strategy.\" It's just a scam. **So here's the thing about P.** She's built a very careful image. Girlboss. Entrepreneur. Aesthetic. The kind of person who looks like she has it all together. But peel back even one layer and it's NDAs to silence staff, public meltdowns, physical aggression, fake reviews, and imported products sold at criminal markups. The NDA makes sense now, doesn't it? She doesn't want trade secrets protected. She wants *herself* protected. And the funniest part? For all the power she performs - the screaming, the ownership complex, the luxury branding, it took one girl in Dubai refusing to back down to send her running home on her knees. That's who P really is. https://reddit.com/link/1s61h6s/video/fqs1ujzw5vrg1/player",
+    "author_segment_hint": "InstaCelebsGossip",
+    "url": "https://reddit.com/r/InstaCelebsGossip/comments/1s61h6s/anyone_worked_at_nish_hair_with_inframe_parul/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "54c8369ea0288e074d9ae1596df7f340ae8808ca95c944797da3fb035e2a5330",
+    "wordCount": 664
+  },
+  {
+    "id": "social-pp-1pyc1uc",
+    "source": "social",
+    "date": "2025-12-29",
+    "rating": null,
+    "text": "A US man living in South Delhi shared a video praising Blinkit’s quick delivery, leaving both Indian and international viewers amused and impressed by how seamlessly hyperlocal services work in the country. — The video was shared on Instagram by Charlie Evans, who kept his caption short and dramatic, writing, “Blinkit is god.” The phrase perfectly summed up his amazement at how effortlessly and quickly everyday essentials could be delivered in India, which was something he wanted to show to his friends back in the US.",
+    "author_segment_hint": "BusinessTodayNews",
+    "url": "https://reddit.com/r/BusinessTodayNews/comments/1pyc1uc/a_us_man_living_in_south_delhi_shared_a_video/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "f3e60385951cfa2f8aecb1b3ae6a188fff8bf27fefe7653c876b086529c225d2",
+    "wordCount": 86
+  },
+  {
+    "id": "social-pp-1p6a4ln",
+    "source": "social",
+    "date": "2025-11-25",
+    "rating": null,
+    "text": "Blinkit delivery agent’s dedication went viral after a customer filmed their interaction on Instagram. The mute driver, unable to speak on calls, impressed viewers with his humble, resourceful way of handling the situation. — The video begins with the driver approaching Sammy and handing him his phone, gesturing desperately as he tries to explain his difficulty. Though unable to speak, his facial expressions and movements made it clear that he needed help giving or receiving directions to the customer waiting on the line.",
+    "author_segment_hint": "BusinessTodayNews",
+    "url": "https://reddit.com/r/BusinessTodayNews/comments/1p6a4ln/blinkit_delivery_agents_dedication_went_viral/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "a6c161ee1519a41634761d7a6adb8d673c6d027eb1d9ab2b1c94d5539b554bd6",
+    "wordCount": 83
+  },
+  {
+    "id": "social-pp-1r6xcms",
+    "source": "social",
+    "date": "2026-02-17",
+    "rating": null,
+    "text": "Deepinder Goyal’s big picture thinking: Why Zomato & Blinkit are still early-stage — Deepinder Goyal made an interesting counter-intuitive point: despite how big Zomato and Blinkit look today, they are still early-stage businesses. Indians eat out around four times a month, compared to roughly fifty times in Singapore and over twenty-five times in the US. That gap isn’t a weakness, it’s the opportunity. The shift from home-cooked food to convenience-led consumption in India is only just beginning, and companies positioned inside this long-term trend don’t need to rush every win, they need to avoid missing the wave. For founders, this is a powerful reminder that sometimes the real edge isn’t speed, it’s staying focused on the compounding trend that truly matters. SC - https://www.instagram.com/reel/DUuY2KIDyYK/",
+    "author_segment_hint": "sharktankfounders",
+    "url": "https://reddit.com/r/sharktankfounders/comments/1r6xcms/deepinder_goyals_big_picture_thinking_why_zomato/",
+    "keywords": [
+      "blinkit"
+    ],
+    "textHash": "4019e5f96b322b3eb91851bc870926edf81c647f1211046e8cfe59552b097711",
+    "wordCount": 124
+  },
+  {
+    "id": "social-pp-1pqqlkz",
+    "source": "social",
+    "date": "2025-12-19",
+    "rating": null,
+    "text": "Hinge Scam (Not the Typical Café Scam) – My Recent Experience — I want to share a recent experience on **Hinge** because this scam is **different from the usual café scam** and felt way more real and well-planned. # How It Started I matched with a girl named **Pratishta**, her number is (**8882194782**). Her profile looked *very genuine* — decent photos, normal prompts, nothing suspicious at first. * Profile location showed **Janakpuri** * She claimed to live in **NSP (near Pacific Mall)** * Said she worked in **Blinkit, Gurgaon Sector 62**, marketing department The conversation was smooth and natural. She didn’t rush for a meeting or money like café scammers usually do. That’s what made it feel real. # First Red Flags (But Very Subtle) * I asked for her **Instagram** → she said she doesn’t use Instagram (first red flag for me, but not enough to be sure) * Later, she shared her WhatsApp number * WhatsApp DP was the *same girl*, just a different photo * She even sent **“view once” video clips** of herself — smoking during a sutta break, chilling with a dog, etc. Everything looked extremely genuine and convincing. # The Setup Begins – Small Amount First One day, she said she was on a **sutta break** and casually mentioned: > I said it’s okay, I’ll pay. She initially said she’d call her didi, but then sent me a **scanner QR code** of a nearby shop named **“Rajandra Store.”** She said the bill was **₹340** (2 packs of Badi Advance). I paid without thinking much. She said she’d return it once her bank server was fine. At this point, nothing felt like a scam. # Meeting Plan – Making It Feel Real Later, she said she was free and suggested a meeting. We planned for the evening. * She said she had a **car** and could come anywhere * Plan included **wine + joint** * Asked me which wine I prefer (red or white) After a few minutes, she sent another **view-once video** from inside a car showing **two wine bottles**. Again — very convincing. # The Final Trap – Bigger Amount While “driving” toward **Select Citywalk, Saket**, she started talking about weed: * Shared videos supposedly sent by her dealer * Claimed it was **imported stuff from California** * Price: **₹1300 per gram** * Minimum order: **3 grams** This felt unnecessary and suspicious, but I stayed alert. She had already mentioned earlier that her **dealer switches off the phone at 6:30 PM** — clearly to create a sense of urgency. At **6:10 PM**, she suddenly sent me another **QR code**, this time in the name **“Rakhi Kumari”**, and said: > That’s when the whole story clicked. # How I Avoided Getting Scammed I intentionally delayed replying. She started calling continuously and texting urgently. I finally replied that I can’t make the payment and she should arrange it with someone else. She immediately got aggressive: > Classic pressure tactic. I told her clearly that I won’t pay. Within minutes, **blocked everywhere**. # Conclusion This was a **well-planned, slow-burn scam**: * Small trust-building payment first (₹340) * Realistic videos and voice * No café scam pattern * Urgency + emotional pressure * Larger payment request at the end If I had paid ₹3900, she would **never show up** and I’d never get the money back. Sharing this so others stay alert. These scammers are getting smarter and more patient. Stay safe out there.",
+    "author_segment_hint": "DatingInIndia",
+    "url": "https://reddit.com/r/DatingInIndia/comments/1pqqlkz/hinge_scam_not_the_typical_café_scam_my_recent/",
+    "keywords": [
+      "blinkit",
+      "trust"
+    ],
+    "textHash": "74e0f266760660ecc87179803140a43bf2d4e78d0725e31d930be4938bf2d528",
+    "wordCount": 577
+  },
+  {
+    "id": "social-pp-1qx7xxv",
+    "source": "social",
+    "date": "2026-02-06",
+    "rating": null,
+    "text": "At 4 am, when most of the city was asleep and options were running out, help arrived from an unexpected place, a quick commerce app better known for delivering groceries than saving lives. — An Instagram post by user Praachii has gone viral after she shared how Blinkit’s ambulance service came to her family’s rescue during a medical emergency in Delhi. The incident unfolded in the early hours of the morning when Praachii, who lives in Mumbai, received a frantic call from her family. Her aunt, who lives with them in Delhi, was having a seizure, and despite repeated attempts, they were unable to book a cab at that hour.",
+    "author_segment_hint": "BusinessTodayNews",
+    "url": "https://reddit.com/r/BusinessTodayNews/comments/1qx7xxv/at_4_am_when_most_of_the_city_was_asleep_and/",
+    "keywords": [
+      "blinkit",
+      "quick commerce",
+      "groceries"
+    ],
+    "textHash": "461f65101557af7235427baf3eb98b23bedac065f80726d1df5169df192f09e4",
+    "wordCount": 110
   }
 ]
