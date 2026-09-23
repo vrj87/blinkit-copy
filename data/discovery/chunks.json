@@ -8216,7 +8216,7 @@
   },
   {
     "chunkId": "chunk-266",
-    "reviewCount": 13,
+    "reviewCount": 25,
     "reviewIds": [
       "playstore-bigbasket-97bece61-ce04-4187-833b-4c5622888d6d",
       "playstore-bigbasket-a27c0e4d-36e0-4a01-a77f-1d18889d0982",
@@ -8230,7 +8230,38 @@
       "playstore-bigbasket-1aafa659-cb98-4eb1-a346-623cc0d8c823",
       "playstore-bigbasket-cfaebc96-1ce3-4e1e-a4d5-866b7ada375b",
       "playstore-bigbasket-e68e59a5-28ba-4665-8d9e-8f9cb75a6d34",
-      "playstore-bigbasket-17a40133-865b-4a91-8d13-3796348229c5"
+      "playstore-bigbasket-17a40133-865b-4a91-8d13-3796348229c5",
+      "playstore-blinkit-046f7b86-e1f0-4abf-b5f8-68f544600b09",
+      "playstore-blinkit-a5dffdb3-1b8b-4185-910e-ccef34039524",
+      "playstore-blinkit-2e39eddc-48c9-4cc7-9ffb-ab06dac47070",
+      "playstore-blinkit-c58be776-4c04-4a29-80ad-82c74f6dd369",
+      "playstore-blinkit-68a4de2c-963a-4826-9fe3-773034d10f7e",
+      "playstore-blinkit-c35f6056-0f16-4027-a3e1-c9fc877118d6",
+      "playstore-blinkit-2764f5f3-1601-479f-8a8d-80c5577df57c",
+      "playstore-blinkit-281fa830-655a-4210-bb05-2718a922ad89",
+      "playstore-blinkit-92a5ca40-2453-4cff-8be9-710fd8c792b6",
+      "playstore-blinkit-7a08d258-23ee-4b84-bdbf-f2f455d57037",
+      "playstore-blinkit-ba1a5b1b-6126-425b-85e1-0fd388b25818",
+      "playstore-blinkit-6035cdeb-d51b-406e-84cc-3cf1a652adc6"
+    ]
+  },
+  {
+    "chunkId": "chunk-267",
+    "reviewCount": 13,
+    "reviewIds": [
+      "playstore-blinkit-1b7caf9f-3d18-49c0-8e3d-bdfbbd2e0ca2",
+      "playstore-blinkit-90017f60-6621-4ec2-b055-9d2d9b7c057e",
+      "playstore-bigbasket-5efcd94a-890d-41ce-a01e-4455296d1f54",
+      "playstore-bigbasket-a8c44f06-9c08-4c1a-9397-abf61da25fe0",
+      "playstore-bigbasket-74d0a67b-a30b-4ae5-975e-02a56b8990b0",
+      "playstore-bigbasket-bb1eff1a-0ef7-44aa-852e-ec3b8c8e1d09",
+      "playstore-bigbasket-0e1d8f1a-f677-4377-afec-6013969e5125",
+      "playstore-bigbasket-549e0436-e0af-4b93-b069-14a450e6af1c",
+      "playstore-bigbasket-30598b8e-1521-48d0-9696-ccf0fac07c6c",
+      "playstore-bigbasket-a83931c8-f627-4042-ba0d-443526e33e15",
+      "playstore-bigbasket-1c24bcd1-2bec-4329-bb2b-d16f5f304400",
+      "playstore-bigbasket-d5a2dbe2-60df-41b5-a976-f73476ecde68",
+      "playstore-bigbasket-9d45c9d4-b486-407a-8ab7-ec72f9e40369"
     ]
   }
 ]
