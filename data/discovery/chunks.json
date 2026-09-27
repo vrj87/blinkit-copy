@@ -8712,13 +8712,79 @@
   },
   {
     "chunkId": "chunk-282",
-    "reviewCount": 5,
+    "reviewCount": 25,
     "reviewIds": [
       "playstore-bigbasket-4ab858d8-51fa-4c6a-992a-110a888ad5a5",
       "playstore-bigbasket-69a6ab21-36a1-47a2-b945-ce8714467323",
       "playstore-bigbasket-52894886-b862-4723-9d54-088a6f6e6213",
       "playstore-bigbasket-af29478d-081c-4647-b7e4-329652a25e16",
-      "playstore-bigbasket-4dcee0c8-834f-4b29-972b-a734ef6a3f00"
+      "playstore-bigbasket-4dcee0c8-834f-4b29-972b-a734ef6a3f00",
+      "appstore-blinkit-2",
+      "appstore-blinkit-3",
+      "appstore-blinkit-4",
+      "appstore-blinkit-5",
+      "appstore-blinkit-8",
+      "appstore-blinkit-9",
+      "appstore-blinkit-12",
+      "appstore-blinkit-14",
+      "appstore-blinkit-15",
+      "appstore-blinkit-17",
+      "appstore-blinkit-18",
+      "playstore-blinkit-c0dc5842-3dc7-4583-b7db-06b4465b6489",
+      "playstore-blinkit-269b9545-505e-46f1-905f-f35c6a0d58ed",
+      "playstore-blinkit-7a4e7f9e-8d78-4207-a78b-eaa4c6121465",
+      "playstore-blinkit-25a16d62-cd43-430c-8567-cd0db0eb67ba",
+      "playstore-blinkit-141dc0ee-64a2-4b9c-8569-61ba80a681b9",
+      "playstore-blinkit-6385ab1d-4867-4df1-8965-c8ffd9a9ac96",
+      "playstore-blinkit-14ce3407-3087-410b-84dd-654847aff268",
+      "playstore-blinkit-f1d01bd8-3bf9-4c37-9664-c2c934d9cbbb",
+      "playstore-blinkit-bc765d60-759f-4aa2-a37b-4e072a95efd2"
+    ]
+  },
+  {
+    "chunkId": "chunk-283",
+    "reviewCount": 25,
+    "reviewIds": [
+      "playstore-blinkit-a5ec1175-acab-4f7e-a5d6-2c1898b4d2bc",
+      "playstore-blinkit-9507ff08-30bd-4ad1-a172-672b1f8e53cf",
+      "playstore-blinkit-1aa7143a-b559-4983-8ca3-ac763320be94",
+      "playstore-blinkit-4ff17b65-fd56-4291-98d1-ef3a51fb2335",
+      "playstore-blinkit-4554a157-8a2d-4b09-b370-26a77a97ce8b",
+      "playstore-blinkit-0ee5c1b3-b105-476e-a4a0-aec81d9185c4",
+      "playstore-bigbasket-fb828f82-a878-44ce-907d-064761508c93",
+      "playstore-bigbasket-17e528aa-ba64-4f4e-9bd5-97cd04948e81",
+      "playstore-bigbasket-8fb44dbc-632d-4b00-b8b1-3e8dd0eaa0e0",
+      "playstore-bigbasket-374cc7ce-a5e4-4a44-b48a-fcfd702ad160",
+      "playstore-bigbasket-45a8fc4e-504a-4a16-b763-6dc0163e857f",
+      "playstore-bigbasket-1eb62402-4787-498c-8278-7a71f449caac",
+      "playstore-bigbasket-8da6ea92-875e-4b21-aa3f-6a838664fdc6",
+      "playstore-bigbasket-c7aab258-ba5b-4ffb-8a08-04d474c16a0b",
+      "playstore-bigbasket-7718d3f1-757e-442e-aee1-64c275b3fd01",
+      "playstore-bigbasket-9c27b48f-564b-46d7-a8a7-673283ae2248",
+      "playstore-bigbasket-584af4f1-6358-4fec-98a1-2c2a0f4aaa2b",
+      "playstore-bigbasket-c5e304b1-1ec8-495b-8f60-a56549a680c5",
+      "playstore-bigbasket-f8155d52-1714-4e00-8f65-2ad46a2b829b",
+      "playstore-bigbasket-ce829da7-b50e-4056-bd10-db643eb7fd58",
+      "playstore-bigbasket-38f9cf74-94e1-4d8e-8bde-278abd0f4230",
+      "playstore-bigbasket-dc29474c-ced2-42fa-8dc0-2b5ff23eb415",
+      "playstore-bigbasket-ba7afe5f-6b04-48ad-bc31-cd48415bbdd4",
+      "playstore-bigbasket-97933edc-0c0b-40a7-9bdc-2e70d3468b51",
+      "playstore-bigbasket-db982932-5dbb-4a22-b337-23c7c30b0769"
+    ]
+  },
+  {
+    "chunkId": "chunk-284",
+    "reviewCount": 9,
+    "reviewIds": [
+      "playstore-bigbasket-f201512f-6925-4adf-8041-d75b06cda906",
+      "playstore-bigbasket-256c7f69-b406-4f70-8232-34c07998f883",
+      "playstore-bigbasket-d28ebbe8-478d-47e1-bfb8-a4820a9ea30d",
+      "playstore-bigbasket-a1b9e901-c9c5-4e8d-9780-280b6b9015ea",
+      "playstore-bigbasket-4fd4b995-c197-4235-93fd-a6a9600a187d",
+      "playstore-bigbasket-ab3f5f28-5c9f-42b2-9bc0-84ab64a5f1ba",
+      "playstore-bigbasket-0a53a05c-5710-4051-add4-db2d73ba143b",
+      "playstore-bigbasket-c71b9960-f4df-4d45-92a9-c340ef0c49e1",
+      "playstore-bigbasket-12ee435b-595b-4b47-bb83-0375ac12e1c0"
     ]
   }
 ]
