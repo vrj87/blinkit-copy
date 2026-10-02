@@ -9208,7 +9208,7 @@
   },
   {
     "chunkId": "chunk-298",
-    "reviewCount": 7,
+    "reviewCount": 25,
     "reviewIds": [
       "playstore-bigbasket-d0957d1d-37b1-49c9-8e41-709b9e74abb7",
       "playstore-bigbasket-c6352ac3-0781-4736-a778-abe37905b975",
@@ -9216,7 +9216,34 @@
       "playstore-bigbasket-1f96d27b-c224-411b-bae1-4f17d1dc1efc",
       "playstore-bigbasket-c18628c4-fd2b-4ca5-8b09-d68a170385ad",
       "playstore-bigbasket-6b6c85eb-901a-44a1-8056-a8ba0c3e7737",
-      "playstore-bigbasket-a173792f-93a9-47f4-95dd-2cf5c71d4a04"
+      "playstore-bigbasket-a173792f-93a9-47f4-95dd-2cf5c71d4a04",
+      "playstore-blinkit-1bd8a14d-59a0-4763-ad6c-3f6ce2a2e746",
+      "playstore-blinkit-4e2c18c3-a1a1-4868-959f-4cdd6280409f",
+      "playstore-blinkit-6e7dbd87-a12c-4961-9ba2-ea17a53e4261",
+      "playstore-blinkit-eefd15a1-142d-4923-a23d-99b1b9dd15c2",
+      "playstore-blinkit-9e32b9bf-0b19-41c3-ab76-438a5129acbf",
+      "playstore-blinkit-ab82c479-37cc-4363-87b0-3b6e9322b66e",
+      "playstore-blinkit-fdad56bc-4de6-4f77-8364-dbd782e162f0",
+      "playstore-blinkit-732c28fe-ed8c-475b-85df-457398047d23",
+      "playstore-blinkit-0e23424c-1560-4a54-a716-d8046907c8c8",
+      "playstore-blinkit-81d067d0-ba37-4221-92cf-86c95fb5c0d2",
+      "playstore-blinkit-129cd8f1-47c6-47b7-ba81-1f7bcae8730f",
+      "playstore-blinkit-afe3c7c8-8dcb-474a-97ac-295e2c13f9b1",
+      "playstore-bigbasket-2d4cca39-18b2-4a7a-966d-f03c2422dff2",
+      "playstore-bigbasket-91b4dce6-0fbf-47de-b816-f97ebc28508c",
+      "playstore-bigbasket-b6f145cc-9fa8-4e2b-aa8f-0d0b6e8c7991",
+      "playstore-bigbasket-1b559cfa-f3ef-4ee1-849d-0b15dd57d2f8",
+      "playstore-bigbasket-1fb0a774-7adf-4601-ac17-9726880eb161",
+      "playstore-bigbasket-535cba95-756b-49db-b5fd-ccc57652ff72"
+    ]
+  },
+  {
+    "chunkId": "chunk-299",
+    "reviewCount": 3,
+    "reviewIds": [
+      "playstore-bigbasket-f785fe61-8baf-4edc-aed0-a19782d6fce3",
+      "playstore-bigbasket-89dd51fa-3bb8-4aca-89e3-d8b3d4113bfb",
+      "playstore-bigbasket-6750e4b8-588c-4b38-8804-788934c9a7bd"
     ]
   }
 ]
