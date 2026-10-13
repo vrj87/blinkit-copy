@@ -1,5 +1,5 @@
 {
-  "completedAt": "2026-10-13T05:57:07.780Z",
+  "completedAt": "2026-10-13T19:01:32.952Z",
   "schedule": "12h",
   "runner": "discovery-pipeline",
   "steps": [
@@ -11,20 +11,20 @@
   "scrape": {
     "breakdown": {
       "app_store": 149,
-      "play_store": 104,
+      "play_store": 118,
       "reddit": 0,
       "forum": 0,
       "social": 0,
       "product_review": 80,
       "quick_commerce": 6
     },
-    "incoming": 339,
-    "added": 60,
-    "skippedDuplicates": 279,
-    "total": 15938,
-    "afterFilter": 8512,
-    "chunkCount": 341,
-    "normalizedAt": "2026-10-13T05:57:06.695Z"
+    "incoming": 353,
+    "added": 87,
+    "skippedDuplicates": 266,
+    "total": 16025,
+    "afterFilter": 8565,
+    "chunkCount": 343,
+    "normalizedAt": "2026-10-13T19:01:32.094Z"
   },
   "themes": 10,
   "validationPassed": 10,
