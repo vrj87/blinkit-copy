@@ -133647,5 +133647,875 @@
     ],
     "textHash": "67b05ca386a73d07d76e627f236c0643cc380e1d2adfa8949dd308cfaed43b7c",
     "wordCount": 13
+  },
+  {
+    "id": "appstore-blinkit-2",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "Satisfied with the app!!!. The app works smoothly, returns available and refunds are also there plus the app works much faster than any other service.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "8d9aeb0b4c93d29f6850dd4a894f452d97e02786e23c30674ebee36b5c4f9f5e",
+    "wordCount": 25
+  },
+  {
+    "id": "appstore-blinkit-3",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "They provide defective and faulty products. Cheap quality for electronics and cheap policy of blinkit There is no hearing of any defective or faulty product",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "ce9fd18497f91fa225f374262410c39e28d9e5d47b4301beadbead4a7af14221",
+    "wordCount": 25
+  },
+  {
+    "id": "appstore-blinkit-4",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 4,
+    "text": "The needed for everyday need. It’s good till you go into returns. They don’t encourage returns on items bought by mistake. They should allow packed items to be returned.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "5f4101ef72a59e06cb33eb92b4c5b128cf509c5f2489604f4f164c7fe6cbf388",
+    "wordCount": 29
+  },
+  {
+    "id": "appstore-blinkit-7",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Refund issue. Extremely disappointing experience with Blinkit! Despite sending multiple emails and contacting support several times, my product was returned but my refund is still pending. Instead of my money, I was given a ₹490.97 coupon with a very short validity period, which I couldn’t even use. If Blinkit cannot resolve this fairly, I will escalate the matter to the Consumer Commission.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "8529a84a063403df3ab7d3b5c3dd407648b89993b1eaa305f0552f9f3056b6a2",
+    "wordCount": 62
+  },
+  {
+    "id": "appstore-blinkit-8",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "The best. Nothing better than getting morning groceries in 15 mins delivered to your home",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "062689e01d3439fc9737d7de38657c2485c75e974d51974f4309e9c50c5951ae",
+    "wordCount": 15
+  },
+  {
+    "id": "appstore-blinkit-10",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "Very useful.. Good items with good rates .",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "21c5b139c0f06af9fd218e3662b2200ab038c5caa65f911b7af5eaacdba9ce9d",
+    "wordCount": 8
+  },
+  {
+    "id": "appstore-blinkit-12",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "DS. Tooo useful in hurry or anything my fav it is",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "b92bc7e5ca34b6a36425b54da980fb0be735f38f9182fe29d7039e77fc259a71",
+    "wordCount": 11
+  },
+  {
+    "id": "appstore-blinkit-13",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "all products,groceries, drinks. i love u blinkit u r great service..no words u r amazing ❤️",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "efd18e17001c9a2e901e044c9fc284eab87233204464e0187e98eeff1acc902d",
+    "wordCount": 16
+  },
+  {
+    "id": "appstore-blinkit-14",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Customer support. Worst ever customer support I have seen all over the world",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "bd1ea2197fc38f0be978a325c314ce4c0984e78b44a1394e85e6b4194618ca5b",
+    "wordCount": 13
+  },
+  {
+    "id": "appstore-blinkit-16",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Scam. They will show you time 12 mins but order will get delay and delay more and more worst experience",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "e04b42a70dadf929595d6454442a1316089aed69c5522c32657afba9ed6e5524",
+    "wordCount": 20
+  },
+  {
+    "id": "appstore-blinkit-17",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Support on iPads. Plz make it supportable for iPads, it’s buggy on iPad",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "6ff305e030f84352a93b4fc76204669f82898de65ed7bd0946822a00060df1c0",
+    "wordCount": 13
+  },
+  {
+    "id": "appstore-blinkit-18",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "Fast service. Happy to have blinkit in my city great service",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "b4e58194380cc91c7cd1951d172699d81afa0a4863e1693b189e784c16face16",
+    "wordCount": 11
+  },
+  {
+    "id": "appstore-blinkit-19",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "💚 Blinkit Never Disappoints!. ⭐⭐⭐⭐⭐ I absolutely love Blinkit! The delivery is super fast, the products are good quality, and the app is very easy to use. Everything I need is just a few clicks away. Great service, amazing convenience, and a wonderful shopping experience. Highly recommended! 💚🛍️",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "1c4b7ff45cb823ef77177905ca459f49e3c37bdfd58cb35c503db06cf3ce66a9",
+    "wordCount": 48
+  },
+  {
+    "id": "appstore-blinkit-21",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "Helpful and useful in emergency situations. Good app with clear details of products. Thanks blinkit for making things easy for me ❣️",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "a5ec9602a537423961dd5f3b59ae649ca628bd5e5cfd21ab0c5ef74da5c27929",
+    "wordCount": 22
+  },
+  {
+    "id": "appstore-blinkit-23",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Customer service. Very bad customer service as my milk packet was torn and they did not replace it",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "d34fcd3be6edb6b23140a6ede18c8d05b7d43e4d185668ec3cb5fc18e3a4fcf4",
+    "wordCount": 18
+  },
+  {
+    "id": "appstore-blinkit-27",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Not good at all. This app is not good at all. I will tell you all the meaning. Why is not good at all their help customer I mean support system of customer is not good. They don’t even understand what we are talking about. Are they and later they are pointing to us that it’s a mistake to do like this, but it’s not my mistake. It’s a mistake, and I was asking them to read out my Things and they were making excuses for that. And also, I suggest you guys to use Zepto because it’s way better than bring it, you should use Zepto because Zepto charges less than and Blinkit charge way way more than Zepto, and if you buy Zepto, you can get whatever the charges you can buy a thing also, so let you know you just use Zepto. I have to return two of my products. I’ve ordered two products. One is one LED light and one shoe with tissues and I asked them for return these two things and they are making excuse than 20 minutes and later they asked me that you have problem with your socket. I have been charging my phone since two years in this socket and I don’t get any problem. My phone is in charge every time. They are not accepting, they are making me like I am the wrong one. I know I should say, but I stop using Blinkit. It’s charges more and they don’t return the item. They do have freedom policy, but they don’t follow it.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "b923304fe8477d19e97966f985473be21c2cebe28e8d562882bfe4848ce87bdb",
+    "wordCount": 264
+  },
+  {
+    "id": "appstore-blinkit-30",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Poor quality control there is no guarantee that the product is fresh. The eggs were spoiled",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "6799eb02f7fce8d2bba5a319ca054ab9a6c4889c10cfb6539735eb22a89f8238",
+    "wordCount": 16
+  },
+  {
+    "id": "appstore-blinkit-31",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 1,
+    "text": "Waste of money and customer support. Extremely disappointing experience! I ordered a face wash and received what appears to be a duplicate product. When I contacted customer support, they simply insisted that the product was genuine without properly addressing my concern. I even ordered the same product again through Zepto and received the correct product, which clearly raises serious concerns about the product I received earlier. Despite explaining everything and providing a valid reason for my complaint, support refused to take any action and said nothing could be done. What a pathetic way to treat customers! They seem more interested in defending the product than resolving a genuine customer concern. Complete waste of money, time, and trust. If this is how customer complaints are handled, why should customers trust the platform? Extremely frustrating and unacceptable service. I will think twice before ordering again.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "66e154a53f6de71316203af116701fa0b478edf235b3495227d460b8f46552e9",
+    "wordCount": 143
+  },
+  {
+    "id": "appstore-blinkit-35",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "Great App. This is probably the third best thing that mankind has made after the discovery of fire and the making of the wheel.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "72ebd08a3c6fd0617f153d647bc1d2d05ff15f4fffccb7fde3f036b03b49805c",
+    "wordCount": 24
+  },
+  {
+    "id": "appstore-blinkit-36",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 5,
+    "text": "Best nd fast app. Best app for anything comes to your mind. Even the things which are not available on some retail shops are available here at good prices. As we live far away from market this app helps us a lot and saves our time by delivering everything at our doorstep. Vegetables and other groceries are always fresh.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "4d4a632d66cf0a2e0e262c4fa6b36d54297631bceea0574d7be3699e341f9b6a",
+    "wordCount": 59
+  },
+  {
+    "id": "appstore-blinkit-37",
+    "source": "app_store",
+    "date": "2026-10-16",
+    "rating": 2,
+    "text": "Scam. The delivery agent do not carry exact change and try to usurp the balance every time",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "a907f2925bc861ef0db05a8238b309738303868965b40a23b206e91bfbd2b527",
+    "wordCount": 17
+  },
+  {
+    "id": "appstore-blinkit-38",
+    "source": "app_store",
+    "date": "2026-10-15",
+    "rating": 1,
+    "text": "Worth Zero stars. Scam-like Customer Service. Received a terrible product from an order placed on the 10th. Customer care refused a refund, lied about a supervisor calling me back (ignored me for 6 days until I chased them), and still refused to help, the Supervisor Team staff (Amina) was very arrogant and rude in her attitude. Unprofessional, unsatisfactory products, and atrocious support. Uninstalling immediately.",
+    "author_segment_hint": null,
+    "url": "https://itunes.apple.com/in/review?id=960335206&type=Purple%20Software",
+    "keywords": [
+      "blinkit",
+      "app store"
+    ],
+    "textHash": "a91dbd4ce4d6369c7807f579f7a2a3679cec90501df814c1fe320c8ff6f0803b",
+    "wordCount": 64
+  },
+  {
+    "id": "playstore-blinkit-e4c45828-a3f9-46cf-9c6d-628192202df7",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "bad product ordered potatoes today got all of them rotten",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=e4c45828-a3f9-46cf-9c6d-628192202df7",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "278631210c25f4ecca55c8e643281d4cdc2434fcaf3c5a09ccc69d7f21ac602b",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-blinkit-f0e0f1e4-088b-4f51-a88a-c7b080a821a4",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 4,
+    "text": "sath mein kuch free k option b kro jaise bki app mein h",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=f0e0f1e4-088b-4f51-a88a-c7b080a821a4",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "94706d71b00792eaf1e6f10dc169360a1543e25f714412ad356f321f124b57c7",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-blinkit-2805cbb5-3559-4323-8d7b-4e2fd7a1badc",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "very bad service don't order from this platform I request you",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=2805cbb5-3559-4323-8d7b-4e2fd7a1badc",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "ba92190c5d391b3aad1885d8d63315a96edb87c2e95534b811c7e60c85fbbc60",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-blinkit-d3a3bdf8-0b67-4a57-a6ee-90dd3c9ee17e",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "Best app with best performance. love it, love the app's interface",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=d3a3bdf8-0b67-4a57-a6ee-90dd3c9ee17e",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "15ce5ffe8c4d3410c7f271e065c8b857b8b089c08416788487000a8cc257b91c",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-blinkit-1fd3b071-2e6e-418e-9c8d-4bf4d6580003",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "first' i thought they only have online payment but I was shocked they had offline too ...yayyy🤓😍",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=1fd3b071-2e6e-418e-9c8d-4bf4d6580003",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "e4f0ac948fa2d601171f1b634d2e88cde6b7dbe875efaf9fa4044aad9cd816fe",
+    "wordCount": 17
+  },
+  {
+    "id": "playstore-blinkit-37ed3538-8c12-4fdd-a02f-d9b8315974a1",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "charging a lot of money at a nearby area 100mtr from blinkit warehouse",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=37ed3538-8c12-4fdd-a02f-d9b8315974a1",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "240cf835e252610d963ebcc528a45313a0fdfd8664cbdc0c614498a0439f5c16",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-blinkit-d833a152-6666-4e81-b5e2-096e84472320",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "best app but cod should be available all time",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=d833a152-6666-4e81-b5e2-096e84472320",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "a742a3e30a4adf897ea41857d3d20f191004e02ce72a2995943c3629503509a5",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-70559164-308b-4138-b89a-1a16dcf51e52",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "Blinkit provides a smooth and convenient shopping experience with quick deliveries and responsive customer support. I recently faced an issue with my order, but the support team handled my complaint politely and kept me updated throughout the process. I appreciate their professionalism and efforts to resolve the issue. Overall, a great experience",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=70559164-308b-4138-b89a-1a16dcf51e52",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "5c04fcace9970f524b1e76c6e0fd013578264e31cc65230fb1db187bbc8af6fe",
+    "wordCount": 52
+  },
+  {
+    "id": "playstore-blinkit-69207458-8b8f-4e4b-8f9b-91b995edafc6",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "this aappp is worst of you order they always show this order take more time then usual and after canceling they give date more than 3 days that money will come on this day but they take money only online bad app-",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=69207458-8b8f-4e4b-8f9b-91b995edafc6",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "a343050e2e02aa4dbe91755a39c4daa7b77f885b7a337f183220ab1aee594ca2",
+    "wordCount": 42
+  },
+  {
+    "id": "playstore-blinkit-279ce47f-6e82-4f81-9876-4c62387dac41",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "very good i use it everyday thanks blinkit",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=279ce47f-6e82-4f81-9876-4c62387dac41",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "4435d78f3952ade87f39ed6fe2c2a50c5b34612775d6b771c7d87d29a9efc942",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-blinkit-48f2c518-e9d3-4d3f-928f-29e5b241dc2b",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 3,
+    "text": "muniraju d donnppa goremma w f lasamidavamma chirln manjunatha HM kumar HM House hrnnurebaday kalayan nagare posetal bangolare 56 0043.n y r vejayalasahmihosepatal House 🏠",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=48f2c518-e9d3-4d3f-928f-29e5b241dc2b",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "99cff72e6c7d4030929617eb707d5f9bcda959fc4854b023c153bec8a4d7f278",
+    "wordCount": 25
+  },
+  {
+    "id": "playstore-blinkit-0cf1fe69-6c00-4601-b5ef-cd1ce1c765dd",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "Superb service & very polite delivery partners. listing of items in the App is just appreciable. My best wishes to the Blinkit Team.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=0cf1fe69-6c00-4601-b5ef-cd1ce1c765dd",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "2de0a9e8aa5b80214f484f28839bd8d4d341f4bc4c363ab1e73a0b1c79cb8128",
+    "wordCount": 23
+  },
+  {
+    "id": "playstore-blinkit-0178f2e2-fb14-4d36-bf59-10e69593c023",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "zarra advance payment mat lo khuda ke vaste 🤧 bakhi sab acha it's amazing 😍🫠",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=0178f2e2-fb14-4d36-bf59-10e69593c023",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "058d0a9ae51483d057561bdc5ea63fa012213742cd918cbe9f9c3258df9dc556",
+    "wordCount": 15
+  },
+  {
+    "id": "playstore-blinkit-07f57789-b734-48b1-aba5-94c04514c1f9",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "Too slow. The order shows 27 minutes to deliver",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=07f57789-b734-48b1-aba5-94c04514c1f9",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "ff2cd45ed71d086574000765d69ceaf4e6030063b5e93afd57b0fe9322001d4c",
+    "wordCount": 9
+  },
+  {
+    "id": "playstore-blinkit-69413312-18f0-483b-9d52-961e4efaefee",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "Good service , Best application to get your delivery faster .",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=69413312-18f0-483b-9d52-961e4efaefee",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "f67747810b277a39ae8001b4df46546abcf1e98e3c177f316ad94c844fd3ecb2",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-blinkit-b74c1f89-6163-4987-9920-cb07172255fe",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "worst customer service ever . good for nothing cant even solve a simple issue",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=b74c1f89-6163-4987-9920-cb07172255fe",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "d3df5985bef470962846405651cd344871af0f4de50d0c134d68e964f570ebd5",
+    "wordCount": 14
+  },
+  {
+    "id": "playstore-blinkit-2f80dfec-2426-49e1-af4e-de071dd45caa",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "nice experience and so fast delivery thanks blinkit partner nd team members 👍👍👍🫶",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=2f80dfec-2426-49e1-af4e-de071dd45caa",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "54cf9b0ba557350e152414166dd0a6d7dcdd3da756e6cf9e5cca6e78d00a7704",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-blinkit-c741dfa7-9f65-4a4b-a3f2-575ab6fa5108",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 2,
+    "text": "You MUST WORK FOR HAVING A BETTER CUSTOMER CARE SERVICE NOT AI BASED, TO ADDRESS THE ISSUES IF ANY WHICH IS SO GOOD WITH AMAZONE & BIG BASKET. Today when received all items socked in the oil, the delivery staff just changed the packet and got a new oil bag. But he refused to take the items back, which were fully socked in the OIL , specially 3 pkts of flowers jeera & lotus. GOD BLESS YOU ALL 🙏",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.grofers.customerapp&reviewId=c741dfa7-9f65-4a4b-a3f2-575ab6fa5108",
+    "keywords": [
+      "blinkit",
+      "play store"
+    ],
+    "textHash": "f72548c472298bf661e7186f12f533fec60c3c39958735f9e7437a35a0285656",
+    "wordCount": 79
+  },
+  {
+    "id": "playstore-bigbasket-b198543c-1d15-4c49-a81e-44484a6f177b",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "really appreciated for ur discounts and delivery speed",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=b198543c-1d15-4c49-a81e-44484a6f177b",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "678628ff7e1732b0c37e6861f975a2d0206c8f4e4b62949db85d5f9fe2acda0c",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-b62085d6-f7b5-4f53-a545-9c794b81e8c4",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "waste app, after payment done, it showed 7 mins from 30mins, they don't have delivery partners, but taking orders, not delivering Intime",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=b62085d6-f7b5-4f53-a545-9c794b81e8c4",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "4714939d34602cc087b963906c58b23b966b920cb364cbdd40004b227c022878",
+    "wordCount": 22
+  },
+  {
+    "id": "playstore-bigbasket-a19f5b22-c64c-4439-9054-9a757a36f10b",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "Better Service, unable to modify my address, pls. update my address for regular transactions and easy delivery process for your delivery boy.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=a19f5b22-c64c-4439-9054-9a757a36f10b",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "95c97889448dadede312983915017c9ae59f68d2b253147999ac0b1e91e55d9f",
+    "wordCount": 22
+  },
+  {
+    "id": "playstore-bigbasket-e72d2e66-0f5b-413f-a880-2b4409f1ee67",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "bigbasket is best but their delivery not in 30 minutes he take 11 or 12 hour",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=e72d2e66-0f5b-413f-a880-2b4409f1ee67",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "718d851bb7cdbb42356433883d1986294942b4518c0df67022ea50fed3606663",
+    "wordCount": 16
+  },
+  {
+    "id": "playstore-bigbasket-7f0d54ef-674e-44e0-856e-b41eaa0f1741",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "BB is delivering rotten Orange and Ginger and not ready to replace that with good quality one.Very poor customer service and policy",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=7f0d54ef-674e-44e0-856e-b41eaa0f1741",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "bcf4f113589d6795362ef72049f44ac1cea8924c2c8f9e0e91b89146e4b68ef2",
+    "wordCount": 22
+  },
+  {
+    "id": "playstore-bigbasket-da6e1db9-f287-4ec2-8b08-94eb58a85311",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "it's a really Excellent App where we can find affordable goods.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=da6e1db9-f287-4ec2-8b08-94eb58a85311",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "eb11a778006e98c41d866b43ad5d453b5d582d15c7ca55aaec8437785e8d3198",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-bigbasket-fe1a96f2-b7b6-4a07-bfbe-d6f94b2e4595",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "the app cannot get my current location precisely.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=fe1a96f2-b7b6-4a07-bfbe-d6f94b2e4595",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "d4342dc22d9c1f64412c1a629fb3bb6b07cc41df64202dda2a2e1928ac27f83f",
+    "wordCount": 8
+  },
+  {
+    "id": "playstore-bigbasket-8cb6eb64-9996-4aec-ad5f-ecee8bdf086d",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "Bigbasket is the best online shopping because the company's services are very good.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=8cb6eb64-9996-4aec-ad5f-ecee8bdf086d",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "4065be4df1e9952b6324b3fa720be55236087ba45ea14af7c58da774eff1ad2b",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-bigbasket-824fe03e-3b79-4ff6-b4aa-22cf46e7ddf6",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "I love to order food and things with a big basket 😀🧺👍🫶",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=824fe03e-3b79-4ff6-b4aa-22cf46e7ddf6",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "89213b9769ad85a95da7d1ce7a0fb5116a550469898fdd7427d90b5c86e21ede",
+    "wordCount": 12
+  },
+  {
+    "id": "playstore-bigbasket-10241c43-263a-491a-ba9b-a5209f801983",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "Very Fraud Company.Bigbasket offer n says 125 has been credit in your account. But he can't give to customer.. very Fraud and cheat company. Don't buy with big basket",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=10241c43-263a-491a-ba9b-a5209f801983",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "3222a8fe3070f408c2744c445433515ea6a007100de9712ef6b09190362f3651",
+    "wordCount": 29
+  },
+  {
+    "id": "playstore-bigbasket-94325789-ca34-43af-bf36-84c6413c902d",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "\"The order was delivered correctly. Everything was good, and I had no issues.\"",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=94325789-ca34-43af-bf36-84c6413c902d",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "598b10e741a18e3fbddf8a92df66a4891af87beffa58c981fde4a88389943707",
+    "wordCount": 13
+  },
+  {
+    "id": "playstore-bigbasket-245050e8-67eb-4d01-91fb-61644bb96be5",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 2,
+    "text": "Very disappointing Bigbasket on 15 th Oct I bought 5 ouch of purabi milk and all of them are expired can't the retailer see expiry date before giving it to delivery boy... disgusting!",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=245050e8-67eb-4d01-91fb-61644bb96be5",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "88013209a1d2ee107ee4a0203afcfe6eab1d6c254c175ede44c906fbe5b669bb",
+    "wordCount": 33
+  },
+  {
+    "id": "playstore-bigbasket-41711eb4-22aa-4baf-b0c1-a3207184b2fb",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "not available at my location and so many msg send me to buy products on big basket and second time I instal bigbasket app and again not available",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=41711eb4-22aa-4baf-b0c1-a3207184b2fb",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "85cf4b8a034fce15fd5f40325a006894db78e170656872befb57b568e00a902d",
+    "wordCount": 28
+  },
+  {
+    "id": "playstore-bigbasket-922fc7bd-1120-41b6-a5e8-1fd467cf17fc",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "my ice cream is damaged ,I'm trying to raise tickets they are not even responding properly. I have shared my number wt are guys doing with that tell me",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=922fc7bd-1120-41b6-a5e8-1fd467cf17fc",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "cf182b2b8ede00da8f1eaf3bd766432e435a48b85769ea5a8398327c91f935b5",
+    "wordCount": 29
+  },
+  {
+    "id": "playstore-bigbasket-477dc24c-20a6-4e62-a343-e18580f1067d",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 1,
+    "text": "very poor every time facing problem please uninstall this app",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=477dc24c-20a6-4e62-a343-e18580f1067d",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "e2d08f9c146047f148c245adfcd8441d5c8634909cbdc248f192527319f9ba65",
+    "wordCount": 10
+  },
+  {
+    "id": "playstore-bigbasket-e6165da7-6ebd-4d7f-bfcc-0dc9d396b385",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 4,
+    "text": "BigBasket is a great grocery shopping app with fast delivery and a good variety of products. However, prices can be quite expensive compared to other grocery apps. It should offer more competitive prices and better discounts to make shopping more affordable. Overall, it's reliable and convenient, but the high prices are a major drawback.",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=e6165da7-6ebd-4d7f-bfcc-0dc9d396b385",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "45b69cdbdb984cfb2d1b05d38e17be8ebac449eaf0c91bb069a222bb23b817e5",
+    "wordCount": 54
+  },
+  {
+    "id": "playstore-bigbasket-d6623d62-a21b-411c-964a-fce21a978897",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 5,
+    "text": "most of the time quality products are delivered at better price",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=d6623d62-a21b-411c-964a-fce21a978897",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "69e87db2598ff0c15b88c81b1a0f13cd22af16c0120a56478418dde31cbcc580",
+    "wordCount": 11
+  },
+  {
+    "id": "playstore-bigbasket-de8229c7-e686-4590-a61d-7842410fca33",
+    "source": "play_store",
+    "date": "2026-10-17",
+    "rating": 3,
+    "text": "onion bilkul 200gm diya h 500 gm likha tha",
+    "author_segment_hint": null,
+    "url": "https://play.google.com/store/apps/details?id=com.bigbasket.mobileapp&reviewId=de8229c7-e686-4590-a61d-7842410fca33",
+    "keywords": [
+      "bigbasket",
+      "play store"
+    ],
+    "textHash": "e4b2f591cd87926f43d8954607683b58790dc4d165935714b8103b3c0776ac5f",
+    "wordCount": 9
   }
 ]
