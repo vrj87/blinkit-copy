@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T16:49:19.144Z",
-  "reviewCount": 9416,
+  "generatedAt": "2026-10-23T03:50:17.310Z",
+  "reviewCount": 9452,
   "themes": [
     {
       "id": "theme-habit-reorder",
@@ -151,7 +151,7 @@
         "student",
         "new_parent"
       ],
-      "frequency": 481,
+      "frequency": 482,
       "quotes": [
         {
           "reviewId": "rev-004",
@@ -185,7 +185,7 @@
         "urban_professional",
         "student"
       ],
-      "frequency": 79,
+      "frequency": 80,
       "quotes": [
         {
           "reviewId": "rev-004",
@@ -219,7 +219,7 @@
         "household_buyer",
         "young_professional"
       ],
-      "frequency": 248,
+      "frequency": 249,
       "quotes": [
         {
           "reviewId": "rev-007",
@@ -321,7 +321,7 @@
         "new_parent",
         "weekly_essentials_buyer"
       ],
-      "frequency": 896,
+      "frequency": 898,
       "quotes": [
         {
           "reviewId": "rev-010",
