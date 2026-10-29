@@ -1,13 +1,13 @@
 {
-  "processedAt": "2026-10-28T18:01:54.015Z",
-  "inputCount": 18762,
-  "afterDedup": 18762,
-  "afterFilter": 9996,
-  "chunkCount": 400,
+  "processedAt": "2026-10-29T04:51:34.444Z",
+  "inputCount": 18857,
+  "afterDedup": 18857,
+  "afterFilter": 10037,
+  "chunkCount": 402,
   "sourceBreakdown": {
-    "play_store": 6038,
+    "play_store": 6066,
     "reddit": 379,
-    "app_store": 2813,
+    "app_store": 2826,
     "forum": 125,
     "social": 156,
     "product_review": 485
