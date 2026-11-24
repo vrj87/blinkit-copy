@@ -1,16 +1,16 @@
 {
-  "processedAt": "2026-11-24T08:55:39.698Z",
-  "inputCount": 23820,
-  "afterDedup": 23820,
-  "afterFilter": 12622,
-  "chunkCount": 505,
+  "processedAt": "2026-11-24T22:02:24.487Z",
+  "inputCount": 23936,
+  "afterDedup": 23936,
+  "afterFilter": 12672,
+  "chunkCount": 507,
   "sourceBreakdown": {
-    "play_store": 7766,
+    "play_store": 7796,
     "reddit": 400,
-    "app_store": 3542,
+    "app_store": 3558,
     "forum": 125,
     "social": 156,
-    "product_review": 633
+    "product_review": 637
   },
   "inputOrigin": "pipeline"
 }
