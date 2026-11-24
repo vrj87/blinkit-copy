@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T23:33:12.060Z",
-  "reviewCount": 12586,
+  "generatedAt": "2026-11-24T08:55:40.376Z",
+  "reviewCount": 12622,
   "themes": [
     {
       "id": "theme-habit-reorder",
@@ -14,7 +14,7 @@
         "weekly_essentials_buyer",
         "young_professional"
       ],
-      "frequency": 125,
+      "frequency": 126,
       "quotes": [
         {
           "reviewId": "rev-001",
@@ -321,7 +321,7 @@
         "new_parent",
         "weekly_essentials_buyer"
       ],
-      "frequency": 1183,
+      "frequency": 1186,
       "quotes": [
         {
           "reviewId": "rev-010",
