@@ -16059,7 +16059,7 @@
   },
   {
     "chunkId": "chunk-519",
-    "reviewCount": 20,
+    "reviewCount": 25,
     "reviewIds": [
       "playstore-blinkit-52e1c415-2787-4a49-936c-9654c677543b",
       "playstore-blinkit-616c5fcb-594d-4c63-8a93-c238a938faca",
@@ -16080,7 +16080,87 @@
       "playstore-bigbasket-c2f7ccd2-46ac-4adc-b56c-74b2f73d0ed7",
       "playstore-bigbasket-d2ac894d-19a4-4e97-b109-0779a4864889",
       "playstore-bigbasket-380d0c2b-3cd3-43ef-936f-9798bad9adfc",
-      "playstore-bigbasket-ad42992e-f763-4172-a38c-6039411a6e44"
+      "playstore-bigbasket-ad42992e-f763-4172-a38c-6039411a6e44",
+      "appstore-blinkit-2",
+      "appstore-blinkit-4",
+      "appstore-blinkit-5",
+      "appstore-blinkit-6",
+      "appstore-blinkit-7"
+    ]
+  },
+  {
+    "chunkId": "chunk-520",
+    "reviewCount": 25,
+    "reviewIds": [
+      "appstore-blinkit-8",
+      "appstore-blinkit-10",
+      "appstore-blinkit-11",
+      "appstore-blinkit-13",
+      "appstore-blinkit-14",
+      "appstore-blinkit-15",
+      "appstore-blinkit-16",
+      "appstore-blinkit-19",
+      "appstore-blinkit-20",
+      "appstore-blinkit-22",
+      "appstore-blinkit-23",
+      "appstore-blinkit-24",
+      "appstore-blinkit-26",
+      "appstore-blinkit-27",
+      "appstore-blinkit-29",
+      "appstore-blinkit-30",
+      "appstore-blinkit-32",
+      "appstore-blinkit-34",
+      "appstore-blinkit-35",
+      "playstore-blinkit-3baa69da-2d75-4031-9ba2-322539f53778",
+      "playstore-blinkit-4008988c-b8fe-49c7-a808-94597c65046f",
+      "playstore-blinkit-c844a25c-4468-4185-a1d4-782116dd4bf7",
+      "playstore-blinkit-40b9927d-f786-4919-b424-6dacfbbcc05e",
+      "playstore-blinkit-53f447f5-57c8-4641-a18f-46e04e1a4e0f",
+      "playstore-blinkit-97902414-6c5c-4957-a26f-1a8ae6e9231d"
+    ]
+  },
+  {
+    "chunkId": "chunk-521",
+    "reviewCount": 25,
+    "reviewIds": [
+      "playstore-blinkit-cb7afa48-6176-4bd1-85eb-0aaa7c63215d",
+      "playstore-blinkit-63357af6-9c6f-4c30-8c85-b916f5ae47c0",
+      "playstore-blinkit-78c2b072-1d5d-4e56-9c84-f7c849692fbd",
+      "playstore-blinkit-7f7b7047-45b1-4d5d-9964-11650dfbde05",
+      "playstore-blinkit-93e8cb6b-0766-4d73-83de-237ec0915805",
+      "playstore-blinkit-d1478cf8-b7d0-469c-bc23-9f2abffb7a31",
+      "playstore-blinkit-cea965c4-71b3-45aa-a61d-8a847bb57b78",
+      "playstore-blinkit-9dbd77a6-12bf-41aa-919c-ebbe5cefb7b7",
+      "playstore-blinkit-461a6b37-0314-456b-bba9-7a3557b54739",
+      "playstore-blinkit-b4a7de4e-046b-43af-b350-813a09e2f900",
+      "playstore-bigbasket-4d08bda3-d281-4948-99a0-44099a316970",
+      "playstore-bigbasket-69f43438-7165-49cf-a7a4-f8b123452328",
+      "playstore-bigbasket-85e4f417-57e9-4589-be3f-edeb23e8a806",
+      "playstore-bigbasket-9ed41f53-26eb-4399-b7c2-21175b3e1532",
+      "playstore-bigbasket-468cf989-e2ca-4fae-b24d-bf4cc70f9df6",
+      "playstore-bigbasket-58b17a9b-b196-4a12-928d-bf3f27d2212d",
+      "playstore-bigbasket-d6a9d7d5-858e-4a76-8de4-d576d8ad3f1a",
+      "playstore-bigbasket-e4b95967-b1be-475f-8eeb-957524ad4e7b",
+      "playstore-bigbasket-4fabdec9-e6ef-48ea-91ea-70f1925e2519",
+      "playstore-bigbasket-3574dab1-4ee3-4c8c-82c0-ba0cc245efea",
+      "playstore-bigbasket-d47c286e-5b69-4663-a776-bea2a8c08f02",
+      "playstore-bigbasket-cd8d8707-e3bd-4282-a69f-8ba9c818454b",
+      "playstore-bigbasket-0b995977-38d4-4b7b-b82e-1e53f690b30c",
+      "playstore-bigbasket-4befb677-161c-4b69-a3a1-bb787eb89586",
+      "playstore-bigbasket-cd119fb0-258a-4264-8fd9-1b68c878939a"
+    ]
+  },
+  {
+    "chunkId": "chunk-522",
+    "reviewCount": 7,
+    "reviewIds": [
+      "playstore-bigbasket-62524867-d821-438c-a8c4-689212b34bf2",
+      "playstore-bigbasket-8f4d81e5-fac9-4a5a-8a58-259bec967bcc",
+      "playstore-bigbasket-7e1e21cc-8c2e-42ec-b15e-b0990f8ae22f",
+      "playstore-bigbasket-0704f62a-b1a8-4ac8-abef-9938c3108102",
+      "playstore-bigbasket-b0611c83-1dd7-440c-8464-c9e5af48b1cf",
+      "playstore-bigbasket-d7794291-70fc-464b-a6f3-a99623eef1ca",
+      "playstore-bigbasket-0934f802-361e-49ea-842a-f6f886f197b8"
     ]
   }
 ]
